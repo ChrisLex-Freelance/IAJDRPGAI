@@ -1,0 +1,44 @@
+# Générer l'histoires de personnage joueur ou non joueur pour le JDR Alien
+
+## Objectif
+Utiliser un modèle de langage (LLM) pour générer une histoire immersive et inquiétante pour un personnage (joueur ou non joueur) dans l'univers du jeu de rôle Alien. Le but est de créer un personnage réaliste et vulnérable, intégrant ses caractéristiques, compétences, faiblesses, et son vécu, tout en s'accordant avec l'ambiance de survie et de tension psychologique propre au monde d’Alien.
+
+## Fonctionnement
+En tant que Character Developer avec une expérience approfondie, vous allez rédiger l'historique d'un personnage pour le jeu de rôle Alien. Utilisez le contexte de la fiche de personnage pour créer une description physique et morale concise, ainsi qu'une histoire détaillée et captivante, incluant des événements angoissants, des dilemmes de survie, et des liens avec l'univers de Weyland-Yutani, les colonies spatiales, ou d'autres factions spécifiques à l’univers Alien.
+
+## Étapes à suivre
+* Utiliser le contexte du personnage : Basé sur la fiche fournie, intégrer les traits, compétences, spécialités, motivations et faiblesses dans une histoire fluide qui évoque les dangers, la survie, la solitude et l’angoisse.
+* Prompt engineering : Utiliser un prompt précis pour guider la création de l'historique du personnage, en incorporant des éléments de peur, de doute et de menace, typiques de l'univers Alien.
+
+## Résultat attendu
+Une description physique et morale du personnage, ainsi qu’une histoire détaillée intégrant ses traits, compétences, motivations et faiblesses, avec des événements clés qui le lient à des expériences terrifiantes, des secrets dangereux, ou des conflits intérieurs et extérieurs à forte tension.
+
+## Prompt
+***
+
+En tant que Character Developer expérimenté, tu dois créer à l’aide du template un personnage pour le JDR Alien. Utilise les informations fournies pour rédiger une description physique et morale (max. 10 lignes) et son histoire (max. 50 lignes). #Template #Histoire de fond
+Origines : Où et quand est-il né ? Quelle est son histoire familiale et son lien avec les factions connues de l'univers Alien (Weyland-Yutani, USCM, etc.) ?
+Événements traumatisants : Quels moments d'horreur, de tension ou de survie ont façonné ses peurs et motivations ?
+Objectifs et motivations : Quels sont ses buts dans cet univers dangereux, et quelles en sont les raisons profondes ?
+#Personnalité
+Traits de caractère : Principaux traits de personnalité, soulignant la paranoïa, la résilience, ou la méfiance.
+Forces et faiblesses : Ses compétences et vulnérabilités, particulièrement en lien avec la survie en milieu hostile et la confrontation de créatures inconnues.
+Évolution : Comment l'expérience des horreurs spatiales change-t-elle son état mental ?
+#Apparence physique
+Description : Détaillez taille, corpulence, signes de fatigue, cicatrices, et autres marques de survie.
+Style vestimentaire : Type de vêtements et équipements spécifiques à sa spécialité (combinaison spatiale, équipement de survie, etc.).
+#Relations
+Alliés et ennemis : Qui sont ses contacts, amis ou rivaux au sein des factions (Weyland-Yutani, USCM, colonies spatiales) ?
+Survivants perdus : A-t-il perdu des proches ou collègues lors d'expéditions ou missions ?
+Relations amoureuses : Y a-t-il des liens sentimentaux perturbés par la distance, la mort ou la paranoïa ?
+#Compétences
+Talents : Quelles compétences de survie, combat, ou technologiques possède-t-il ?
+Formation : Quelle expertise a-t-il acquise dans des milieux extrêmes ?
+Limites : Quelles sont ses faiblesses face à la pression psychologique et physique ?
+#Conflits
+Internes : Quels dilemmes moraux et peurs existentielles le hantent dans cet univers cruel ?
+Externes : Quels obstacles ou créatures mortelles doit-il affronter ?
+#Originalité
+Caractéristiques uniques : Qu’est-ce qui le rend unique dans un environnement où la survie est incertaine ?
+Voix distincte : A-t-il une façon de parler ou des habitudes de survie qui le rendent reconnaissable ?
+#Contexte additionnel
