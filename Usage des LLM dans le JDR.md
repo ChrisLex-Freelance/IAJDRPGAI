@@ -4,7 +4,7 @@
 
 ## Présentation
 
-Bienvenue dans "**JEUX DE RÔLES ET USAGE DES LLM**". Ce support est conçu pour les maîtres de jeu (MJ), les joueurs et joueuses, les créateurs de contenu, et tous les passionnés de *jeux de rôle* (JDR) qui souhaitent exploiter les *modèles de langage large* (LLM) pour enrichir leurs parties. Que vous soyez un MJ expérimenté cherchant à introduire de nouvelles dynamiques dans vos sessions ou un novice curieux des possibilités offertes par l'intelligence artificielle, ce livre vous fournira les outils et les techniques nécessaires pour faire usage d’un prompting efficace.
+Bienvenue dans "**Usage des LLM dans le Jeu de Rôle**". Ce support est conçu pour les maîtres de jeu (MJ), les joueurs et joueuses (PJ), les créateurs de contenu, et tous les passionnés de *jeux de rôle* (JDR) qui souhaitent exploiter les *modèles de langage large* (LLM) pour enrichir leurs parties. Que vous soyez un MJ expérimenté cherchant à introduire de nouvelles dynamiques dans vos sessions ou un novice curieux des possibilités offertes par l'intelligence artificielle, ce livre vous fournira les outils et les techniques nécessaires pour faire usage d’un prompting efficace.
 
 ## Objectifs et public cible
 
@@ -13,10 +13,6 @@ L'objectif principal de cet e-book est de vous fournir une compréhension des mo
 ## L'IA et les LLM dans le JDR
 
 L'introduction de l'intelligence artificielle dans les jeux de rôle représente un apport significatif comme outils de support. Les LLM, tels que GPT, Claude ou Mistral, permettent de générer des dialogues, des descriptions, et des actions de manière dynamique et interactive, rendant les sessions de JDR plus engageantes et imprévisibles. En utilisant des prompts soigneusement conçus, les MJ peuvent s'adapter aux actions des joueurs en quasi temps réel, offrant une expérience de jeu plus riche et plus immersive.L'utilisation de l'intelligence artificielle et des LLM change la manière dont les maîtres de jeu vont pouvoir créer et gérer leurs campagnes de jeux de rôle.
-
-## Relectures & Commentaires
-
-François B., Pierre S., Yan G., Nicolas B., Nicolas D., Manée G.
 
 # Quelques fondamentaux
 
@@ -84,7 +80,7 @@ Le NLP (Natural Language Processing, ou traitement automatique du langage nature
 * **Reconnaissance d’entités nommées :** Identifier et classifier les entités nommées dans un texte.  
 * **Réseaux de neurones :** Utilisation de modèles de deep learning pour des tâches comme la traduction ou la génération de texte.
 
-### Défis du NLP
+### Problèmatique du NLP
 
 * **Ambiguïté :** Les mots et les phrases peuvent avoir plusieurs significations.  
 * **Contextualisation :** Comprendre le contexte dans lequel une phrase est utilisée.  
@@ -148,7 +144,7 @@ Le processus de NER identifie et classe les entités nommées de la manière sui
 
 Le NER est essentiel pour diverses applications de NLP car il permet de structurer des données non structurées et d'extraire des informations clés. Il facilite la tâche des systèmes automatisés en leur permettant de “comprendre” et de manipuler les informations textuelles de manière plus efficace et précise.
 
-### Défis du NER
+### Problèmatique du NER
 
 * Ambiguïté : Les mêmes mots peuvent représenter différentes entités dans des contextes différents (par exemple, "Apple" peut se référer à l'entreprise ou au fruit).  
 * Nouveaux noms : L'apparition de nouvelles entités non présentes dans les données d'entraînement.  
@@ -319,7 +315,7 @@ Voici un tableau répertoriant divers formats de sortie possibles pour un modèl
 | **Annonce** | Message publicitaire ou informatif destiné à attirer l'attention | Annonces publicitaires, publicités |
 | **Transcription** | Conversion de l'audio en texte, capturant fidèlement les paroles prononcées | Transcriptions d'interviews, discours politiques |
 
-En complément d’un LLM, un MJ ou un PJ a souvent besoin d’une représentation visuelle pour aider à l’immersion. Midjourney est un outil idéal pour ce cas d’usage puisqu’il permet de générer des images. Toutefois il ne sera pas traité dans cet e-book car l’outil comprend à lui seul un certain nombre de paramètres et fonctionnalités qui demandent des explications plus poussées. 
+En complément d’un LLM, un MJ ou un PJ a souvent besoin d’une représentation visuelle pour aider à l’immersion. Midjourney est un outil idéal pour ce cas d’usage puisqu’il permet de générer des images. Toutefois il ne sera pas traité dans ce document car l’outil comprend à lui seul un certain nombre de paramètres et fonctionnalités qui demandent des explications plus poussées. 
 
 Si vous souhaitez en savoir plus sur Midjourney : [https://www.youtube.com/@lestutosmidjourney](https://www.youtube.com/@lestutosmidjourney)
 
@@ -364,6 +360,11 @@ Voici un tableau décrivant quelques contraintes applicables dans un prompt pour
 | **Limites Techniques** | Spécifiez une limite de mots et le format de sortie attendu. | "Rédigez le scénario en 3000 mots maximum, au format PDF." |
 | **Immersion** | Créer une ambiance immersive avec des descriptions détaillées et des éléments visuels/auditifs. | "Décrivez un château abandonné avec des torches vacillantes et des bruits de chaînes résonnant dans l'ombre." |
 | **Accessibilité** | Utiliser un langage clair et assurer l'adaptabilité pour différents niveaux de joueurs. | "Écrivez des descriptions claires et ajustez les défis pour des joueurs débutants et expérimentés." |
+
+### Quelle contrôle ?
+De même, gardez en tête que le modèle va générer un texte avec le style, la tonalité ou les contraintes demandées, mais qu'en fonction de votre prompt et de la taille du texte de sortie en résultant cette tonalité sera plus ou moins présente. Il peut être utile de faire appel à des outils tiers pour auditer le texte générer afin de vous assurer de la conformité de la génération.
+
+Vous pouvez par exemple utiliser le service de https://aittia.org qui dispose d'un GPT's pour auditer votre génération.
 
 ## Utiliser des LLM dans le Jeu de Rôle
 
@@ -1284,7 +1285,7 @@ La production d’un LLM ne doit pas vous dispenser de travailler vos personnage
 | \!\[alt\](url image) | Insérer une image avec une description. |
 | \> citation | Créer une citation ou un encadré de citation. |
 | \--- ou \*\*\* | Insérer une ligne horizontale pour séparer des sections. |
-| |PNJ|Lieu|Note| |-------|-----:|---:| |Bob|Paris|Informateur| | Insérer un tableau à 3 colonnes avec un alignement à droite (\_:) pour un alignement à gauche (:\_), pour un texte centré (:\_:). |
+| PNJ | Insérer un tableau à 3 colonnes avec un alignement à droite (\_:) pour un alignement à gauche (:\_), pour un texte centré (:\_:). |
 
 ## Exemple d’usage de Chartopia vers un LLM
 
