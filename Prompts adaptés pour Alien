@@ -16,29 +16,31 @@ Une description physique et morale du personnage, ainsi qu’une histoire détai
 ## Prompt
 ***
 
-En tant que Character Developer expérimenté, tu dois créer à l’aide du template un personnage pour le JDR Alien. Utilise les informations fournies pour rédiger une description physique et morale (max. 10 lignes) et son histoire (max. 50 lignes). #Template #Histoire de fond
-Origines : Où et quand est-il né ? Quelle est son histoire familiale et son lien avec les factions connues de l'univers Alien (Weyland-Yutani, USCM, etc.) ?
-Événements traumatisants : Quels moments d'horreur, de tension ou de survie ont façonné ses peurs et motivations ?
-Objectifs et motivations : Quels sont ses buts dans cet univers dangereux, et quelles en sont les raisons profondes ?
-#Personnalité
-Traits de caractère : Principaux traits de personnalité, soulignant la paranoïa, la résilience, ou la méfiance.
-Forces et faiblesses : Ses compétences et vulnérabilités, particulièrement en lien avec la survie en milieu hostile et la confrontation de créatures inconnues.
-Évolution : Comment l'expérience des horreurs spatiales change-t-elle son état mental ?
-#Apparence physique
-Description : Détaillez taille, corpulence, signes de fatigue, cicatrices, et autres marques de survie.
-Style vestimentaire : Type de vêtements et équipements spécifiques à sa spécialité (combinaison spatiale, équipement de survie, etc.).
-#Relations
-Alliés et ennemis : Qui sont ses contacts, amis ou rivaux au sein des factions (Weyland-Yutani, USCM, colonies spatiales) ?
-Survivants perdus : A-t-il perdu des proches ou collègues lors d'expéditions ou missions ?
-Relations amoureuses : Y a-t-il des liens sentimentaux perturbés par la distance, la mort ou la paranoïa ?
-#Compétences
-Talents : Quelles compétences de survie, combat, ou technologiques possède-t-il ?
-Formation : Quelle expertise a-t-il acquise dans des milieux extrêmes ?
-Limites : Quelles sont ses faiblesses face à la pression psychologique et physique ?
-#Conflits
-Internes : Quels dilemmes moraux et peurs existentielles le hantent dans cet univers cruel ?
-Externes : Quels obstacles ou créatures mortelles doit-il affronter ?
-#Originalité
-Caractéristiques uniques : Qu’est-ce qui le rend unique dans un environnement où la survie est incertaine ?
-Voix distincte : A-t-il une façon de parler ou des habitudes de survie qui le rendent reconnaissable ?
-#Contexte additionnel
+En tant que Character Developer expérimenté, tu dois créer à l’aide du template un personnage pour le JDR Alien. Utilise les informations fournies pour rédiger une description physique et morale (max. 10 lignes) et son histoire (max. 50 lignes).
+
+# Template #Histoire de fond
+## Origines : Où et quand est-il né ? Quelle est son histoire familiale et son lien avec les factions connues de l'univers Alien (Weyland-Yutani, USCM, etc.) ?
+* Événements traumatisants : Quels moments d'horreur, de tension ou de survie ont façonné ses peurs et motivations ?
+* Objectifs et motivations : Quels sont ses buts dans cet univers dangereux, et quelles en sont les raisons profondes ?
+## Personnalité
+* Traits de caractère : Principaux traits de personnalité, soulignant la paranoïa, la résilience, ou la méfiance.
+* Forces et faiblesses : Ses compétences et vulnérabilités, particulièrement en lien avec la survie en milieu hostile et la confrontation de créatures inconnues.
+* Évolution : Comment l'expérience des horreurs spatiales change-t-elle son état mental ?
+## Apparence physique
+* Description : Détaillez taille, corpulence, signes de fatigue, cicatrices, et autres marques de survie.
+* Style vestimentaire : Type de vêtements et équipements spécifiques à sa spécialité (combinaison spatiale, équipement de survie, etc.).
+## Relations
+* Alliés et ennemis : Qui sont ses contacts, amis ou rivaux au sein des factions (Weyland-Yutani, USCM, colonies spatiales) ?
+* Survivants perdus : A-t-il perdu des proches ou collègues lors d'expéditions ou missions ?
+* Relations amoureuses : Y a-t-il des liens sentimentaux perturbés par la distance, la mort ou la paranoïa ?
+## Compétences
+* Talents : Quelles compétences de survie, combat, ou technologiques possède-t-il ?
+* Formation : Quelle expertise a-t-il acquise dans des milieux extrêmes ?
+* Limites : Quelles sont ses faiblesses face à la pression psychologique et physique ?
+## Conflits
+* Internes : Quels dilemmes moraux et peurs existentielles le hantent dans cet univers cruel ?
+* Externes : Quels obstacles ou créatures mortelles doit-il affronter ?
+## Originalité
+* Caractéristiques uniques : Qu’est-ce qui le rend unique dans un environnement où la survie est incertaine ?
+* Voix distincte : A-t-il une façon de parler ou des habitudes de survie qui le rendent reconnaissable ?
+## Contexte additionnel
