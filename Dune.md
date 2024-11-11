@@ -10,6 +10,8 @@ En construisant une campagne, il faut être attentif aux dimensions de la violen
 
 Pour créer une campagne qui "capture l’essence" de Dune, il faut structurer les intrigues autour de ces thèmes majeurs (la lutte pour le pouvoir entre les Grandes Maisons, et les manipulations prophétiques du Bene Gesserit). Une campagne "bien conçue" captera la dualité fondamentale de cet univers : la violence qui déchire les corps et celle qui transforme les esprits.
 
+Il est recommander de se limiter au 5 cinq premières thématiques du tableau si la campagne se déroule avant les événements du Roman. De même il est recommandé de définir un poid pour chacune des thématiques, ce poid peut être modifier en cours de campagne par les aléa du jeu et par les actions/choix des joueurs mais il permet de matérialiser la distance d'éloignement de la Thématique intiale pour mesurer les efforts d'ajustement.
+
 | Thématique                    | Description                                                                                      | Exemple                                                                                              |
 |-------------------------------|--------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
 | **Pouvoir et politique**      | Exploration des luttes de pouvoir, alliances et trahisons entre l'Empereur, les Grandes Maisons, et autres organisations. | Le Landsraad, avec ses alliances et rivalités, qui agit en contrepoids au pouvoir de l'Empereur.     |
@@ -34,8 +36,29 @@ Pour créer une campagne qui "capture l’essence" de Dune, il faut structurer l
 | **La Grande Dispersion**     | Après la mort de Leto II, l’Empire s’effondre, de nombreux habitants fuient, et les Écoles luttent pour stabiliser la société. | *L’Empereur-Dieu de Dune*, *Les Hérétiques de Dune*                                                  |
 | **L’Âge de l’Ennemi**        | Après la Grande Dispersion, les Honorées Matriarches reviennent, poursuivies par un ennemi inconnu, et le Bene Gesserit tente de maintenir l'ordre. | *Les Hérétiques de Dune*, *La Maison des Mères*, *Les Chasseurs de Dune*, *Le Triomphe de Dune*      |
 
+## Factions / Organisations
 
-## Qui sont les protagonistes
+Choisir les protagonistes pour être en mesure de définir le niveau stratégique et le niveau de violence de la campagne ou du scénario. Là aussi, il convient d'octroyer un poid à chaque Faction / Organisation dans la campagne.
+
+| Faction / Organisation      | Description                                                                                                                              |
+|-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| **Empereur**                | Autorité suprême de l'Imperium, l'Empereur utilise les Sardaukar comme force de frappe indirecte et exerce une pression politique et manipulations intenses pour maintenir le contrôle. |
+| **CHOAM**                   | Organisation économique dominante, le CHOAM régule les ressources de l'Empire et exerce un contrôle moral fort par son monopole, influençant les Maisons sans usage direct de violence. |
+| **Bene Gesserit**           | Ordre secret de femmes pratiquant des manipulations psychologiques et des programmes de reproduction. Elles utilisent une auto-défense modérée et un contrôle moral intense. |
+| **Landsraad**               | Assemblée des Grandes Maisons, servant de contre-pouvoir à l'Empereur. Peut mobiliser des troupes en cas de menace commune et exerce des alliances stratégiques pour modérer le pouvoir impérial. |
+| **Grande Maison Corrino**   | Maison impériale, dirigeante de l’Empire. Utilise les Sardaukar pour imposer son autorité et fait usage de pressions et menaces pour intimider ses rivaux. |
+| **Grande Maison Atréides**  | Maison noble reconnue pour sa noblesse et son éthique. Pratique une violence défensive pour protéger son territoire et utilise la diplomatie pour influencer les autres Maisons. |
+| **Grande Maison Harkonnen** | Maison cruelle et impitoyable, utilisant la guerre et la torture pour asseoir son autorité. Fait également usage de la terreur et de l'intimidation psychologique pour contrôler ses ennemis. |
+| **Petites Maisons**         | Maisons vassales ayant un pouvoir variable, souvent sous l'influence des Grandes Maisons. Leurs niveaux de violence physique et morale dépendent de leurs alliances et intérêts spécifiques. |
+| **Sardaukar**               | Forces d'élite sous le contrôle de l'Empereur, avec une force de combat redoutable, les Sardaukar interviennent dans des opérations militaires intenses avec peu de recours à la manipulation morale. |
+| **Guilde Spatiale**         | Monopole du transport interstellaire, exerçant un contrôle étroit sur les déplacements dans l'Empire. Utilise peu la violence physique, mais exerce un chantage puissant pour garder son contrôle. |
+| **Mentats**                 | Humains entraînés comme ordinateurs pour conseiller les Maisons. Utilisent rarement la force, mais exercent une influence morale élevée par leur intelligence stratégique et capacité de manipulation. |
+| **Fremen**                  | Peuple indigène d'Arrakis, experts en techniques de guérilla. Utilisent une violence physique élevée en défense de leur culture et influencent les autres par leur cohésion culturelle. |
+| **Ixiens**                  | Innovateurs technologiques, souvent en marge des lois anti-technologie. Utilisent leurs inventions pour la défense et influencent le marché par leur avance technologique. |
+| **Tleilaxu**                | Maîtres en manipulation génétique et biologique, ils créent des êtres artificiels. Leur violence physique est modérée mais leurs manipulations biologiques sont redoutées pour leur immoralité. |
+| **Les Révérendes Mères (Bene Gesserit)** | Membres influentes de l'ordre Bene Gesserit, spécialisées dans la manipulation psychologique. Elles s'entraînent à l'auto-défense mais privilégient des méthodes morales intenses pour atteindre leurs objectifs. |
+| **Médecins de l'École Suk** | Médecins hautement respectés, conditionnés pour ne jamais blesser. Ils exercent une violence physique très faible et influencent moralement par leur éthique et leur loyauté conditionnée. |
+| **Maîtres d'armes de Ginaz** | Guerriers experts et formateurs en arts martiaux, au service des Maisons. Leur compétence en combat est redoutée et ils imposent également une discipline morale basée sur le prestige et la loyauté. |
 
 ## Niveau stratégique et niveau de violence (Physique ou Morale)
 
@@ -43,7 +66,7 @@ Dans l'univers de Dune, la violence est omniprésente, mais elle se manifeste so
 
 Lors de la création de campagnes ou de scénarios, il est essentiel de comprendre et de définir le niveau de violence (qu'elle soit physique ou morale) auquel il souhaite exposer ses joueurs, ainsi que les types de conflits qui animeront leurs aventures. En structurant la violence selon ces deux dimensions, le maître de jeu peut enrichir les intrigues et offrir des dilemmes plus profonds, à la hauteur des enjeux politiques, économiques et culturels de l’Empire. Une campagne de Dune doit capter cette dualité, où la violence n’est pas toujours frontale mais peut s’immiscer dans l’esprit, les alliances et même l'identité des personnages.
 
-| Organisation               | Niveau Stratégique | Niveau de violence physique              | Niveau de violence morale                      |
+| Factions / Organisations               | Niveau Stratégique | Niveau de violence physique              | Niveau de violence morale                      |
 |----------------------------|--------------------|---------------------------------|--------------------------------------|
 | **Empereur**               | Imperium           | Faible (usage indirect par Sardaukar) | Très élevée (pressions politiques, manipulation) |
 | **CHOAM**                  | Imperium           | Faible                          | Très élevée (contrôle économique et ressources) |
@@ -164,3 +187,7 @@ L’intrigue repose sur des manipulations secrètes et des alliances stratégiqu
 
 - Violence physique : Un chantage indirect menace un seigneur de maison, impliquant sa sécurité ou celle de ses proches s’il ne se plie pas aux exigences.
 - Violence morale : Manipulations psychologiques ; par exemple, le Bene Gesserit influence les décisions de plusieurs Maisons pour instiller des divisions et empêcher une alliance contre l'Empereur.
+
+## Situation initiale
+
+## Progression
