@@ -1,11 +1,47 @@
 # DUNE : Aventures dans l'Imperium
 
 ## Créer une campagne ou un scénario pour DUNE : Aventures dans l'Imperium
-Dans l'univers de Dune, la violence est omniprésente, mais elle se manifeste sous des formes bien plus subtiles et variées que la simple force brute. Que ce soit dans les trahisons du Landsraad, les manipulations génétiques du Bene Gesserit ou les guerres ouvertes entre Grandes Maisons, la violence prend des dimensions aussi bien physiques que morales, jouant un rôle crucial dans le contrôle du pouvoir et des ressources.
 
-Lors de la création de campagnes ou de scénarios, il est essentiel pour un maître de jeu de comprendre et de définir le niveau de violence – qu'elle soit physique ou morale – auquel il souhaite exposer ses joueurs, ainsi que les types de conflits qui animeront leurs aventures. En structurant la violence selon ces deux dimensions, le maître de jeu peut enrichir les intrigues et offrir des dilemmes plus profonds, à la hauteur des enjeux politiques, économiques et culturels de l’Empire. Une campagne de Dune doit capter cette dualité, où la violence n’est pas toujours frontale mais peut s’immiscer dans l’esprit, les alliances et même l'identité des personnages.
+## Thématiques
+
+Les thèmes qui traversent l’univers de Dune (le pouvoir, la politique, l'écologie, la religion, et la manipulation génétique, entre autres) forment autant de leviers narratifs pour créer des scénarios immersifs.
+
+En construisant une campagne, il faut être attentif aux dimensions de la violence que l'on souhaite explorer. Dans Dune, la violence ne se limite pas aux affrontements armés ; elle se manifeste dans la trahison insidieuse du Landsraad, la pression économique du CHOAM, ou la manipulation spirituelle et génétique du Bene Gesserit. Comprendre les thématiques et les types de conflits de cet univers permet de concevoir des intrigues où chaque décision implique un choix moral, chaque alliance cache une possible trahison, et chaque ressource, comme l’Épice, devient un enjeu de survie et de domination.
+
+Pour créer une campagne qui "capture l’essence" de Dune, il faut structurer les intrigues autour de ces thèmes majeurs (la lutte pour le pouvoir entre les Grandes Maisons, et les manipulations prophétiques du Bene Gesserit). Une campagne "bien conçue" captera la dualité fondamentale de cet univers : la violence qui déchire les corps et celle qui transforme les esprits.
+
+| Thématique                    | Description                                                                                      | Exemple                                                                                              |
+|-------------------------------|--------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
+| **Pouvoir et politique**      | Exploration des luttes de pouvoir, alliances et trahisons entre l'Empereur, les Grandes Maisons, et autres organisations. | Le Landsraad, avec ses alliances et rivalités, qui agit en contrepoids au pouvoir de l'Empereur.     |
+| **Trahison et loyauté**       | Conflits de loyauté et trahisons constantes au sein des Maisons et entre elles.                 | La trahison du docteur Yueh, manipulé par les Harkonnen, malgré sa fidélité aux Atréides.            |
+| **Ressources et économie**    | Importance des ressources rares, comme l’épice, et les conflits économiques qu’elles engendrent. | La lutte pour le contrôle de l’épice entre les Atréides et les Harkonnen est au cœur du conflit.     |
+| **Manipulation génétique et biologique** | Utilisation de la génétique pour atteindre des buts politiques et religieux.      | Le Bene Gesserit met en place un programme de reproduction sur des générations pour créer un Messie. |
+| **Religion et prophétie**     | La foi et la prophétie comme outils de contrôle et comme sources de rébellion.                   | Le Bene Gesserit implante des prophéties pour manipuler les croyances.        |
+| **Écologie et environnement** | Importance de l’écologie dans un environnement hostile et impact de l’exploitation des ressources. | Les Fremen vivent en harmonie avec Arrakis, contrairement aux Harkonnen qui exploitent la planète.   |
+| **Humanité et transcendance** | Questionnement sur l’évolution de l’humanité et sur les limites de la nature humaine.            | L’évolution de Paul en tant que Muad’Dib explore les sacrifices et les dangers de la transcendance.  |
+| **Destin et libre arbitre**   | Tension entre le destin prédéterminé et la liberté de choix.                                     | Paul a des visions de l'avenir qu'il craint, mais semble incapable de changer ce destin.             |
+| **Identité culturelle et survie** | Résistance des Fremen pour préserver leur culture face aux forces extérieures.               | Les Fremen préservent leur mode de vie face aux Harkonnen et aux influences extérieures.             |
+
+## Période de jeu
+
+| Période                      | Description                                                                                             | Romans Relatifs                                                                                       |
+|------------------------------|---------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| **Le Jihad Butlérien**       | Période de guerre contre les "machines pensantes", marquée par la rébellion humaine et l'abandon de certaines technologies. | *La Guerre des Machines*, *Le Jihad Butlérien*, *La Bataille de Corrin* (Brian Herbert et Kevin J. Anderson) |
+| **La Reconstruction**        | Après le Jihad, l'humanité apprend à se passer des machines, les Grandes Maisons et les Écoles sont fondées. | *La Communauté des sœurs*, *Les Mentats de Dune*, *Navigators of Dune* (Brian Herbert et Kevin J. Anderson) |
+| **L’Imperium**               | Période de guerres froides entre Maisons, de traditions fortes, et de lutte pour le contrôle de l'épice. | *La Maison des Atréides*, *La Maison Harkonnen*, *La Maison Corrino*, *Dune: The Duke of Caladan*, *Dune*, *Paul le Prophète*, *Le Souffle de Dune* |
+| **L’avènement de Muad’Dib**  | Paul Atréides, devenu Muad'Dib, s'empare de l'Imperium et mène un Jihad pour asseoir sa nouvelle autorité religieuse et politique. | *Dune*, *Paul le Prophète*, *Le Messie de Dune*, *Le Souffle de Dune*, *Les Enfants de Dune*          |
+| **Ère de l’Empereur-Dieu**   | Sous le règne de Leto II, l’Empire connaît une paix forcée marquée par une théocratie stricte.          | *L’Empereur-Dieu de Dune*                                                                             |
+| **La Grande Dispersion**     | Après la mort de Leto II, l’Empire s’effondre, de nombreux habitants fuient, et les Écoles luttent pour stabiliser la société. | *L’Empereur-Dieu de Dune*, *Les Hérétiques de Dune*                                                  |
+| **L’Âge de l’Ennemi**        | Après la Grande Dispersion, les Honorées Matriarches reviennent, poursuivies par un ennemi inconnu, et le Bene Gesserit tente de maintenir l'ordre. | *Les Hérétiques de Dune*, *La Maison des Mères*, *Les Chasseurs de Dune*, *Le Triomphe de Dune*      |
+
+
+## Qui sont les protagonistes
 
 ## Niveau stratégique et niveau de violence (Physique ou Morale)
+
+Dans l'univers de Dune, la violence est omniprésente, mais elle se manifeste sous des formes différentes. Que ce soit dans les trahisons du Landsraad, les manipulations génétiques du Bene Gesserit ou les guerres ouvertes entre Grandes Maisons, la violence prend des dimensions aussi bien physiques que morales, jouant un rôle dans le contrôle du pouvoir et des ressources.
+
+Lors de la création de campagnes ou de scénarios, il est essentiel de comprendre et de définir le niveau de violence (qu'elle soit physique ou morale) auquel il souhaite exposer ses joueurs, ainsi que les types de conflits qui animeront leurs aventures. En structurant la violence selon ces deux dimensions, le maître de jeu peut enrichir les intrigues et offrir des dilemmes plus profonds, à la hauteur des enjeux politiques, économiques et culturels de l’Empire. Une campagne de Dune doit capter cette dualité, où la violence n’est pas toujours frontale mais peut s’immiscer dans l’esprit, les alliances et même l'identité des personnages.
 
 | Organisation               | Niveau Stratégique | Niveau de violence physique              | Niveau de violence morale                      |
 |----------------------------|--------------------|---------------------------------|--------------------------------------|
