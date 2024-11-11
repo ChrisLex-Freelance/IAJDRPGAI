@@ -1,0 +1,130 @@
+# DUNE : Aventures dans l'Imperium
+
+## Créer une campagne ou un scénario pour DUNE : Aventures dans l'Imperium
+Dans l'univers de Dune, la violence est omniprésente, mais elle se manifeste sous des formes bien plus subtiles et variées que la simple force brute. Que ce soit dans les trahisons du Landsraad, les manipulations génétiques du Bene Gesserit ou les guerres ouvertes entre Grandes Maisons, la violence prend des dimensions aussi bien physiques que morales, jouant un rôle crucial dans le contrôle du pouvoir et des ressources.
+
+Lors de la création de campagnes ou de scénarios, il est essentiel pour un maître de jeu de comprendre et de définir le niveau de violence – qu'elle soit physique ou morale – auquel il souhaite exposer ses joueurs, ainsi que les types de conflits qui animeront leurs aventures. En structurant la violence selon ces deux dimensions, le maître de jeu peut enrichir les intrigues et offrir des dilemmes plus profonds, à la hauteur des enjeux politiques, économiques et culturels de l’Empire. Une campagne de Dune doit capter cette dualité, où la violence n’est pas toujours frontale mais peut s’immiscer dans l’esprit, les alliances et même l'identité des personnages.
+
+## Niveau stratégique et niveau de violence (Physique ou Morale)
+
+| Organisation               | Niveau Stratégique | Niveau de violence physique              | Niveau de violence morale                      |
+|----------------------------|--------------------|---------------------------------|--------------------------------------|
+| **Empereur**               | Imperium           | Faible (usage indirect par Sardaukar) | Très élevée (pressions politiques, manipulation) |
+| **CHOAM**                  | Imperium           | Faible                          | Très élevée (contrôle économique et ressources) |
+| **Bene Gesserit**          | Imperium           | Moyenne (auto-défense, rares interventions) | Très élevée (manipulation psychologique, contrôle génétique) |
+| **Landsraad**              | Grandes Maisons    | Moyenne (troupes mobilisables en cas de menace commune) | Moyenne (négociations, alliances) |
+| **Grande Maison Corrino**  | Grandes Maisons    | Moyenne (via Sardaukar)         | Très élevée (intimidation, menace) |
+| **Grande Maison Atreides** | Grandes Maisons    | Moyenne (défense de ses territoires) | Moyenne (diplomatie, influence morale) |
+| **Grande Maison Harkonnen**| Grandes Maisons    | Très élevée (torture, guerre ouverte) | Très élevée (terreur, intimidation psychologique) |
+| **Petites Maisons**        | Maisons            | Variable selon la Maison (souvent faible) | Variable (en fonction de leurs intérêts) |
+| **Sardaukar**              | Opérationnel       | Très élevée (militaires d’élite) | Faible (peu d'usage de manipulation) |
+| **Guilde spaciale**            | Imperium           | Faible (violence physique rare) | Très élevée (monopole du transport interstellaire, chantage) |
+| **Mentats**                | Opérationnel       | Faible (rarement en combat)     | Élevée (intelligence stratégique, manipulation) |
+| **Fremen**                 | Maisons / Opérationnel | Très élevée (guérilla)       | Moyenne (influence culturelle) |
+| **Ixiens**                 | Maisons            | Faible à Moyenne (technologie militaire) | Moyenne (technologie, innovation) |
+| **Tleilaxu**               | Maisons            | Moyenne (usage de leurs propres créations) | Très élevée (manipulation biologique) |
+| **Les Révérendes Mères (Bene Gesserit)** | Opérationnel | Moyenne (auto-défense et formation spécifique) | Très élevée (manipulation psychologique intense) |
+| **Médecins de l'École Suk**| Opérationnel       | Faible (formation non-violente, interdit de blesser) | Moyenne (influence éthique, loyauté conditionnée) |
+| **Maîtres d'armes de Ginaz** | Opérationnel   | Très élevée (guerriers experts, formation d'élite) | Moyenne (prestige et discipline morale) |
+
+### Niveau stratégique
+#### Imperium
+Le niveau Imperium désigne les organisations qui exercent une influence à l'échelle de l'ensemble de l'univers connu, englobant toutes les Maisons et les institutions de pouvoir. Ce niveau stratégique regroupe des entités capables de modeler les décisions politiques, économiques et sociales affectant tous les peuples et toutes les planètes de l'Imperium. Leur pouvoir repose sur une autorité centrale ou sur des monopoles économiques et culturels qui les placent au-dessus des lois des Maisons. Dans ce cadre, des organisations comme l’Empereur, le CHOAM, les Bene Gesserit, et la Spice Guild détiennent une puissance difficile à contester et dictent les grandes orientations politiques et économiques de l'Imperium, souvent au-delà des frontières des Maisons.
+
+- Violence physique : L'Empereur envoie les Sardaukar, ses troupes d'élite, pour écraser un soulèvement sur une planète. La puissance militaire brutale des Sardaukar sert à réaffirmer l'autorité impériale par des moyens physiques intenses, inspirant la terreur à travers l’Empire.
+- Violence morale : Le CHOAM coupe les approvisionnements en épice d'une planète pour faire pression sur une Maison réticente, menaçant indirectement leur santé et leur commerce. En contrôlant l'accès à cette ressource vitale, le CHOAM impose sa volonté de manière non-violente mais extrêmement coercitive, fragilisant la stabilité de la Maison visée.
+
+#### Grandes Maisons
+Le niveau Grandes Maisons concerne les Maisons nobles les plus puissantes, qui jouent un rôle politique majeur au sein du Landsraad et influencent significativement les décisions de l’Empereur lui-même. Elles possèdent des armées, des territoires, et des ressources importantes leur permettant de rivaliser ou de s’allier entre elles pour conserver ou augmenter leur influence. Leurs actions et alliances façonnent la politique interne de l’Empire, car elles représentent l’élite des Maisons au sein du Landsraad, l'assemblée qui agit comme un contre-pouvoir à l'Empereur. Des entités comme la Grande Maison Corrino (famille impériale), les Maisons Atréides et Harkonnen sont de puissants acteurs qui participent aux luttes de pouvoir majeures et aux stratégies politiques complexes au sein de l'Imperium.
+
+- Violence physique : La Grande Maison Harkonnen mène une campagne de terreur contre ses ennemis, recourant à la torture et aux exécutions publiques pour intimider et dominer les populations locales, envoyant ainsi un avertissement aux Maisons adverses.
+- Violence morale : La Grande Maison Corrino, en tant que Maison impériale, intimide les Maisons mineures en lançant des rumeurs sur une possible mobilisation des Sardaukar, créant une tension constante. Cette menace sous-jacente agit comme un moyen de soumettre et de neutraliser les éventuelles oppositions, sans qu’aucun coup ne soit porté.
+
+#### Maisons
+Le niveau Maisons regroupe les Maisons mineures, souvent alliées aux Grandes Maisons, qui exercent une influence régionale ou planétaire. Elles peuvent disposer de ressources militaires limitées et d’une autorité restreinte, mais elles jouent un rôle vital en soutenant les Grandes Maisons et en influençant les équilibres de pouvoir locaux. Elles sont également des acteurs économiques et diplomatiques dans leur sphère d'influence et constituent la base du pouvoir du Landsraad. Bien qu’elles soient en général moins puissantes, certaines Maisons, comme les Ixiens ou les Tleilaxu, disposent de technologies et de savoir-faire qui leur donnent une influence dépassant leur statut. Ces Maisons peuvent entrer dans des alliances stratégiques ou participer aux conflits plus vastes de l'Imperium en tant que forces auxiliaires ou conseillers.
+
+- Violence physique : Une Maison mineure alliée aux Harkonnen organise une série d'escarmouches sur le territoire d'une autre Maison pour perturber ses opérations, démontrant leur capacité de nuisance tout en évitant un conflit ouvert.
+- Violence morale : Les Tleilaxu font chanter un chef ennemi avec des informations compromettantes obtenues par espionnage génétique. En exploitant la peur de l'humiliation ou de la trahison, ils manipulent subtilement la Maison cible, démontrant leur expertise dans la pression psychologique.
+
+#### Opérationnel
+Le niveau Opérationnel inclut les organisations ou corps spécialisés qui agissent en tant qu’agents d’influence directe, souvent sur le terrain ou dans des actions spécifiques. Ces entités sont plus focalisées sur les opérations de terrain que sur la gouvernance, même si elles peuvent exercer une autorité importante dans leur domaine d’expertise. Elles servent souvent les Grandes Maisons ou l’Empereur lui-même dans des missions tactiques et des opérations spéciales. Les Sardaukar, les Maîtres d’armes de Ginaz, et les Mentats opèrent à ce niveau, exécutant des tâches précises pour le compte de leurs commanditaires et utilisant leurs compétences pour influencer directement les conflits et les événements.
+
+- Violence physique : Les Maîtres d’armes de Ginaz sont engagés pour exécuter une mission d'assassinat contre un chef militaire d'une Maison rivale, usant de leur expertise martiale pour éliminer la cible avec efficacité.
+- Violence morale : Les Mentats, par leurs analyses et manipulations psychologiques, influencent subtilement les décisions d’un dirigeant. En lui fournissant des conseils biaisés et des analyses manipulées, le Mentat détourne le chef de ses alliés, créant une division stratégique sans recours à la force physique.
+
+### Niveau de violence
+#### Faible
+Le niveau de violence Faible implique un usage limité et ponctuel de la force ou de la pression morale. Les actions sont souvent indirectes et ne laissent pas de traces significatives. Ce niveau est généralement utilisé par les organisations qui préfèrent la subtilité ou n'ont pas les moyens d'exercer une violence plus intense.
+
+- Violence physique : Un médecin de l’École Suk administre un sédatif à un garde pour pouvoir passer sans déclencher une alarme. Il n’utilise la force que de façon non létale, respectant son interdiction de blesser.
+- Violence morale : Le CHOAM fait circuler une rumeur bénigne pour influencer légèrement les choix commerciaux d'une Maison, en évitant tout acte de manipulation trop risqué ou contraignant. Cette action vise surtout à orienter les décisions de façon très indirecte.
+
+#### Moyen
+Le niveau de violence Moyen est employé pour des opérations plus ouvertes ou lorsque des moyens de coercition modérés sont nécessaires. La violence peut être plus visible et délibérée, mais elle reste souvent contrôlée pour éviter les répercussions graves. Ce niveau est typique des Maisons qui veulent affirmer leur présence sans risquer un conflit majeur.
+
+- Violence physique : Les Fremen mènent une embuscade ciblée contre un convoi Harkonnen, infligeant des pertes pour prouver leur puissance tout en évitant une guerre directe. L’attaque est meurtrière mais reste tactiquement limitée.
+- Violence morale : Une Grande Maison, comme les Atreides, exerce une pression politique sur une Maison mineure pour obtenir un soutien, en utilisant des arguments diplomatiques et en rappelant des alliances passées sans menacer explicitement. Ce type de manipulation influence subtilement sans imposer de peur directe.
+
+#### Élevé
+Le niveau de violence Élevé inclut des actes plus intenses, visibles et déstabilisants pour affirmer son autorité ou contraindre un adversaire. Les actions sont souvent brutales et visent à montrer la puissance de l’organisation, avec des répercussions claires et souvent visibles. Les organisations comme les Grandes Maisons ou les troupes d'élite utilisent souvent ce niveau pour s'assurer de leur domination.
+
+- Violence physique : Les Maîtres d’armes de Ginaz sont engagés pour mener un raid violent et dévastateur contre une base ennemie, tuant sans pitié pour démontrer leur supériorité martiale. Ce niveau de violence est décisif et laisse une marque durable.
+- Violence morale : Les Mentats d’une Grande Maison manipulent les perceptions d’un rival en infiltrant ses cercles intérieurs pour semer le doute parmi ses conseillers. Par cette manipulation subtile mais puissante, le Mentat affaiblit le chef et sa Maison, créant de profondes divisions internes.
+
+#### Très élevé
+Le niveau de violence Très Élevé implique une brutalité et une pression psychologique extrêmes, souvent dans le but de détruire totalement l’opposition. Ce niveau est utilisé par les organisations les plus puissantes pour des démonstrations de force impitoyables qui marquent profondément les populations. Ce type de violence peut entraîner des conséquences tragiques, laissant des cicatrices durables.
+
+- Violence physique : L'Empereur envoie les Sardaukar pour exterminer une population entière sur une planète en rébellion, sans pitié ni limite. Cette démonstration de force est impitoyable, instillant la peur dans toutes les Maisons de l’Imperium.
+- Violence morale : Le Bene Gesserit manipule toute une lignée de nobles pour atteindre un objectif génétique à long terme, utilisant le contrôle psychologique et la manipulation générationnelle. Cette pression morale intense et invisible façonne les vies de ses cibles, souvent sans qu’elles en soient conscientes, et exerce un contrôle total sur leurs choix de vie.
+
+## Formes de conflit
+
+| Organisation               | Conflit privilégié 1 | Conflit privilégié 2 | Conflit privilégié 3 |
+|----------------------------|----------------------|-----------------------|-----------------------|
+| **Empereur**               | Intrigue            | Espionnage           | Guerre          |
+| **CHOAM**                  | Intrigue            | Espionnage           | Escarmouches          |
+| **Bene Gesserit**          | Intrigue            | Espionnage           | Duel                  |
+| **Landsraad**              | Intrigue            | Espionnage           | Guerre                |
+| **Grande Maison Corrino**  | Intrigue            | Guerre               | Espionnage            |
+| **Grande Maison Atreides** | Escarmouches        | Intrigue             | Duel                  |
+| **Grande Maison Harkonnen**| Guerre              | Intrigue             | Escarmouches          |
+| **Petites Maisons**        | Duel                | Intrigue             | Escarmouches          |
+| **Sardaukar**              | Guerre              | Escarmouches         | Duel                  |
+| **Spice Guild**            | Intrigue            | Espionnage           | Escarmouches          |
+| **Mentats**                | Espionnage          | Intrigue             | Duel                  |
+| **Fremen**                 | Escarmouches        | Guerre               | Duel                  |
+| **Ixiens**                 | Espionnage          | Intrigue             | Escarmouches          |
+| **Tleilaxu**               | Intrigue            | Espionnage           | Escarmouches          |
+| **Les Révérendes Mères (Bene Gesserit)** | Intrigue | Espionnage      | Duel                  |
+| **Médecins de l'École Suk**| Intrigue            | Duel                 | Espionnage            |
+| **Maîtres d'armes de Ginaz** | Duel              | Escarmouches         | Guerre                |
+
+### Duel
+Le duel est un affrontement direct, souvent pour des questions d’honneur ou de pouvoir, entre deux individus représentant eux-mêmes ou leur Maison. Les duels sont courants parmi les nobles pour éviter une guerre plus vaste.
+
+- Violence physique : Un duel au couteau entre Paul Atréides et un ennemi Harkonnen pour prouver sa légitimité et son honneur, souvent à mort.
+- Violence morale : Un duel psychologique, où des mots ou des actions forcées entraînent humiliation ou perte de réputation ; un membre du Landsraad pourrait provoquer publiquement un rival pour l’obliger à répondre sous peine de perdre l’honneur.
+
+### Escarmouches
+Les escarmouches sont des combats localisés, de courte durée, impliquant des groupes réduits. Elles permettent de tester les défenses de l'ennemi, semer la terreur ou infliger des pertes ciblées sans déclencher une guerre ouverte.
+
+- Violence physique : Une attaque rapide des Fremen contre une patrouille Harkonnen pour saboter des équipements et affaiblir l'occupant.
+- Violence morale : Une escarmouche où des Fremen laissent des signes de leur présence sans s’engager totalement, instillant la peur dans les rangs Harkonnen et sapant leur moral sans contact direct.
+
+### Espionnage
+L’espionnage consiste à recueillir des informations, infiltrer des organisations et manipuler des événements pour un avantage stratégique. Cette forme de conflit peut s’appuyer sur des actions physiques ou des pressions psychologiques.
+
+- Violence physique : Un agent Bene Gesserit infiltré élimine discrètement un dirigeant ennemi, ou un poison est utilisé pour miner la force d’un camp adverse.
+- Violence morale : L’infiltration d’un Bene Gesserit pour manipuler un dirigeant, lui suggérant des décisions qui l’isoleront politiquement ou créeront des conflits internes.
+
+### Guerre
+La guerre est un conflit direct à grande échelle où des armées s’affrontent pour le contrôle de territoires ou le renversement de factions entières. Elle peut causer des pertes massives et des destructions durables.
+
+- Violence physique : Une bataille rangée entre les troupes Atreides et Harkonnen pour la maîtrise d’Arrakis, impliquant des armes lourdes et un coût humain énorme.
+- Violence morale : Propagande et désinformation ; par exemple, les Harkonnen diffusent de fausses nouvelles pour discréditer les Atreides, affaiblissant leur soutien public et leur moral sans tirer un coup de feu.
+
+### Intrigue
+L’intrigue repose sur des manipulations secrètes et des alliances stratégiques pour atteindre ses objectifs sans recours à la violence ouverte. Elle peut inclure des jeux de pouvoir pour diviser ou affaiblir l’ennemi.
+
+- Violence physique : Un chantage indirect menace un seigneur de maison, impliquant sa sécurité ou celle de ses proches s’il ne se plie pas aux exigences.
+- Violence morale : Manipulations psychologiques ; par exemple, le Bene Gesserit influence les décisions de plusieurs Maisons pour instiller des divisions et empêcher une alliance contre l'Empereur.
