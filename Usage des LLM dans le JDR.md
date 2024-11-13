@@ -1,5 +1,3 @@
-
-
 # Introduction
 
 ## Présentation
@@ -788,13 +786,61 @@ Par exemple, si nous reprenons le personnage de Valeria générer plus haut ont 
 
 ### Exemple de Prompt
 
-| En tant que Game Designer expérimenté (20 ans), tu dois créer l’histoire d’une Maison noble pour le jeu *Dune : Aventures dans l’Imperium*. Les personnages des joueurs appartiendront à cette Maison. Utilisez le modèle ci-dessous pour structurer l’histoire. Informations sur la Maison Nom de la Maison : Type de Maison : Histoire de la Maison Origines et établissement : Développement et loyauté : Domaine de compétence : Arts et culture : Rivalité et ennemis : Monde natal de la Maison Type de Monde : Description générale : Écologie et environnement : Culture et société : Ressources et économie : Contexte additionnel *\[Ajouter le contexte issue du JDR ou de Chartopia\]*  |
-| :---- |
+------
+
+En tant que Game Designer expérimenté (20 ans)
+
+tu dois créer l’histoire d’une Maison noble
+
+JDR : [Nom du jeu]
+
+Les personnages des joueurs appartiendront à cette Maison. Utilise le modèle ci-dessous pour structurer l’histoire. 
+
+**Informations sur la Maison**
+- Nom de la Maison :
+- Type de Maison :
+
+**Histoire de la Maison**
+- Origines et établissement :
+- Développement et loyauté :
+- Domaine de compétence :
+- Arts et culture :
+- Rivalité et ennemis :
+
+**Monde natal de la Maison**
+- Type de Monde :
+- Description générale :
+- Écologie et environnement :
+- Culture et société :
+- Ressources et économie :
+
+**Contexte additionnel**
+
+*\[Ajouter le contexte issue du JDR ou de Chartopia\]*
+
+------
 
 ### Exemple de résultat du Prompt
 
-| Nom de la Maison : Karath Type de Maison : Maison mineure Histoire de la Maison Karath Origines et établissement : La Maison Karath, fondée il y a plusieurs siècles, a émergé sur un monde exploité et épuisé, habitable mais rude. Dès ses débuts, la Maison Karath s'est distinguée par son approche brutale et directe pour atteindre ses objectifs. Initialement des colons industrieux, les Karath ont rapidement compris que la force et l'intimidation étaient nécessaires pour survivre et prospérer dans un environnement aussi hostile. Développement et loyauté : La loyauté de la Maison Karath envers leur suzeraine, une Maison majeure puissante, est devenue légendaire. Cette dévotion sans faille, bien que parfois considérée comme écœurante par leurs rivaux, a permis aux Karath de s'établir fermement comme l'une des plus importantes Maisons vassales. Leur territoire, couvrant environ un tiers de leur planète d'origine, est un témoignage de leur capacité à s'imposer et à maintenir leur position grâce à des méthodes impitoyables. Domaine de compétence : Les Karath se sont spécialisés dans le domaine scientifique, particulièrement dans la recherche et le développement de nouvelles technologies. Bien que le Jihad Butlérien ait banni les machines pensantes, la Maison Karath a excellé dans l'exploration de nouvelles voies scientifiques respectant ces restrictions, créant des innovations qui leur ont permis de maintenir une longueur d'avance sur leurs concurrents. Leur expertise en conception technologique est reconnue et craint à travers l'Imperium. Arts et culture : En plus de leurs prouesses scientifiques, la Maison Karath a investi dans les arts, utilisant ce domaine non seulement pour gagner du respect et de la renommée mais aussi comme un outil stratégique. Leurs artistes, musiciens et acteurs itinérants servent souvent de couverture pour des opérations d'espionnage, infiltrant des cours ennemies et recueillant des informations cruciales. Les soirées musicales et les événements artistiques organisés par les Karath sont des occasions pour les intrigues politiques et les rencontres secrètes. Rivalité et ennemis : La Maison Karath a une rivalité particulièrement acerbe avec une autre Maison mineure qui cherche activement à les abattre. Cette maison ennemie, dégoûtée par la brutalité et la moralité des Karath, colporte mensonges et ragots à la cour, évitant cependant un conflit ouvert à moins d'y voir un avantage certain. Les Karath, conscients de cette haine, gardent toujours un œil vigilant sur les manœuvres de leurs rivaux. Monde natal de la Maison Karath Type de monde : Monde exploité et épuisé habitable (Classe IV : survie possible sans protection). Le monde natal de la Maison Karath est une planète autrefois riche en ressources naturelles, mais aujourd'hui épuisée par des siècles d'exploitation intensive. La surface de la planète est marquée par des paysages désolés, des mines abandonnées et des zones industrielles en ruine. Les habitants vivent dans des cités fortifiées, construites pour résister aux tempêtes de sable fréquentes et aux conditions climatiques extrêmes. Écologie et environnement : L'écosystème de la planète a été gravement perturbé par l'exploitation minière, laissant peu de végétation et d'animaux sauvages. Les Karath ont dû développer des technologies avancées pour purifier l'air et l'eau, et pour cultiver des aliments dans des environnements contrôlés. Les scientifiques de la Maison ont fait de grandes avancées dans la biotechnologie et l'agriculture sous abri pour assurer la survie de la population. Culture et société : La société Karath est dure et disciplinée, reflétant les conditions difficiles de leur monde natal. La brutalité est souvent nécessaire pour maintenir l'ordre et la survie. Les valeurs de la Maison sont centrées sur la force, la loyauté et l'innovation scientifique. La culture artistique, bien que florissante, sert souvent à masquer des activités d'espionnage et à manipuler les perceptions extérieures de la Maison. Ressources et économie : Malgré l'épuisement des ressources naturelles, la Maison Karath a su diversifier son économie grâce à ses innovations technologiques. Les industries pharmaceutiques, les biotechnologies et les recherches scientifiques avancées sont désormais les piliers économiques de la planète. Les produits et services issus de leurs laboratoires sont prisés dans tout l'Imperium, assurant la prospérité continue de la Maison malgré les défis environnementaux. |
-| :---- |
+**Informations sur la Maison**
+
+Nom de la Maison : Karath
+Type de Maison : Maison mineure
+
+**Histoire de la Maison Karath**
+
+- Origines et établissement : La Maison Karath, fondée il y a plusieurs siècles, a émergé sur un monde exploité et épuisé, habitable mais rude. Dès ses débuts, la Maison Karath s'est distinguée par son approche brutale et directe pour atteindre ses objectifs. Initialement des colons industrieux, les Karath ont rapidement compris que la force et l'intimidation étaient nécessaires pour survivre et prospérer dans un environnement aussi hostile.
+- Développement et loyauté : La loyauté de la Maison Karath envers leur suzeraine, une Maison majeure puissante, est devenue légendaire. Cette dévotion sans faille, bien que parfois considérée comme écœurante par leurs rivaux, a permis aux Karath de s'établir fermement comme l'une des plus importantes Maisons vassales. Leur territoire, couvrant environ un tiers de leur planète d'origine, est un témoignage de leur capacité à s'imposer et à maintenir leur position grâce à des méthodes impitoyables.
+- Domaine de compétence : Les Karath se sont spécialisés dans le domaine scientifique, particulièrement dans la recherche et le développement de nouvelles technologies. Bien que le Jihad Butlérien ait banni les machines pensantes, la Maison Karath a excellé dans l'exploration de nouvelles voies scientifiques respectant ces restrictions, créant des innovations qui leur ont permis de maintenir une longueur d'avance sur leurs concurrents. Leur expertise en conception technologique est reconnue et craint à travers l'Imperium.
+- Arts et culture : En plus de leurs prouesses scientifiques, la Maison Karath a investi dans les arts, utilisant ce domaine non seulement pour gagner du respect et de la renommée mais aussi comme un outil stratégique. Leurs artistes, musiciens et acteurs itinérants servent souvent de couverture pour des opérations d'espionnage, infiltrant des cours ennemies et recueillant des informations cruciales. Les soirées musicales et les événements artistiques organisés par les Karath sont des occasions pour les intrigues politiques et les rencontres secrètes.
+- Rivalité et ennemis : La Maison Karath a une rivalité particulièrement acerbe avec une autre Maison mineure qui cherche activement à les abattre. Cette maison ennemie, dégoûtée par la brutalité et la moralité des Karath, colporte mensonges et ragots à la cour, évitant cependant un conflit ouvert à moins d'y voir un avantage certain. Les Karath, conscients de cette haine, gardent toujours un œil vigilant sur les manœuvres de leurs rivaux.
+
+**Monde natal de la Maison Karath**
+
+- Type de monde : Monde exploité et épuisé habitable (Classe IV : survie possible sans protection). Le monde natal de la Maison Karath est une planète autrefois riche en ressources naturelles, mais aujourd'hui épuisée par des siècles d'exploitation intensive. La surface de la planète est marquée par des paysages désolés, des mines abandonnées et des zones industrielles en ruine. Les habitants vivent dans des cités fortifiées, construites pour résister aux tempêtes de sable fréquentes et aux conditions climatiques extrêmes.
+- Écologie et environnement : L'écosystème de la planète a été gravement perturbé par l'exploitation minière, laissant peu de végétation et d'animaux sauvages. Les Karath ont dû développer des technologies avancées pour purifier l'air et l'eau, et pour cultiver des aliments dans des environnements contrôlés. Les scientifiques de la Maison ont fait de grandes avancées dans la biotechnologie et l'agriculture sous abri pour assurer la survie de la population.
+- Culture et société : La société Karath est dure et disciplinée, reflétant les conditions difficiles de leur monde natal. La brutalité est souvent nécessaire pour maintenir l'ordre et la survie. Les valeurs de la Maison sont centrées sur la force, la loyauté et l'innovation scientifique. La culture artistique, bien que florissante, sert souvent à masquer des activités d'espionnage et à manipuler les perceptions extérieures de la Maison.
+- Ressources et économie : Malgré l'épuisement des ressources naturelles, la Maison Karath a su diversifier son économie grâce à ses innovations technologiques. Les industries pharmaceutiques, les biotechnologies et les recherches scientifiques avancées sont désormais les piliers économiques de la planète. Les produits et services issus de leurs laboratoires sont prisés dans tout l'Imperium, assurant la prospérité continue de la Maison malgré les défis environnementaux.
 
 ## Génération d’un scénario
 
