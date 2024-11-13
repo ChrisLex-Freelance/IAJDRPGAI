@@ -361,7 +361,7 @@ Voici un tableau décrivant quelques contraintes applicables dans un prompt pour
 | **Immersion** | Créer une ambiance immersive avec des descriptions détaillées et des éléments visuels/auditifs. | "Décrivez un château abandonné avec des torches vacillantes et des bruits de chaînes résonnant dans l'ombre." |
 | **Accessibilité** | Utiliser un langage clair et assurer l'adaptabilité pour différents niveaux de joueurs. | "Écrivez des descriptions claires et ajustez les défis pour des joueurs débutants et expérimentés." |
 
-### Quelle contrôle ?
+### Quels contrôles ?
 De même, gardez en tête que le modèle va générer un texte avec le style, la tonalité ou les contraintes demandées, mais qu'en fonction de votre prompt et de la taille du texte de sortie en résultant cette tonalité sera plus ou moins présente. Il peut être utile de faire appel à des outils tiers pour auditer le texte générer afin de vous assurer de la conformité de la génération.
 
 Vous pouvez par exemple utiliser le service de https://aittia.org qui dispose d'un GPT's pour auditer votre génération.
@@ -612,8 +612,51 @@ Une description physique et morale du personnage, ainsi qu'une histoire détaill
 
 ### Exemple de Prompt
 
-| En tant que Character Developer expérimenté (10 ans)Tu dois créer à l’aide du template pour le JDR \[Nom du jeu\] un personnage.Utilise les informations fournies pour rédiger une description physique et morale (max. 10 lignes) et son histoire (max. 50 lignes). \#Template \#Histoire de fond Origines : Où et quand est-il né ? Quelle est son histoire familiale ? Événements marquants : Quels moments clés ont façonné ses motivations ? Objectifs et motivations : Quels sont ses buts et pourquoi les poursuit-il ? \#Personnalité Traits de caractère : Principaux traits de personnalité. Forces et faiblesses : Ses compétences et points faibles. Évolution : Comment change-t-il au fil du temps ? \#Apparence physique Description : Détaillez taille, corpulence, cheveux, yeux, et particularités. Style vestimentaire : Type de vêtements et accessoires. \#Relations Alliés et ennemis : Qui sont ses 3 amis, 3 ennemis, et 3 mentors ? Relations amoureuses : Y a-t-il une influence romantique sur l'histoire ? \#Compétences Talents : Quelles compétences ou pouvoirs possède-t-il ? Formation : Quelle expertise a-t-il acquise ? Limites : Quelles sont ses faiblesses ? \#Conflits Internes : Quels dilemmes moraux affronte-t-il ? Externes : Quels obstacles doit-il surmonter ? \#Originalité Caractéristiques uniques : Qu’est-ce qui le rend unique ? Voix distincte : A-t-il un comportement ou langage particulier ? \#Contexte additionnel \[Ajouter le contexte issue du JDR\] |
-| :---- |
+------
+
+En tant que Character Developer expérimenté (10 ans) 
+Tu dois créer à l’aide du template un personnage
+JDR : [Nom du jeu]
+Système :
+Utilise les informations fournies pour rédiger une description et son histoire (max. 50 lignes) 
+
+**Template**
+
+**Histoire de fond**
+- Origines : Où et quand est-il né ? Quelle est son histoire familiale ?  
+- Événements marquants : Quels moments clés ont façonné ses motivations ?  
+- Objectifs et motivations : Quels sont ses buts et pourquoi les poursuit-il ?  
+
+**Personnalité**
+- Traits de caractère : Principaux traits de personnalité.  
+- Forces et faiblesses : Ses compétences et points faibles.  
+- Évolution : Comment change-t-il au fil du temps ?  
+
+**Apparence physique** 
+- Description : Détaillez taille, corpulence, cheveux, yeux, et particularités.  
+- Style vestimentaire : Type de vêtements et accessoires.  
+
+**Relations**
+- Alliés et ennemis : Qui sont ses 3 amis, 3 ennemis, et 3 mentors ?  
+- Relations amoureuses : Y a-t-il une influence romantique sur l'histoire ?  
+
+**Compétences**
+- Talents : Quelles compétences ou pouvoirs possède-t-il ?  
+- Formation : Quelle expertise a-t-il acquise ?  
+- Limites : Quelles sont ses faiblesses ?  
+
+**Conflits**
+- Internes : Quels dilemmes moraux affronte-t-il ?  
+- Externes : Quels obstacles doit-il surmonter ?  
+
+**Originalité**
+- Caractéristiques uniques : Qu’est-ce qui le rend unique ?  
+- Voix distincte : A-t-il un comportement ou langage particulier ?  
+
+**Contexte additionnel**
+[Ajouter le contexte issu du JDR]
+
+------
 
 ### Exemple de résultat du Prompt
 
