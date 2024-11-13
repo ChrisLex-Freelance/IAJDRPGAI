@@ -530,8 +530,11 @@ Fournissez un exemple de format ou de structure pour chaque entrée de la table.
 
 ### Exemple de Prompt
 
-| En tant que \[Rôle : Auteur\] de \[Contexte : jeu de rôle\] avec \[Ancienneté : 20 ans \] d’expérience, vous souhaitez \[Objectif : générer\] |Format : une liste\] de \[Catégorie : d’événements aléatoires\] pour un \[Contexte : cadre de jeu de rôle\] \[Domaine : cyberpunk\] nommé \[Contexte/Contrainte : Shadowrun\] dans sa \[Contexte/Contrainte : 3éme édition\] \[Contexte/Contrainte : motorisé par un système D6 à seuil de succès\]. La liste \[Contrainte : doit contenir\] \[Contrainte : 20 entrées numérotées\]. Le format de sortie sera sous la forme suivante : | numéro | Libellé d’événement | Description de l’événement |  |
-| :---- |
+------
+
+En tant que \[Rôle : Auteur\] de \[Contexte : jeu de rôle\] avec \[Ancienneté : 20 ans \] d’expérience, vous souhaitez \[Objectif : générer\] |Format : une liste\] de \[Catégorie : d’événements aléatoires\] pour un \[Contexte : cadre de jeu de rôle\] \[Domaine : cyberpunk\] nommé \[Contexte/Contrainte : Shadowrun\] dans sa \[Contexte/Contrainte : 3éme édition\] \[Contexte/Contrainte : motorisé par un système D6 à seuil de succès\]. La liste \[Contrainte : doit contenir\] \[Contrainte : 20 entrées numérotées\]. Le format de sortie sera sous la forme suivante : \| numéro \| Libellé d’événement \| Description de l’événement \|
+
+------
 
 #### Exemple de résultat du Prompt
 
@@ -654,13 +657,13 @@ Système :
 - Voix distincte : A-t-il un comportement ou langage particulier ?  
 
 **Contexte additionnel**
-[Ajouter le contexte issu du JDR]
+[Ajouter le contexte issu du JDR ou de Chartopia]
 
 ------
 
 ### Exemple de résultat du Prompt
 
-Voir l’annexe pour découvrir l’exemple d’historique proposé pour le jeu de rôle *Dune : Aventures dans l'Imperium*.
+Voir l’annexe pour découvrir un exemple de résultat.
 
 ## Conseils d’interprétation
 
@@ -710,8 +713,7 @@ Utilise le contexte, l’histoire, la description morale et physique du personna
 
 ### Exemple de résultat du Prompt
 
-| Pour t’aider à interpréter Valeria Karath dans *Dune : Aventures dans l’Imperium*, voici cinq conseils d’interprétation basés sur ses traits de caractère, son histoire, et ses motivations : Parler avec assurance calmeValeria maîtrise l’art oratoire. En jeu, elle devrait toujours prendre le temps de réfléchir avant de parler, comme si chaque mot était choisi avec soin pour maximiser son impact. Utilise un ton posé, sans précipitation, et exprime-toi de manière mesurée, même dans les moments de tension. Exposer un idéal de justice rigide mais nuancéLe sens aigu de la justice de Valeria peut parfois la conduire à des décisions dures, voire cruelles. Lors des dilemmes moraux, fais en sorte que Valeria soit prête à prendre des décisions difficiles au nom d’un bien supérieur, tout en montrant son malaise face aux compromis qu’elle doit faire. Éviter et mépriser les technologiesValeria a un profond dégoût pour la technologie. Lorsqu’elle est confrontée à des machines ou à des innovations technologiques, montre de la réticence, voire un rejet visible. Exprime son mépris par des remarques subtiles ou des critiques acerbes envers ceux qui s’y fient trop. Montrer une loyauté complexe envers la familleBien que Valeria soit profondément attachée à sa famille, les intrigues de pouvoir et les trahisons l’ont marquée. En jouant, laisse transparaître une vigilance constante, même avec ses alliés les plus proches. Elle devrait toujours anticiper la possibilité d’une nouvelle trahison, ce qui affecte sa manière d'interagir avec son père, ses alliés, et ses rivaux. Incarnes le poids de la responsabilitéValeria est constamment tiraillée entre ses responsabilités envers sa maison et ses idéaux personnels. Montre ce poids dans sa posture et ses décisions : elle ne se laisse pas submerger par les émotions, mais ses choix doivent toujours révéler cette tension interne entre pragmatisme et conviction morale. |
-| :---- |
+Voir l’annexe pour découvrir un exemple de résultat.
 
 ## Génération d’une jonction entre les historiques de personnages
 
@@ -734,13 +736,34 @@ Cinq événements communs bien définis qui lient les histoires de Valeria et Ja
 
 ### Exemple de Prompt
 
-| En tant que Character Developer expérimenté (10 ans), vous devez créer une jonction d’histoires entre deux personnages pour le jeu *Dune: Aventures dans l’Imperium*. Utilisez le contexte pour générer 5 événements communs (10 lignes max), en suivant le modèle ci-dessous. Modèle d’événement Libellé de l’événement : Lieu de l’événement : Description de l’événement : Personnage 1 : (Coller les informations de Valeria) Personnage 2 : (Coller les informations de Jarek ) |
-| :---- |
+------
+
+En tant que Character Developer expérimenté (10 ans)
+
+Tu dois créer une jonction d’histoires entre deux personnages
+
+JDR : [Nom du jeu]
+
+Utilises le contexte pour générer 5 événements communs (10 lignes max), en suivant le modèle ci-dessous : 
+
+**Modèle d’événement**
+- Libellé de l’événement :
+- Lieu de l’événement :
+- Description de l’événement :
+
+Personnage 1 : [Coller les informations du premier personnage]
+
+Personnage 2 : [Coller les informations du second personnage]
+
+**Contexte additionnel**
+
+*\[Ajouter le contexte issue du JDR ou de Chartopia\]*
+
+------
 
 ### Exemple de résultat du Prompt
 
-| Libellé de l'événement : Première rencontre en mission diplomatiqueLieu de l'événement : Palais d’une Maison mineure liée aux HarkonnenDescription de l'événement : Valeria et Jarek se sont rencontrés pour la première fois lors d'une mission diplomatique visant à négocier une trêve entre la Maison Karath et la Maison Harkonnen. Valeria, avec son charme et sa rhétorique, a impressionné Jarek par sa capacité à manipuler les mots pour désamorcer les tensions, tandis que Jarek a démontré sa maîtrise de soi en maintenant la paix malgré les provocations des deux camps. Libellé de l'événement : Conspiration dévoiléeLieu de l'événement : Quartiers privés de Jarek ThalonDescription de l'événement : Alors qu'ils enquêtaient sur une possible conspiration contre la Maison Karath, Valeria et Jarek ont découvert des preuves d'une trahison imminente. Leur collaboration étroite a permis de rassembler les informations nécessaires pour déjouer le complot, consolidant leur respect mutuel et posant les bases d'une alliance stratégique durable. Libellé de l'événement : Assaut sur une base ennemieLieu de l'événement : Base secrète sur une planète désertiqueDescription de l'événement : Valeria et Jarek ont mené une opération conjointe pour détruire une base ennemie équipée de technologies dangereuses. Jarek, en tant qu'expert en armes atomiques, a planifié l'assaut, tandis que Valeria a utilisé ses talents en attaque sournoise pour infiltrer la base et neutraliser les défenses. Leur succès a renforcé la position de leurs maisons respectives. Libellé de l'événement : Sauvetage d'otagesLieu de l'événement : Palais ducal de la Maison KarathDescription de l'événement : Lorsqu'un groupe de rebelles a pris des otages dans le palais ducal de la Maison Karath, Valeria et Jarek ont combiné leurs compétences pour orchestrer un sauvetage audacieux. Valeria a négocié avec les preneurs d'otages pour gagner du temps, tandis que Jarek a dirigé l'assaut de libération. Leur succès a cimenté leur réputation de protecteurs infaillibles. Libellé de l'événement : Réunion secrète pour une allianceLieu de l'événement : Réunion secrète sur une planète neutreDescription de l'événement : Dans le but de former une alliance contre un ennemi commun, Valeria et Jarek ont organisé une réunion secrète sur une planète neutre. Valeria a joué un rôle clé en persuadant les factions hésitantes, utilisant son charme et sa rhétorique, tandis que Jarek a assuré la sécurité de la rencontre, démontrant son dévouement et son sens du devoir. |
-| :---- |
+Voir l’annexe pour découvrir un exemple de résultat.
 
 ## Génération d’un contexte depuis l’historique d’un personnage
 
