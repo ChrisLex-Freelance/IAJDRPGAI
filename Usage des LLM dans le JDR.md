@@ -616,9 +616,9 @@ Une description physique et morale du personnage, ainsi qu'une histoire détaill
 
 En tant que Character Developer expérimenté (10 ans) 
 Tu dois créer à l’aide du template un personnage
+Utilise les informations fournies pour rédiger une description et son histoire (max. 50 lignes)
 JDR : [Nom du jeu]
 Système :
-Utilise les informations fournies pour rédiger une description et son histoire (max. 50 lignes) 
 
 **Template**
 
@@ -683,8 +683,30 @@ Cinq conseils pratiques et détaillés permettant au joueur de mieux incarner so
 
 ### Exemple de Prompt
 
-| En tant que Character Developper dans le jeu de rôle avec 10 ans d'ancienneté, Conseille un joueur sur l'interprétation d’un personnage pour le jeu de rôle Dune : Aventures dans l’Imperium. Utilise le contexte, l’histoire, la description morale et physique du personnage pour générer 5 conseils d’interprétation : Valeria Karath Histoire de fond Origines : Valeria Karath est née en 10 158 AG au sein de la prestigieuse Maison Karath, une maison noble mineure alliée à plusieurs grandes familles. Élevée dans le luxe, elle a grandi au cœur des intrigues impériales et des traditions anciennes. Son père, un conseiller influent, lui a enseigné les rouages de la politique dès son plus jeune âge, tandis que sa mère, une musicienne renommée, a nourri son goût pour les arts. Événements marquants : Enfant, Valeria a assisté à l’assassinat de son frère aîné lors d’un coup d'État manqué contre leur maison. Cet événement traumatisant l’a marquée profondément et a solidifié sa haine pour les conspirations non fondées et les trahisons injustifiées. À 20 ans, elle a déjoué une tentative d’assassinat contre son père, prouvant son acuité politique et tactique. Objectifs et motivations : Valeria cherche à garantir la survie et la prospérité de sa famille tout en imposant ses idéaux de justice dans l’Empire. Elle se bat pour que les petites maisons, souvent négligées, aient une voix face aux grandes puissances. Son objectif ultime est de réformer l’Impérium de l’intérieur, sans perdre ses racines ou se compromettre avec des technologies qu’elle considère déshumanisantes. Personnalité Traits de caractère : Valeria est charismatique, méthodique et dotée d'une grande intelligence émotionnelle. Sa passion pour la justice et son sens aigu de la responsabilité l’incitent à agir avec pragmatisme tout en restant fidèle à ses convictions. Elle est aussi résiliente, capable de maintenir son calme même face aux trahisons et aux manigances. Forces et faiblesses : Sa maîtrise des arts oratoires et de la manipulation des apparences est son plus grand atout, mais son dégoût profond pour les machines et la technologie peut limiter ses alliances et mettre en péril certaines initiatives stratégiques. Son sens rigide de la justice la pousse parfois à des décisions moralement discutables. Évolution : Au fil du temps, Valeria apprend à tempérer son idéalisme avec un pragmatisme calculé, comprenant que la justice ne peut être imposée sans compromis. Son dégoût pour les technologies évolue également, voyant en elles un outil potentiellement bénéfique lorsque encadré par une éthique stricte. Apparence physique Description : Valeria est une femme de taille moyenne, avec une silhouette élancée. Ses cheveux noirs de jais sont souvent tressés de manière complexe, accentuant son visage aux traits fins. Ses yeux bleu clair sont pénétrants, souvent perçus comme capables de lire dans l’âme des autres. Style vestimentaire : Elle porte des robes somptueuses et élégantes, souvent dans des tons sombres, ornées de motifs subtils évoquant les valeurs de sa maison. Elle est connue pour porter des bijoux discrets mais significatifs, hérités de sa famille. Relations Alliés : Duc Rovan Karath (père, mentor) : Sa principale figure d'inspiration. Lady Kalina Sulten (alliée politique) : Une amie de confiance issue d'une autre maison mineure. Helio Drask (ancien amant) : Un conseiller rusé et ancien amant avec qui elle a gardé de bonnes relations. Ennemis : Lorn Valek (prétendant rival) : Un noble ambitieux qui cherche à miner sa position. Cyra Moritani (rivale politique) : Une intrigante de la maison Moritani, ennemie farouche de Karath. Icarus Richese (technologue) : Un expert en innovations technologiques, qu'elle méprise. Compétences Talents : Maîtrise des arts oratoires, tacticienne en diplomatie, assassin discrète. Formation : Formation poussée en politique, musique (luth), et rhétorique. Limites : Dégoût pour la technologie, difficultés à déléguer les responsabilités. Conflits Internes : Valeria lutte pour concilier son idéalisme avec la nécessité de compromis moralement discutables. Externes : Elle doit naviguer entre les ambitions de la maison Karath et ses adversaires impitoyables tout en faisant face à l’ascension des technologies qu’elle considère comme corruptrices. Originalité Caractéristiques uniques : Son mépris profond pour les technologies dans un univers où elles sont omniprésentes la rend à contre-courant des autres nobles. Voix distincte : Elle parle toujours avec une assurance calme, pesant soigneusement chaque mot comme une note dans une symphonie. Contexte additionnel *\[Ajouter le contexte issue du JDR ou de Chartopia\]* |
-| :---- |
+------
+
+En tant que Character Developer expérimenté (10 ans)
+
+Tu dois conseiller un joueur sur l'interprétation d’un personnage
+
+JDR : [Nom du jeu]
+
+Utilise le contexte, l’histoire, la description morale et physique du personnage pour générer 5 conseils d’interprétation :
+- Conseil n°1 :
+- Conseil n°2 :
+- Conseil n°3 :
+- Conseil n°4 :
+- Conseil n°5 :
+
+**Contexte du personnage**
+
+*\[Insérer le contexte du personnage, comme par exemple celui générer avec le prompt précédant\]*
+
+**Contexte additionnel**
+
+*\[Ajouter le contexte issue du JDR ou de Chartopia\]*
+
+------
 
 ### Exemple de résultat du Prompt
 
