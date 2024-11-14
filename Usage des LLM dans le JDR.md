@@ -1493,9 +1493,100 @@ Un univers de jeu de rôle détaillé et cohérent, offrant un cadre riche pour 
 
 ------
 
-En tant que concepteur de jeux de rôle expérimenté (30 ans)
+En tant que concepteur de jeux de rôle expérimenté (30 ans), vous devez m'aider à créer un univers de jeu de rôle unique et immersif. Utilisez ce guide structuré pour définir avec précision chaque aspect de mon monde, en veillant à l'harmonie et au potentiel ludique de ses éléments. Répondez aux questions pour dessiner un cadre riche en possibilités narratives.
 
-Aides moi à créer un cadre de règles pour un nouveau jeu de rôle en suivant le modèle ci-dessous. N'hésitez pas à me poser des questions pour clarifier certains aspects ou proposer des alternatives. Template de cadre de règles Concept et ton : Genre : Quel est le genre principal (heroic fantasy, sci-fi, etc.) ? Ton : Quelle est l'ambiance générale (épique, sombre, humoristique, etc.) ? Complexité : Quel niveau de complexité visez-vous (léger, moyen, complexe) ? Système de résolution : Méthode : Quel type de système (d20, pool de dés, cartes, etc.) ? Échelle de difficulté : Comment sont déterminés les seuils ? Succès/Échecs : Comment sont gérés les degrés de réussite ou d'échec ? Création de personnages : Méthode : Comment les personnages sont-ils créés (points, aléatoire, archétypes) ? Attributs : Quels sont les attributs principaux ? Compétences : Comment sont structurées les compétences ? Background : Quelle importance est donnée à l’histoire personnelle ? Combat et conflits : Initiative : Comment est déterminé l’ordre des actions ? Actions : Combien d’actions par tour et comment sont-elles gérées ? Dégâts : Comment sont-ils calculés et appliqués ? Santé : Comment la santé est-elle gérée ? Progression : Expérience : Comment les personnages gagnent-ils de l’expérience ? Amélioration : Comment s’améliorent-ils ? Niveaux : Y a-t-il un système de niveaux ou une progression fluide ? Magie/Technologies spéciales : Système : Comment fonctionnent la magie ou les technologies ? Coût : Quel est le coût d’utilisation (points, fatigue, ressources) ? Apprentissage : Comment acquiert-on de nouveaux sorts ou technologies ? Gestion des ressources : Inventaire : Comment est géré l’équipement ? Économie : Quel système monétaire ou d’échange est utilisé ? Ressources spéciales : Y a-t-il des ressources uniques à gérer (karma, santé mentale, etc.) ? Interactions sociales et exploration : Compétences sociales : Comment sont gérées les interactions sociales ? Exploration : Quelles mécaniques soutiennent l’exploration ? Récompenses et conséquences : Récompenses : Quels types de récompenses sont donnés ? Conséquences : Comment sont gérées les conséquences des actions ? Règles pour le MJ : Création d’aventures : Quelles lignes directrices pour créer des aventures ? Gestion des PNJ : Comment gérer les personnages non-joueurs ? Équilibrage : Quelles règles pour équilibrer défis et récompenses ? Innovations et particularités : Mécaniques uniques : Y a-t-il des mécaniques innovantes ou particulières ? Intégration thématique : Comment les règles renforcent-elles le thème du jeu ?
+Interrogez-moi sur les éléments manquants pour clarifier certains aspects ou proposer des alternatives.
+
+## Contexte Général
+1. Quel est le nom du monde ?
+2. Quel genre de fiction prédomine ? (fantasy, science-fiction, steampunk, etc.)
+3. Quel est le niveau technologique de cet univers ?
+
+## Proposition de Jeu
+1. Quel type de thématique de jeu l'univers cherche-t-il à proposer ? (ex. : survie, lutte contre l’adversité, intrigues politiques, déclin des civilisations, lutte contre la fatalité)
+2. Quelle est la dynamique principale du jeu ? (ex. : exploration dangereuse, interactions tendues entre factions, gestion des ressources, prise de décisions morales, interactions avec un environnement sauvage et impitoyable)
+3. Quels types de scénarios sont privilégiés par cet univers ? (ex. : missions de survie, quête de ressources, complots de cour)
+4. Quelle est l’atmosphère générale du monde ? (ex. : sombre et réaliste, brutale, ou teintée de mélancolie)
+5. Quels sont les conflits internes ou psychologiques qui affectent les habitants ? (ex. : peur de l'inconnu, perte de repères, doute existentiel)
+6. Y a-t-il des leçons ou des réflexions philosophiques que l'univers cherche à évoquer ? (ex. : nature humaine, sacrifices, fragilité de la paix)
+
+## Géographie et Climat
+1. Décrivez les caractéristiques géographiques principales : continents, océans, reliefs.
+2. Quels types de climats trouve-t-on à travers le monde ?
+
+## Histoire et Mythologie
+1. Relatez les grands événements historiques qui ont façonné ce monde.
+2. Quels mythes ou légendes sont racontés par les habitants ?
+
+## Sociétés et Cultures
+1. Quelles sont les principales sociétés et cultures ? Décrivez leurs coutumes, langues et traditions.
+2. Comment ces cultures interagissent-elles les unes avec les autres ?
+
+## Philosophie et Valeurs du Monde
+1. Quelles valeurs sont dominantes dans ce monde (ex. : honneur, liberté, force) ?
+2. Le monde est-il manichéen ou rempli de zones grises ? Y a-t-il des dilemmes moraux ?
+
+## Ressources Naturelles et Environnement
+1. Quels écosystèmes uniques ou créatures sont intégrés à l’environnement naturel ?
+2. Les ressources sont-elles exploitées sans limite ou en harmonie avec l’environnement ?
+
+## Interactions Sociales et Dynamiques de Pouvoir au Quotidien
+1. Existe-t-il une structure de classes sociales (nobles, marchands, artisans, paysans) ? Comment interagissent-elles ?
+2. Comment les lois et la justice sont-elles appliquées ? Des systèmes de châtiments ou rituels existent-ils ?
+
+## Économie et Commerce
+1. Décrivez le système économique : troc, monnaie, technologies de production.
+2. Quels sont les produits ou ressources essentiels au commerce ?
+
+## Politique et Dynamiques de Pouvoir
+1. Quelle est la structure politique dominante ? (monarchie, république, etc.)
+2. Qui détient le pouvoir, et quels conflits de pouvoir existent-ils ?
+
+## Exploration et Mystères du Monde
+1. Y a-t-il des zones inexplorées ou mystérieuses (îles perdues, forêts anciennes, ruines enfouies) ?
+2. Quels artefacts, reliques ou énigmes pourraient être découverts par les personnages ?
+
+## Communication et Transmission de Connaissances
+1. Comment les habitants communiquent-ils à longue distance (messagers, magie, pigeons) ?
+2. Comment les connaissances et compétences sont-elles transmises (académies, mentors, guildes) ?
+
+## Système de Magie et/ou de Technologie
+1. Quels sont les principes ou règles sous-jacentes à la magie ou à la technologie ?
+2. Comment ces éléments influencent-ils la vie quotidienne des habitants ?
+
+## Vie Quotidienne et Habitudes des Habitants
+1. Quelles formes de divertissement, d’art ou de musique sont populaires ? Y a-t-il des fêtes ou carnavals ?
+2. Y a-t-il des rituels saisonniers ou des traditions associées aux étapes de la vie (naissance, mariage, mort) ?
+
+## Technologie et Inventions Locales
+1. Y a-t-il des inventions marquantes (moyens de transport uniques, armes spéciales) ?
+2. Les avancées technologiques sont-elles accessibles à tous ou réservées à une élite ?
+
+## Religions et Croyances
+1. Quelles sont les principales religions ou croyances ?
+2. Comment influencent-elles la société et les relations interpersonnelles ?
+
+## Menaces et Dangers
+1. Quels sont les principaux dangers naturels ou surnaturels ?
+2. Quelles factions ou créatures représentent une menace tangible ?
+
+## Conflits Internes et Relations Internationales
+1. Y a-t-il des factions internes avec des valeurs ou visions différentes au sein des cultures ?
+2. Quelles alliances ou rivalités existent entre les nations ou peuples ?
+
+## Quêtes et Aventures
+1. Proposez des idées de quêtes ou missions pour les joueurs.
+2. Comment ces aventures s'intègrent-elles dans l'ensemble de votre univers ?
+
+## Arc Narratif Global et Structure de Campagne
+1. Quel est l'arc narratif principal de votre univers ?
+2. Comment structurez-vous les campagnes pour offrir une progression enrichissante ?
+
+## Psychologie et Influence des Personnages Joueurs
+1. Les personnages incarnés sont-ils des héros, des élus, des mercenaires, ou des voyageurs ? Ont-ils un rôle spécifique dans la société ?
+2. Les actions des joueurs ont-elles des répercussions sur le monde (rumeurs, influence sur des factions) ?
+
+En te basant sur mes réponses, compile les éléments pour former un univers consistant et plein de vie, capable d'accueillir des aventures épiques et variées. Assure toi que chaque composant de mon monde contribue à son histoire globale et offre aux joueurs des expériences immersives et mémorables.
 
 ------
 
