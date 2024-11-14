@@ -1064,8 +1064,27 @@ Obtention de plusieurs propositions de pitchs scénaristiques permettant de prol
 
 ### Exemple de Prompt
 
-| En tant que concepteur de scénario de jeu de rôle, tu souhaites prolonger une aventure initiale dans Dune: Aventures dans l’Imperium en générant plusieurs pitchs scénaristiques pour continuer l’histoire après la quête initiale. Proposees \[X\] suites potentielles en tenant compte des éléments suivants : Élément à prendre en compte Découverte de nouveaux secrets : Identifier les mystères ou informations cachées liés aux Grandes Maisons, au Landsraad, ou aux conspirations entre factions. Introduire des secrets concernant des événements passés, des personnages influents ou des artefacts liés aux anciennes technologies interdites. S’assurer que ces révélations ont un impact sur les protagonistes ou l'équilibre des forces au sein de l'Imperium. Implication de nouvelles factions ou personnages influents : Introduire des factions comme la Guilde Spatiale, le Bene Gesserit, le Bene Tleilax, ou des Maisons mineures intéressées par les événements récents. Présenter des personnages influents avec des agendas complexes (négociateurs, traîtres, espions) qui pourraient s’allier ou s’opposer aux héros. Développer des interactions diplomatiques et politiques qui modifient les alliances et rivalités entre Maisons. Conséquences inattendues de la résolution d'une crise politique ou d'une trahison : Explorer les répercussions politiques ou économiques après la résolution d’une trahison ou d’une crise impliquant la Maison des joueurs. Montrer comment ces événements ont créé de nouveaux conflits ou déséquilibres dans l’Empire ou au sein du Landsraad. Explorer comment les Maisons, factions ou personnages influents réagissent, certains cherchant à exploiter les nouveaux désordres pour accroître leur pouvoir. Expansion du cadre narratif et géographique : Introduire de nouveaux mondes ou régions à explorer dans l’Imperium, tels que des planètes dangereuses comme Arrakis, ou des mondes oubliés. Enrichir l’univers avec des lieux exotiques ou mystérieux, comme des ruines anciennes ou des centres secrets de production d'épices. Développement des arcs personnels des personnages : Explorer les dilemmes internes ou motivations personnelles des personnages, comme leur loyauté envers leur Maison ou leurs alliances. Proposer des défis émotionnels et moraux qui pourraient pousser les personnages à remettre en question leur rôle dans les intrigues de l’Imperium. Incorporation d’une nouvelle menace ou antagoniste : Présenter un nouvel antagoniste, comme un rival politique, un groupe de rebelles, ou un ennemi caché (ex : un agent du Bene Tleilax ou des Harkonnen) qui représente une menace pour l'équilibre des forces. Augmenter les enjeux en introduisant des conflits liés à la production d'épice ou au contrôle d’Arrakis. Mise en place d’enjeux politiques ou sociaux : Montrer comment la résolution d’un conflit affecte les structures de pouvoir, le Landsraad, ou les relations avec l’Empereur. Introduire des intrigues sociales, révolutions ou tensions entre Maisons rivales à cause des bouleversements créés par la quête. Évolution des thèmes et des tonalités : Ajuster le ton ou les thèmes en fonction de la progression (passer de la survie sur Arrakis à des intrigues politiques dans le Landsraad, par exemple). Introduire des réflexions sur le pouvoir, la trahison, la loyauté et la survie dans l’univers impitoyable de l’Imperium. Contexte initial du scénario *\[Coller ici le contexte de votre scénario dans Dune: Aventures dans l’Imperium\]* |
-| :---- |
+-------
+
+En tant que concepteur de scénario de jeu de rôle
+
+Prolonge une aventure initiale dans Dune: Aventures dans l’Imperium en générant plusieurs pitchs scénaristiques pour continuer l’histoire après la quête initiale. 
+
+Proposes 3 suites possibles en tenant compte des éléments ci-dessous : 
+
+**Élément à prendre en compte**
+
+- Découverte de nouveaux secrets :
+- Implication de nouvelles factions ou personnages influents :
+- Expansion du cadre narratif et géographique :
+- Développement des arcs personnels des personnages : 
+- Incorporation d’une nouvelle menace ou antagoniste : 
+- Mise en place d’enjeux politiques ou sociaux : 
+- Évolution des thèmes et des tonalités : 
+
+Contexte initial du scénario *\[Coller ici le contexte de votre scénario dans Dune: Aventures dans l’Imperium\]*
+
+------
 
 ### Exemple de résultat du Prompt
 
@@ -1108,8 +1127,19 @@ Un arc narratif cohérent où des éléments de différents scénarios se rejoig
 
 ### Exemple de Prompt
 
-| En tant que concepteur de scénario de jeu de rôle, vous devez créer un arc narratif cohérent reliant deux scénarios. Intégrez les éléments de contexte du scénario \[A\] et du scénario \[B\], pour former une histoire fluide et cohérente. Scénario A :  \[Contexte\]Scénario B :  \[Contexte\] |
-| :---- |
+------
+
+En tant que concepteur de scénario de jeu de rôle
+
+Tu dois créer un arc narratif cohérent reliant deux scénarios.
+
+Intégrer les éléments de contexte du scénario \[A\] et du scénario \[B\], pour former une histoire fluide et cohérente. 
+
+**Scénario A :**  \[Contexte\]
+
+**Scénario B :**  \[Contexte\]
+
+------
 
 ## Génération d’une scène développé
 
@@ -1135,8 +1165,82 @@ Une scène complète et immersive, prête à être utilisée dans une session de
 
 ### Exemple de Prompt
 
-| En tant que Game Designer avec 20 ans d’expérience, vous devez détailler une scène pour le jeu de rôle \[Nom du jeu de rôle\] en respectant le format suivant. Scène Contexte et environnement : Durée estimée : \[15 / 30 / 45 / 60 minutes\] Type de scène : \[Action / Dialogue / Témoin\] Type d’environnement : \[Urbain / Rural / Hostile\] Type de lieu : \[Intérieur / Extérieur / Virtuel / Métaplan\] Ambiance : \[Sonore / Visuelle / Olfactive / Tactile\] Personnages Personnages Non Joueurs (PNJ) : \[Nom du PNJ 1\] : \[Description, rôle, motivations\] \[Nom du PNJ 2\] : \[Description, rôle, motivations\] Intrigue Objectif : \[Objectif principal de la scène\] Conflit : \[Obstacles ou conflits à surmonter\] Développement : \[Comment la scène fait progresser l'intrigue\] Détails Visuels et Sensoriels Visuel : \[Détails visuels marquants\] Auditif : \[Sons présents\] Olfactif : \[Odeurs perceptibles\] Tactile : \[Textures ou sensations ressenties\] Événements dynamiques Actions des PJ : \[Actions possibles des PJ et conséquences\] Événements aléatoires : \[Événements inattendus\] Récompenses et conséquences Récompenses : \[Récompenses potentielles pour les PJ\] Conséquences : \[Conséquences possibles des actions des PJ\] Type de rencontre Nature de la rencontre : \[Ennemie / Contact / Allié / Neutre\] Niveau d’opposition : \[Antagoniste générique / mineur / majeur / supérieur\] Indice de danger Indice de danger : \[Nul / Faible / Normal / Fort / Létal\] Compétences clefs Compétence 1 Compétence 2 Compétence 3 Traits/Avantages clés Trait/Avantage 1 Trait/Avantage 2 Trait/Avantage 3 Défauts clefs Défaut 1 Défaut 2 Défaut 3 Protagoniste clé Protagoniste clé : \[Nom et description\] Points d’entrée de la scène Point 1 Point 2 Point 3 Éléments clefs de la scène Élément 1 Élément 2 Élément 3 Élément 4 Élément 5 Élément 6 Chronologie de la scène Pré-requis 1 : \[Scène n°X\] Pré-requis 2 : \[Scène n°X\] Pré-requis 3 : \[Scène n°X\] Points de sortie de la scène Point 1 Point 2 Point 3 Indiquez moi lorsque vous avez pris connaissance de ma demande pour que je vous communique la trame du scénario contenant les actes et les scènes. |
-| :---- |
+------
+
+En tant que Game Designer avec 20 ans d’expérience
+
+Tu dois détailler une scène pour le jeu de rôle \[Nom du jeu de rôle\] en respectant le format suivant :
+
+**Scène**
+
+**Système** :
+
+**Contexte et environnement**
+- Durée estimée : \[15 / 30 / 45 / 60 minutes\]
+- Type de scène : \[Action / Dialogue / Témoin\]
+- Type d’environnement : \[Urbain / Rural / Hostile\]
+- Type de lieu : \[Intérieur / Extérieur / Virtuel / Métaplan\]
+- Ambiance : \[Sonore / Visuelle / Olfactive / Tactile\]
+
+**Personnages**
+- Personnages Non Joueurs (PNJ) : \[Nom du PNJ 1\] : \[Description, rôle, motivations\] \[Nom du PNJ 2\] : \[Description, rôle, motivations\] Intrigue Objectif : \[Objectif principal de la scène\] Conflit : \[Obstacles ou conflits à surmonter\] Développement : \[Comment la scène fait progresser l'intrigue\] Détails - Visuels et Sensoriels Visuel : \[Détails visuels marquants\] Auditif : \[Sons présents\] Olfactif : \[Odeurs perceptibles\] Tactile : \[Textures ou sensations ressenties\] Événements dynamiques Actions des PJ : \[Actions possibles des PJ et conséquences\] Événements aléatoires : \[Événements inattendus\] -
+
+**Récompenses et conséquences**
+- Récompenses : \[Récompenses potentielles pour les PJ\]
+- Conséquences : \[Conséquences possibles des actions des PJ\]
+
+**Type de rencontre**
+- Nature de la rencontre : \[Ennemie / Contact / Allié / Neutre\]
+- Niveau d’opposition : \[Antagoniste générique / mineur / majeur / supérieur\]
+
+**Indice de danger**
+- Indice de danger : \[Nul / Faible / Normal / Fort / Létal\]
+
+**Compétences clefs**
+- Compétence 1
+- Compétence 2
+- Compétence 3
+
+**Traits/Avantages clés**
+- Trait/Avantage 1
+- Trait/Avantage 2
+- Trait/Avantage 3
+
+**Défauts clefs**
+- Défaut 1
+- Défaut 2
+- Défaut 3
+
+**Protagoniste clé Protagoniste clé** 
+- Prénom & Nom, Surnom
+- Description
+
+**Points d’entrée de la scène**
+- Point 1
+- Point 2
+- Point 3
+
+**Éléments clefs de la scène**
+- Élément 1
+- Élément 2
+- Élément 3
+- Élément 4
+- Élément 5
+- Élément 6
+
+**Chronologie de la scène**
+- Pré-requis 1 : \[Scène n°X\]
+- Pré-requis 2 : \[Scène n°X\]
+- Pré-requis 3 : \[Scène n°X\]
+
+**Points de sortie de la scène**
+- Point 1
+- Point 2
+- Point 3
+
+Indiquez moi lorsque vous avez pris connaissance de ma demande pour que je vous communique la trame du scénario contenant les actes et les scènes.
+
+------
 
 ## Génération d’un lieu développé
 
