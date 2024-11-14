@@ -396,8 +396,6 @@ On voit qu'il est possible de mettre en place des patterns de Prompt pour struct
 
 Il est recommandé, pour gagner du temps, de vous constituer une bibliothèque de Prompt dès lors que vous avez identifié un pattern qui fonctionne et qui est réutilisable sur plusieurs cadres de jeux de rôles.
 
-# 
-
 # Optimiser le contexte avec Chartopia
 
 ## Qu’est-ce que Chartopia
@@ -854,8 +852,8 @@ En tant que créateur de jeu de rôle avec plus de 30 ans d'expérience, vous al
 
 ### Étapes à suivre
 
-* Définir la structure du scénario : Utiliser une structure adaptable à tout jeu de rôle, comportant plusieurs actes et scènes détaillées.  
-* Prompt engineering : Utiliser un prompt clair et détaillé pour guider la rédaction du scénario.
+- Définir la structure du scénario : Utiliser une structure adaptable à tout jeu de rôle, comportant plusieurs actes et scènes détaillées.  
+- Prompt engineering : Utiliser un prompt clair et détaillé pour guider la rédaction du scénario.
 
 ### Résultat attendu
 
@@ -863,8 +861,90 @@ Un scénario complet et bien structuré qui guide les joueurs à travers une ave
 
 ### Exemple de Prompt
 
-| En tant que créateur de jeu de rôle expérimenté (30 ans)Rédige un scénario pour le JDR \[Nom du jeu de rôle\], avec des descriptions riches, des personnages développés et des défis variés pour captiver les joueurs. Utilises le modèle pour structurer le scénario.\#Template Scénario Titre (en majuscules) : Sous-titre : Indique pour quel jeu le scénario est conçu. Nombre de joueurs : Complexité (1 à 3\) : Pitch du scénario (Max. 10 lignes) Acte 1 Pitch de l'acte 1 (Max. 10 lignes) Scène 1 : (10 à 20 lignes) Lieu et description (Max. 3 lignes) 3 protagonistes principaux (alliés/antagonistes) Scène 2 : (10 à 20 lignes) Lieu et description (Max. 3 lignes) 3 protagonistes principaux Scène 3 : (10 à 20 lignes) Lieu et description (Max. 3 lignes) 3 protagonistes principaux Acte 2 Pitch de l'acte 2 (Max. 10 lignes) Scène 1 : (10 à 20 lignes) Lieu et description (Max. 3 lignes) 3 protagonistes principaux Scène 2 : (10 à 20 lignes) Lieu et description (Max. 3 lignes) 3 protagonistes principaux Scène 3 : (10 à 20 lignes) Lieu et description (Max. 3 lignes) 3 protagonistes principaux Acte 3 Pitch de l'acte 3 (Max. 10 lignes) Scène 1 : (10 à 20 lignes) Lieu et description (Max. 3 lignes) 3 protagonistes principaux Scène 2 : (10 à 20 lignes) Lieu et description (Max. 3 lignes) 3 protagonistes principaux Scène 3 : (10 à 20 lignes) Lieu et description (Max. 3 lignes) 3 protagonistes principaux Conclusion (Max. 10 lignes) Conséquences Succès : Échec : Suite possible : 3 pitchs de scénario En cas de succès du scénario Pitch 1 (Max. 10 lignes) Pitch 2 (Max. 10 lignes) Pitch 3 (Max. 10 lignes) Et en d’échec du scénario Pitch 1 (Max. 10 lignes) Pitch 2 (Max. 10 lignes) Pitch 3 (Max. 10 lignes) Antagonistes Motivations, méthodes, ressources, et filiation/allégeance. Antagoniste 1 Antagoniste 2 Antagoniste 3 Alliés Motivations, méthodes, ressources, et filiation/allégeance. Allié 1 Allié 2 Allié 3 Contexte additionnel *\[Ajouter le contexte issue du JDR ou de Chartopia\]* |
-| :---- |
+------
+
+En tant que créateur/scéanriste de jeu de rôle expérimenté (30 ans)
+
+Rédige un scénario pour le JDR \[Nom du jeu de rôle\], avec des descriptions riches, des personnages développés et des défis variés pour captiver les joueurs.
+
+Utilises le modèle pour structurer le scénario.
+
+**Template Scénario**
+
+- Titre (en majuscules) :
+- Sous-titre : Indique pour quel jeu le scénario est conçu
+- Nombre de joueurs : Complexité (1 = Débutant / 2 = Confirmé / 3 = Expert)
+- Système : Indique quel système motorise le jeu/scénario
+
+**Pitch du scénario (Max. 10 lignes)** :
+
+**Acte 1**
+- Pitch de l'acte 1 (Max. 10 lignes) :
+  - Scène 1 : (10 à 20 lignes)
+    - Lieu et description (Max. 3 lignes) :
+    - 3 protagonistes principaux (alliés/antagonistes) :
+  - Scène 2 : (10 à 20 lignes)
+    - Lieu et description (Max. 3 lignes) :
+    - 3 protagonistes principaux (alliés/antagonistes) :
+  - Scène 3 : (10 à 20 lignes)
+    - Lieu et description (Max. 3 lignes) :
+    - 3 protagonistes principaux (alliés/antagonistes) :
+
+**Acte 2**
+- Pitch de l'acte 2 (Max. 10 lignes) :
+  - Scène 1 : (10 à 20 lignes) :
+    - Lieu et description (Max. 3 lignes) :
+    - 3 protagonistes principaux (alliés/antagonistes) :
+  - Scène 2 : (10 à 20 lignes)
+    - Lieu et description (Max. 3 lignes)
+    - 3 protagonistes principaux (alliés/antagonistes) :
+  - Scène 3 : (10 à 20 lignes)
+    - Lieu et description (Max. 3 lignes)
+    - 3 protagonistes principaux (alliés/antagonistes) :
+
+**Acte 3**
+- Pitch de l'acte 3 (Max. 10 lignes) :
+  - Scène 1 : (10 à 20 lignes)
+    - Lieu et description (Max. 3 lignes)
+    - 3 protagonistes principaux
+  - Scène 2 : (10 à 20 lignes)
+    - Lieu et description (Max. 3 lignes)
+    - 3 protagonistes principaux
+  - Scène 3 : (10 à 20 lignes)
+    - Lieu et description (Max. 3 lignes)
+    - 3 protagonistes principaux
+
+Conclusion (Max. 10 lignes) :
+
+**Conséquences**
+- Succès :
+- Succès mitigé :
+- Échec :
+
+En cas de succès 3 pitchs de scénario de suites possibles : 
+- Pitch 1 (Max. 10 lignes) :
+- Pitch 2 (Max. 10 lignes) :
+- Pitch 3 (Max. 10 lignes) :
+
+En d’échec 3 pitchs de scénario de suites possibles : 
+- Pitch 1 (Max. 10 lignes) :
+- Pitch 2 (Max. 10 lignes) :
+- Pitch 3 (Max. 10 lignes) :
+
+**Résumé des principaux antagonistes** (Motivations, méthodes, ressources, et filiation/allégeance)
+- Antagoniste 1
+- Antagoniste 2
+- Antagoniste 3 
+
+**Résumé des principaux alliés** (Motivations, méthodes, ressources, et filiation/allégeance)
+- Allié 1
+- Allié 2
+- Allié 3 
+
+**Contexte additionnel**
+*\[Ajouter le contexte issue du JDR ou de Chartopia\]* |
+
+------
 
 ### Exemple de résultat du Prompt
 
