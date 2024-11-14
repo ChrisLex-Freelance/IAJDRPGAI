@@ -942,7 +942,7 @@ En d’échec 3 pitchs de scénario de suites possibles :
 - Allié 3 
 
 **Contexte additionnel**
-*\[Ajouter le contexte issue du JDR ou de Chartopia\]* |
+*\[Ajouter le contexte issue du JDR ou de Chartopia\]*
 
 ------
 
@@ -970,8 +970,27 @@ Deux tableaux complets, l'un répertoriant les défis potentiels avec des sugges
 
 ### Exemple de Prompt
 
-| En tant qu’auditeur de scénario de jeu de rôle expérimenté (20 ans), identifie les éléments susceptibles de poser des difficultés aux joueurs. Suit les étapes ci-dessous. Étapes d'audit Identifier les défis potentiels : Analyser chaque élément du scénario pour repérer les défis ou obstacles que les joueurs pourraient rencontrer. Identifier les incohérences : Repérer les erreurs potentielles de cohérence dans la trame du scénario. Créer deux tableaux : Tableau des défis : Indiquer chaque défi, sa nature, des suggestions pour le surmonter, et le rôle/métier recommandé. Tableau des incohérences : Indiquer chaque incohérence, des suggestions pour les corriger, et le rôle/métier recommandé. Rôles/Métiers Maître de jeu expérimenté (20 ans) Scénariste expérimenté (20 ans) Joueur expérimenté (20 ans) … |
-| :---- |
+------
+
+En tant qu’auditeur de scénario de jeu de rôle expérimenté (20 ans)
+
+Identifie les éléments susceptibles de poser des difficultés aux joueurs
+
+Suit les étapes ci-dessous :
+
+**Étapes d'audit**
+- Identifier les défis potentiels : Analyser chaque élément du scénario pour repérer les défis ou obstacles que les joueurs pourraient rencontrer.
+- Identifier les incohérences : Repérer les erreurs potentielles de cohérence dans la trame du scénario.
+- Créer deux tableaux markdown :
+  - Tableau des défis : Indiquer chaque défi, sa nature, des suggestions pour le surmonter, et le rôle/métier recommandé.
+  - Tableau des incohérences : Indiquer chaque incohérence, des suggestions pour les corriger, et le rôle/métier recommandé.
+
+**Rôles/Métiers**
+- Maître de jeu expérimenté (20 ans)
+- Scénariste expérimenté (20 ans)
+- Joueur expérimenté (20 ans)
+
+------
 
 ### Exemple de résultat du Prompt
 
@@ -1002,8 +1021,21 @@ L'utilisation d'un LLM permet de bénéficier d'une analyse approfondie et rapid
 
 ### Exemple de Prompt
 
-| En tant que concepteur de scénario de jeu de rôle avec 10 ans d'expérience, tu as pour mission d'améliorer un scénario existant pour le rendre plus fluide et accessible. Cette tâche inclut la simplification des énigmes, le rééquilibrage des combats, et la proposition d'alternatives pour les situations nécessitant des compétences rares, afin de maximiser l'immersion et le plaisir de jeu des participants. Peux-tu m'aider à : Simplifier les énigmes complexes pour les rendre plus compréhensibles sans perdre leur intérêt. Rééquilibrer les combats en ajustant les caractéristiques des ennemis et les ressources disponibles. Proposer des alternatives pour les situations nécessitant des compétences rares, afin que tous les types de personnages puissent réussir. Contexte : (Coller le contexte du résultat du Prompt d’audit) |
-| :---- |
+------
+
+En tant que concepteur de scénario de jeu de rôle avec 10 ans d'expérience
+
+tu as pour mission d'améliorer un scénario existant pour le rendre plus fluide et accessible. 
+
+Cette tâche inclue :
+- La simplification des énigmes : pour les rendre plus compréhensibles sans perdre leur intérêt.
+- Le rééquilibrage des combats : en ajustant les caractéristiques des ennemis et les ressources disponibles.
+- La proposition d'alternatives : afin que tous les types de personnages puissent réussir.
+
+**Contexte :**
+*\[Ajouter le contexte issue de l'audit\]*
+
+------
 
 ### Exemple de résultat du Prompt
 
