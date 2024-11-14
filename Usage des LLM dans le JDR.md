@@ -1182,8 +1182,23 @@ Tu dois détailler une scène pour le jeu de rôle \[Nom du jeu de rôle\] en re
 - Type de lieu : \[Intérieur / Extérieur / Virtuel / Métaplan\]
 - Ambiance : \[Sonore / Visuelle / Olfactive / Tactile\]
 
-**Personnages**
-- Personnages Non Joueurs (PNJ) : \[Nom du PNJ 1\] : \[Description, rôle, motivations\] \[Nom du PNJ 2\] : \[Description, rôle, motivations\] Intrigue Objectif : \[Objectif principal de la scène\] Conflit : \[Obstacles ou conflits à surmonter\] Développement : \[Comment la scène fait progresser l'intrigue\] Détails - Visuels et Sensoriels Visuel : \[Détails visuels marquants\] Auditif : \[Sons présents\] Olfactif : \[Odeurs perceptibles\] Tactile : \[Textures ou sensations ressenties\] Événements dynamiques Actions des PJ : \[Actions possibles des PJ et conséquences\] Événements aléatoires : \[Événements inattendus\] -
+**Personnages Non Joueurs (PNJ)**
+- Nom du PNJ 1 : (Description, rôle, motivations)
+- Nom du PNJ 2 : (Description, rôle, motivations)
+
+**Intrigue et Objectif principal de la scène**
+- Conflit : Obstacles ou conflits à surmonter
+- Développement : Comment la scène fait progresser l'intrigue
+
+Détails Sensoriels**
+- Visuel : \[Détails visuels marquants\]
+- Auditif : \[Sons présents\]
+- Olfactif : \[Odeurs perceptibles\]
+- Tactile : \[Textures ou sensations ressenties\]
+
+**Événements dynamiques**
+- Actions des PJ : \[Actions possibles des PJ et conséquences\]
+- Événements aléatoires : \[Événements inattendus\]
 
 **Récompenses et conséquences**
 - Récompenses : \[Récompenses potentielles pour les PJ\]
@@ -1266,8 +1281,41 @@ Une description détaillée et structurée d'un lieu pour un jeu de rôle, compr
 
 ### Exemple de Prompt
 
-| En tant que Game Designer avec 20 ans d’expérience, vous devez détailler un lieu pour le jeu de rôle \[Nom du jeu de rôle\] en suivant le format ci-dessous. Lieu Nom du lieu : Type de lieu : Taille : Atmosphère et ambiance Sons ambiants : Odeurs ambiantes : Éléments visuels : Décorations : Habitués/Clientèle habituelle : Éléments optionnels Histoire et contexte Origine : Événements importants : Rumeurs : Sécurité et défense Forces de sécurité : Systèmes de défense : Menaces : Relations et alliances Alliés et rivaux : Influence : Intrigues Opportunités : Personnages clés : Conflits : |
-| :---- |
+------
+
+En tant que Game Designer avec 20 ans d’expérience
+
+Tu dois détailler un lieu pour le jeu de rôle \[Nom du jeu de rôle\] en suivant le format ci-dessous
+
+**Lieu**
+- Nom du lieu :
+- Type de lieu :
+- Taille :
+
+**Atmosphère et ambiance**
+- Sons ambiants :
+- Odeurs ambiantes :
+- Éléments visuels :
+- Décorations :
+- Habitués/Clientèle habituelle :
+- Éléments optionnels
+
+**Histoire et contexte**
+- Origine :
+- Événements importants :
+- Rumeurs :
+- Sécurité et défense
+- Forces de sécurité :
+- Systèmes de défense :
+- Menaces :
+- Relations et alliances
+- Alliés et rivaux :
+- Influence :
+- Intrigues et Opportunités :
+- Personnages clés :
+- Conflits :
+
+------
 
 ## Feedback Loop entre le LLM et Chartopia
 
