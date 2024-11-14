@@ -1340,8 +1340,32 @@ La génération de contextes riches et spécifiques par le LLM, en réponse aux 
 
 ### Exemple de Prompt
 
-| En tant que Maître du Jeu avec 10 ans d’expérience, vous devez générer une rencontre aléatoire pour un groupe d'aventuriers dans "La Forêt des Murmures". Utilisez les informations suivantes pour créer une scène immersive et pertinente : Contexte : La Forêt des Murmures est connue pour ses arbres anciens et ses bruits étranges. Heure de la journée : Crépuscule (information obtenue de Chartopia) Météo : Brouillard léger (information obtenue de Chartopia) Veuillez décrire une rencontre aléatoire en suivant ce format : Description de l'environnement immédiat : Sons ambiants Odeurs Éléments visuels particuliers Événement ou créature rencontrée : Description Comportement ou action initiale Défi ou opportunité pour les joueurs : Nature du défi/opportunité Conséquences potentielles (positives et négatives) Indices ou éléments de mystère liés à la Forêt des Murmures : Un détail intrigant Une possible connexion avec l'histoire plus large Options d'interaction pour les joueurs : 2-3 choix possibles pour réagir à la situation |
-| :---- |
+------
+
+En tant que Maître du Jeu avec 10 ans d’expérience
+
+Tu dois générer une rencontre aléatoire pour un groupe d'aventuriers dans (indiquez un lieu)
+
+Utilise les informations suivantes pour créer une scène immersive et pertinente : 
+
+Contexte : Le lieu est connue pour ses arbres anciens et ses bruits étranges.
+Heure de la journée : Crépuscule (information obtenue de Chartopia)
+Météo : Brouillard léger (information obtenue de Chartopia)
+
+**Description de l'environnement immédiat**
+- Sons ambiants
+- Odeurs
+- Éléments visuels particuliers
+
+**Événement ou créature rencontrée**
+- Description :
+- Comportement ou action initiale :
+- Défi ou opportunité pour les joueurs : Nature du défi/opportunité
+- Conséquences potentielles : Positives et négatives
+- Indices ou éléments de mystère liés au lieu : Un détail intrigantou une possible connexion avec l'histoire plus large
+- Options d'interaction pour les joueurs : 2-3 choix possibles pour réagir à la situation
+
+-------
 
 ## Génération de comptes rendus de partie
 
@@ -1377,15 +1401,65 @@ Un compte rendu complet et immersif qui capture l’essence de la session de jeu
 
 ### Exemple de Prompt
 
-| En tant que Maître de jeu (MJ) expérimenté (10 ans), tu viens de terminer une session de \[Nom du jeu de rôle\]. Les participants ont pris des notes sur les événements, décisions et actions effectuées. Utilises ces notes ainsi que le scénario de la session pour rédiger un compte rendu structuré et détaillé. Étapes à suivre Combiner les notes : Intégrez les informations des notes des joueurs avec les éléments du scénario. Rédiger un compte rendu détaillé : Inclure les événements clés. Mettre en avant les décisions importantes et les actions des personnages. Ajouter tout autre détail pertinent pour enrichir le récit. Structuration : Assurez-vous que le compte rendu soit clair, bien structuré et agréable à lire. Questions et actions en suspens : Lister les points non résolus ou en attente pour la prochaine session. Contexte *(Coller ici le contexte du scénario et les notes des joueurs)* |
-| :---- |
+------
+
+En tant que Maître de jeu (MJ) expérimenté (10 ans)
+
+Tu viens de terminer une session du JDR \[Nom du jeu de rôle\]
+
+Les participants ont pris des notes sur les événements, décisions et actions effectuées
+
+Utilises ces notes ainsi que le scénario de la session pour rédiger un compte rendu structuré et détaillé.
+
+Étapes à suivre pour combiner les notes :
+- Intégrez les informations des notes des joueurs avec les éléments du scénario
+- Rédiger un compte rendu détaillé : Inclure les événements clés. Mettre en avant les décisions importantes et les actions des personnages.
+- Ajouter tout autre détail pertinent pour enrichir le récit.
+- Structuration : Assure toi que le compte rendu soit clair, bien structuré et agréable à lire.
+- Questions et actions en suspens : Lister les points non résolus ou en attente pour la prochaine session.
+
+**Contexte**
+*(Coller ici le contexte du scénario et les notes des joueurs)*
+
+------
 
 Note : Ce Prompt peut avoir un contexte très important, plus que ce que la fenêtre de dialogue est en mesure de recevoir. Dans ce cas, il vous faudra procéder par étape en découpant votre demande et en précisant ceci dans votre Prompt initial avec l’ajout d’une information/instruction à destination du modèle.
 
+Dans ce cas il nécessaire d'inviter le LLM à nous demander de séquencer la transmission des informations en ajoutant au prompt une instruction complémentaire :
+
 ### Exemple de Prompt
 
-| En tant que Maître de jeu (MJ) expérimenté (10 ans), tu viens de terminer une session de \[Nom du jeu de rôle\]. Les participants ont pris des notes sur les événements, décisions et actions. Utilisees ces notes et le scénario pour rédiger un compte rendu structuré et détaillé. Étapes à suivre Combiner les informations : Intégrez les notes des joueurs avec les éléments du scénario. Rédiger un compte rendu détaillé : Inclure les événements clés. Souligner les décisions importantes et les actions des personnages. Ajouter tout autre détail pertinent pour enrichir le récit. Structuration : Assurez-vous que le compte rendu soit clair, bien structuré et agréable à lire. Questions/actions en suspens : Lister les points non résolus ou en attente pour la prochaine session. Demande de partage Indique quand je peux partager les éléments suivants : Le scénario Note du joueur A Note du joueur B Note du joueur C Note du joueur D Note du MJ Un fois que en possession de l’ensemble (scénario \+ notes), réalisees le compte rendu de la partie. |
-| :---- |
+------
+
+En tant que Maître de jeu (MJ) expérimenté (10 ans)
+
+Tu viens de terminer une session du JDR \[Nom du jeu de rôle\]
+
+Les participants ont pris des notes sur les événements, décisions et actions effectuées
+
+Utilises ces notes ainsi que le scénario de la session pour rédiger un compte rendu structuré et détaillé.
+
+**Étapes à suivre pour combiner les notes**
+
+- Intégrez les informations des notes des joueurs avec les éléments du scénario
+- Rédiger un compte rendu détaillé : Inclure les événements clés. Mettre en avant les décisions importantes et les actions des personnages.
+- Ajouter tout autre détail pertinent pour enrichir le récit.
+- Structuration : Assure toi que le compte rendu soit clair, bien structuré et agréable à lire.
+- Questions et actions en suspens : Lister les points non résolus ou en attente pour la prochaine session.
+
+**Demande de partage**
+
+Prend connaissance de la demande et indique moi quand je peux te partager les éléments suivants :
+- Le scénario
+- Note du joueur A
+- Note du joueur B
+- Note du joueur C
+- Note du joueur D
+- Note du MJ
+
+Un fois en possession de l’ensemble (scénario \+ notes), réalisees le compte rendu de la partie.
+
+------
 
 ## Conception d’univers
 
@@ -1417,8 +1491,13 @@ Un univers de jeu de rôle détaillé et cohérent, offrant un cadre riche pour 
 
 ### Exemple de Prompt
 
-| En tant que concepteur de jeux de rôle expérimenté (30 ans), aides moi à créer un cadre de règles pour un nouveau jeu de rôle en suivant le modèle ci-dessous. N'hésitez pas à me poser des questions pour clarifier certains aspects ou proposer des alternatives. Template de cadre de règles Concept et ton : Genre : Quel est le genre principal (heroic fantasy, sci-fi, etc.) ? Ton : Quelle est l'ambiance générale (épique, sombre, humoristique, etc.) ? Complexité : Quel niveau de complexité visez-vous (léger, moyen, complexe) ? Système de résolution : Méthode : Quel type de système (d20, pool de dés, cartes, etc.) ? Échelle de difficulté : Comment sont déterminés les seuils ? Succès/Échecs : Comment sont gérés les degrés de réussite ou d'échec ? Création de personnages : Méthode : Comment les personnages sont-ils créés (points, aléatoire, archétypes) ? Attributs : Quels sont les attributs principaux ? Compétences : Comment sont structurées les compétences ? Background : Quelle importance est donnée à l’histoire personnelle ? Combat et conflits : Initiative : Comment est déterminé l’ordre des actions ? Actions : Combien d’actions par tour et comment sont-elles gérées ? Dégâts : Comment sont-ils calculés et appliqués ? Santé : Comment la santé est-elle gérée ? Progression : Expérience : Comment les personnages gagnent-ils de l’expérience ? Amélioration : Comment s’améliorent-ils ? Niveaux : Y a-t-il un système de niveaux ou une progression fluide ? Magie/Technologies spéciales : Système : Comment fonctionnent la magie ou les technologies ? Coût : Quel est le coût d’utilisation (points, fatigue, ressources) ? Apprentissage : Comment acquiert-on de nouveaux sorts ou technologies ? Gestion des ressources : Inventaire : Comment est géré l’équipement ? Économie : Quel système monétaire ou d’échange est utilisé ? Ressources spéciales : Y a-t-il des ressources uniques à gérer (karma, santé mentale, etc.) ? Interactions sociales et exploration : Compétences sociales : Comment sont gérées les interactions sociales ? Exploration : Quelles mécaniques soutiennent l’exploration ? Récompenses et conséquences : Récompenses : Quels types de récompenses sont donnés ? Conséquences : Comment sont gérées les conséquences des actions ? Règles pour le MJ : Création d’aventures : Quelles lignes directrices pour créer des aventures ? Gestion des PNJ : Comment gérer les personnages non-joueurs ? Équilibrage : Quelles règles pour équilibrer défis et récompenses ? Innovations et particularités : Mécaniques uniques : Y a-t-il des mécaniques innovantes ou particulières ? Intégration thématique : Comment les règles renforcent-elles le thème du jeu ? |
-| :---- |
+------
+
+En tant que concepteur de jeux de rôle expérimenté (30 ans)
+
+Aides moi à créer un cadre de règles pour un nouveau jeu de rôle en suivant le modèle ci-dessous. N'hésitez pas à me poser des questions pour clarifier certains aspects ou proposer des alternatives. Template de cadre de règles Concept et ton : Genre : Quel est le genre principal (heroic fantasy, sci-fi, etc.) ? Ton : Quelle est l'ambiance générale (épique, sombre, humoristique, etc.) ? Complexité : Quel niveau de complexité visez-vous (léger, moyen, complexe) ? Système de résolution : Méthode : Quel type de système (d20, pool de dés, cartes, etc.) ? Échelle de difficulté : Comment sont déterminés les seuils ? Succès/Échecs : Comment sont gérés les degrés de réussite ou d'échec ? Création de personnages : Méthode : Comment les personnages sont-ils créés (points, aléatoire, archétypes) ? Attributs : Quels sont les attributs principaux ? Compétences : Comment sont structurées les compétences ? Background : Quelle importance est donnée à l’histoire personnelle ? Combat et conflits : Initiative : Comment est déterminé l’ordre des actions ? Actions : Combien d’actions par tour et comment sont-elles gérées ? Dégâts : Comment sont-ils calculés et appliqués ? Santé : Comment la santé est-elle gérée ? Progression : Expérience : Comment les personnages gagnent-ils de l’expérience ? Amélioration : Comment s’améliorent-ils ? Niveaux : Y a-t-il un système de niveaux ou une progression fluide ? Magie/Technologies spéciales : Système : Comment fonctionnent la magie ou les technologies ? Coût : Quel est le coût d’utilisation (points, fatigue, ressources) ? Apprentissage : Comment acquiert-on de nouveaux sorts ou technologies ? Gestion des ressources : Inventaire : Comment est géré l’équipement ? Économie : Quel système monétaire ou d’échange est utilisé ? Ressources spéciales : Y a-t-il des ressources uniques à gérer (karma, santé mentale, etc.) ? Interactions sociales et exploration : Compétences sociales : Comment sont gérées les interactions sociales ? Exploration : Quelles mécaniques soutiennent l’exploration ? Récompenses et conséquences : Récompenses : Quels types de récompenses sont donnés ? Conséquences : Comment sont gérées les conséquences des actions ? Règles pour le MJ : Création d’aventures : Quelles lignes directrices pour créer des aventures ? Gestion des PNJ : Comment gérer les personnages non-joueurs ? Équilibrage : Quelles règles pour équilibrer défis et récompenses ? Innovations et particularités : Mécaniques uniques : Y a-t-il des mécaniques innovantes ou particulières ? Intégration thématique : Comment les règles renforcent-elles le thème du jeu ?
+
+------
 
 ## Conception d’un cadre de règle
 
