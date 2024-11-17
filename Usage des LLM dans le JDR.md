@@ -409,7 +409,7 @@ Dans les exemples donnés ci-dessus pour D\&D et Warhammer, le pattern général
 Cependant, certains éléments du prompt changent en fonction du jeu de rôle. Ces éléments variables sont les variables de contexte, et elles permettent d'adapter le contenu aux spécificités du jeu :
 
 | Variable de contexte	| D&D	Warhammer | Fantasy |
-|********************* | *********************** | ************************ |
+| ----- | ----- | ----- |
 | Univers	| Monde médiéval fantastique	| Empire du Vieux Monde | 
 | Ton	| Épique et mystérieux	| Gritty et brutal | 
 | Thématiques	| Haute magie et intrigues politiques	| Forces du Chaos, corruption et complots | 
