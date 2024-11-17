@@ -392,9 +392,40 @@ Pour illustrer ce que nous venons de voir, voici un tableau avec des Prompts ada
 | **Donjons et Dragons (D\&D)** | En tant que créateur de jeu de rôle avec plus de 10 ans d'expérience, vous devez rédiger un scénario de campagne pour Donjons et Dragons se déroulant dans un monde médiéval fantastique. La campagne doit comporter trois actes distincts, chacun avec des intrigues politiques complexes et des éléments de haute magie. Le ton général de l'histoire doit être épique et mystérieux, captivant les joueurs du début à la fin. Limitez le scénario à 3000 mots, en veillant à ce que chaque acte soit bien structuré et contribue à l'évolution de l'intrigue principale. Assurez-vous d'inclure des descriptions riches, des personnages bien développés, et des défis variés pour maintenir l'intérêt des joueurs. |
 | **Warhammer Fantasy Roleplay** | En tant que créateur de jeu de rôle avec plus de 10 ans d'expérience, vous devez rédiger un scénario de campagne pour Warhammer Fantasy Roleplay se déroulant dans l'Empire du Vieux Monde. La campagne doit comporter trois actes distincts, chacun avec des intrigues politiques complexes et des éléments de haute magie. Les joueurs commenceront comme des aventuriers modestes et devront naviguer dans un monde sombre et périlleux, confrontés à la corruption, aux forces du Chaos et aux complots aristocratiques. Le ton général de l'histoire doit être épique et mystérieux, reflétant le style gritty et brutal propre à Warhammer. Limitez le scénario à 3000 mots, en veillant à ce que chaque acte soit bien structuré et contribue à l'évolution de l'intrigue principale. Assurez-vous d'inclure des descriptions riches, des personnages bien développés, et des défis variés pour maintenir l'intérêt des joueurs​. |
 
-On voit qu'il est possible de mettre en place des patterns de Prompt pour structurer la génération du texte. Ces patterns peuvent être ajustés avec des variables.
+On voit qu'il est possible de mettre en place des patterns de Prompt pour structurer la génération du texte. Ces patterns peuvent être ajustés avec des variables de contexte.
 
 Il est recommandé, pour gagner du temps, de vous constituer une bibliothèque de Prompt dès lors que vous avez identifié un pattern qui fonctionne et qui est réutilisable sur plusieurs cadres de jeux de rôles.
+
+### Qu'est-ce qu'une variable de contexte ?
+
+Une variable de contexte est un élément d'information que l'on peut modifier pour adapter un contenu ou une structure prédéfinie (un pattern) à un contexte ou à une situation particulière. En d'autres termes, ce sont des paramètres qui changent en fonction de l'objectif ou du cadre spécifique, tout en respectant une structure générale constante.
+
+#### Application aux prompts de JDR
+Dans les exemples donnés ci-dessus pour D\&D et Warhammer, le pattern général du prompt reste le même :
+- Demander à un créateur de JDR d'écrire un scénario en 3000 mots.
+- Structurer le scénario en trois actes avec des intrigues politiques complexes et des éléments de magie.
+- Maintenir une description riche, des personnages bien développés et des défis variés.
+
+Cependant, certains éléments du prompt changent en fonction du jeu de rôle. Ces éléments variables sont les variables de contexte, et elles permettent d'adapter le contenu aux spécificités du jeu :
+
+| Variable de contexte	| D&D	Warhammer | Fantasy |
+|********************* | *********************** | ************************ |
+| Univers	| Monde médiéval fantastique	| Empire du Vieux Monde | 
+| Ton	| Épique et mystérieux	| Gritty et brutal | 
+| Thématiques	| Haute magie et intrigues politiques	| Forces du Chaos, corruption et complots | 
+| Point de départ des joueurs	| Héros dans un monde médiéval	| Aventuriers modestes dans un monde sombre | 
+
+#### Pourquoi sont-elles importantes ?
+- Flexibilité : Les variables de contexte permettent de réutiliser une structure de base pour générer des contenus différents et adaptés à des besoins variés.
+- Cohérence : En changeant uniquement les variables, on maintient une ligne directrice tout en adaptant le contenu aux spécificités du contexte.
+- Personnalisation : Elles permettent de répondre aux attentes spécifiques des utilisateurs ou joueurs, en personnalisant le contenu en fonction de leur univers de référence.
+
+#### Comment reconnaître une variable de contexte ?
+
+Dans l'exemple, voici des questions à poser pour identifier les variables :
+- Qu'est-ce qui change selon le jeu ? (ex. : l'univers, le ton, les thèmes spécifiques)
+- Qu'est-ce qui reste constant ? (ex. : la structure en trois actes, la limite de mots, la richesse des descriptions)
+- Ces éléments qui changent sont précisément les variables de contexte. Elles ajoutent de la spécificité sans bouleverser la structure globale du contenu.
 
 # Optimiser le contexte avec Chartopia
 
