@@ -501,11 +501,155 @@ Note : Les caractéristiques capillaires d'un personnage issue d'un corps milita
 
 ### PROFIL
 
+| PROFIL                    | DESCRIPTION                                                                                     |
+|---------------------------|-------------------------------------------------------------------------------------------------|
+| **Agent de la Compagnie** | Ambassadeur ou agent, le représentant est l'incarnation des intérêts corporatifs, jouant souvent un rôle ambigu dans les missions. |
+| **Amuseur**               | Spécialiste du divertissement, l'amuseur est chargé de maintenir le moral des équipes dans des situations stressantes. Que ce soit par la musique, la comédie ou d'autres formes d'art, il aide à réduire les tensions et à favoriser la cohésion de groupe. |
+| **Gamin**                 | Jeune personnage débrouillard, souvent sous-estimé mais incroyablement résilient. Le gamin excelle en survie et en furtivité, compensant son manque de force par son ingéniosité et sa capacité à improviser dans des situations critiques. |
+| **Marine Colonial**       | Soldat bien entraîné, souvent envoyé en mission pour protéger les colonies et éliminer les menaces. Les Marines coloniaux sont des experts du combat et de la survie en environnement hostile. |
+| **Marshal Colonial**      | Gardien de la loi dans les colonies, le marshal colonial est un expert en sécurité et en gestion des conflits, et est souvent vu comme une figure d'autorité capable de maintenir l'ordre dans les zones reculées. |
+| **Médecin**               | Expert en soins médicaux, le médecin est essentiel pour traiter les blessures et les maladies des membres de l'équipe. Il est également indispensable pour gérer des crises sanitaires dans des environnements hostiles. |
+| **Mercenaire/Freelance**  | Indépendant, souvent engagé pour des missions spécifiques, le mercenaire est un agent polyvalent qui peut également manipuler ou négocier pour atteindre ses objectifs. |
+| **Officier**              | Leader naturel, l'officier est chargé de la coordination des équipes, de la prise de décision et de la gestion des crises. Il incarne l'autorité et joue souvent un rôle stratégique dans les missions. |
+| **Pilote**                | Spécialiste du transport spatial, le pilote est indispensable pour naviguer dans les étoiles et gérer les systèmes complexes des vaisseaux. Il est également compétent pour effectuer des manœuvres critiques en cas d'urgence. |
+| **Prolo**                 | Travailleur acharné issu de la classe ouvrière, le prolo est un expert en machines lourdes et en travail manuel. Souvent sous-estimé, il est indispensable pour la maintenance des infrastructures et le travail de terrain dans des environnements difficiles. |
+| **Prospecteur**           | Aventurier et chercheur de ressources, le prospecteur explore les confins de l'univers pour découvrir des gisements minéraux, des sites exploitables ou des objets de valeur. Il excelle en survie, observation et machines lourdes. |
+| **Scientifique**          | Spécialiste de la recherche et de l'analyse, le scientifique est essentiel pour explorer les mystères de l'univers, qu'ils soient biologiques, chimiques ou extraterrestres. |
+
+Note : Le mercenaire ne dispose pas de talent de profil dédié, il choisit en profil primaire dans lequel il peut prendre 1 Talent et en suite se fournit dans les talent généraux.
+
 ### ATTRIBUTS
+
+| ATTRIBUT       | DESCRIPTION                                                                                       |
+|----------------|---------------------------------------------------------------------------------------------------|
+| **Force**      | Représente la puissance physique, l'endurance et la capacité à manipuler des objets lourds ou à effectuer des tâches physiques exigeantes. C'est un attribut clé pour les personnages impliqués dans des travaux manuels, des combats rapprochés ou la manipulation de machines lourdes. |
+| **Agilité**    | Mesure la dextérité, la coordination et la rapidité. Cet attribut est essentiel pour les tâches demandant de la précision, comme le pilotage, le tir ou l'esquive. |
+| **Esprit**     | Reflète l'intelligence, la capacité d'analyse, l'attention aux détails et la mémoire. Cet attribut est crucial pour les compétences liées à la technologie, à l'observation et à la survie. |
+| **Empathie**   | Évalue la capacité du personnage à interagir avec les autres, à inspirer confiance, et à lire les émotions. C'est un attribut central pour les compétences sociales comme le commandement, la manipulation et les soins médicaux. |
 
 ### COMPETENCES
 
+| COMPÉTENCE              | DESCRIPTION                                                                                   | ATTRIBUT ASSOCIÉ    |
+|-------------------------|-----------------------------------------------------------------------------------------------|---------------------|
+| **Machines lourdes**    | Savoir-faire dans l'utilisation et la réparation d'équipements lourds, comme des véhicules, des grues ou des outils industriels. | FORCE              |
+| **Endurance**           | Capacité à résister à la douleur, à la fatigue et aux conditions extrêmes pour poursuivre une tâche ou survivre dans des environnements hostiles. | FORCE              |
+| **Combat rapproché**    | Maîtrise des techniques de lutte et de combat au corps à corps, comme le maniement de couteaux ou le combat à mains nues. | FORCE              |
+| **Mobilité**            | Habileté à se déplacer rapidement et silencieusement, utile pour fuir, escalader ou éviter des obstacles. | AGILITÉ            |
+| **Combat à distance**   | Compétence pour utiliser des armes à distance, telles que des pistolets, fusils ou mitrailleuses, avec précision. | AGILITÉ            |
+| **Pilotage**            | Compétence pour contrôler des véhicules ou des vaisseaux spatiaux, et effectuer des manœuvres complexes en vol. | AGILITÉ            |
+| **Observation**         | Capacité à percevoir des détails importants, à détecter des dangers ou à interpréter des indices visuels et sonores. | ESPRIT             |
+| **Survie**              | Aptitude à gérer des environnements hostiles, comme trouver de la nourriture, s’abriter ou échapper à des menaces naturelles. | ESPRIT             |
+| **Comtech**             | Expertise en technologies avancées, comme les systèmes informatiques, les réseaux ou les interfaces mécaniques. | ESPRIT             |
+| **Commandement**        | Talent pour inspirer et diriger les autres, donner des ordres efficaces et maintenir la discipline dans des situations critiques. | EMPATHIE           |
+| **Manipulation**        | Capacité à influencer les autres par la persuasion, l'intimidation ou le mensonge pour obtenir ce que l’on souhaite. | EMPATHIE           |
+| **Soins médicaux**      | Compétence pour traiter les blessures, diagnostiquer et soigner des maladies, et effectuer des interventions médicales d'urgence. | EMPATHIE           |
+
 ### TALENTS
+
+| **TALENT**                     | **DESCRIPTION**                                                                                                                                                      | **ASSOCIÉ AU PROFIL**   |
+|--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|
+| **Déconade**                   | Réduit le **niveau de stress** après un combat pour les Marines et leurs alliés proches.                                                                             | Marine Colonial         |
+| **Dépassement de Soi**         | Forcez deux fois un test basé sur la **Force**, mais augmente votre **niveau de stress**.                                                                            | Marine Colonial         |
+| **Folie Meurtrière**           | En cas de panique face à un danger mortel, vous attaquez l’ennemi au lieu de fuir.                                                                                   | Marine Colonial         |
+| **Autorité**                   | Utilise **Commandement** au lieu de **Manipulation** pour forcer quelqu’un à obéir.                                                                                  | Marshal Colonial        |
+| **Investigateur**              | Pose des questions précises lors d’un test d’**Observation** dans une enquête.                                                                                       | Marshal Colonial        |
+| **Neutralisation**             | Désarme ou neutralise un adversaire sans infliger de dégâts avec un test de **Combat Rapproché**.                                                                    | Marshal Colonial        |
+| **Moi d’Abord**                | Protégez-vous au détriment des autres en cas d’attaque, augmente le **niveau de stress**.                                                                             | Agent de la Compagnie   |
+| **Prise de Contrôle**          | Utilise **Manipulation** avec **Esprit** au lieu d'**Empathie** pour forcer quelqu’un à obéir.                                                                        | Agent de la Compagnie   |
+| **Ruse**                       | Forcez deux tests basés sur l’**Esprit**, augmente votre **niveau de stress**.                                                                                       | Agent de la Compagnie   |
+| **Esquive**                    | Utilise **Mobilité** pour réduire les dégâts au lieu de bloquer en **Combat Rapproché**.                                                                              | Gamin                   |
+| **Passe-Partout**              | Relancez des tests critiques liés à votre petite taille ou discrétion.                                                                                               | Gamin                   |
+| **Vif**                        | Forcez deux tests d’**Agilité**, augmente votre **niveau de stress**.                                                                                                 | Gamin                   |
+| **Chirurgien de Terrain**      | Bonus de +2 aux tests de **Soins Médicaux** pour stabiliser les blessés graves.                                                                                       | Médecin                 |
+| **Compassion**                 | Forcez deux tests d’**Empathie**, augmente votre **niveau de stress**.                                                                                                | Médecin                 |
+| **Présence Apaisante**         | Réduit le **niveau de stress** d’un allié à proximité une fois par tour.                                                                                              | Médecin                 |
+| **Influence**                  | Forcez deux tests de **Commandement**, augmente votre **niveau de stress**.                                                                                           | Officier                |
+| **Jouer du Galon**             | Utilisez **Commandement** pour forcer des actions spécifiques, mais augmente votre **niveau de stress**.                                                              | Officier                |
+| **Officier de Terrain**        | Donne des ordres rapides en combat avec **Commandement** sans utiliser une action.                                                                                   | Officier                |
+| **Pleins Gaz**                 | Bonus de +2 aux tests de **Pilotage** pour accélérations et freinages.                                                                                                | Pilote                  |
+| **Sur le Bout des Doigts**     | Bonus de +2 aux tests de **Pilotage** avec un véhicule spécifique.                                                                                                   | Pilote                  |
+| **Téméraire**                  | Forcez deux tests d’**Agilité**, augmente votre **niveau de stress**.                                                                                                 | Pilote                  |
+| **Blasé**                      | Ignorez une panique ou un dé par séance.                                                                                                                              | Prolo                   |
+| **Coriace**                    | Réduisez les dégâts grâce à un test de **Force** lors d’un combat.                                                                                                    | Prolo                   |
+| **Cran**                       | Forcez deux tests de **Force**, augmente votre **niveau de stress**.                                                                                                  | Prolo                   |
+| **Analyse**                    | Posez des questions à **Maman** après un test d’**Observation**, réduit ou augmente le **niveau de stress** selon le résultat.                                        | Scientifique            |
+| **Curiosité**                  | Forcez deux tests d’**Esprit**, augmente votre **niveau de stress**.                                                                                                  | Scientifique            |
+| **Découverte**                 | Réussissez automatiquement un test d’**Observation** sans lancer les dés.                                                                                            | Scientifique            |
+| **À Terre !**                  | Réduit les dégâts en combat à distance en se plaquant au sol, impose un malus de -2 à l’attaquant.                                                                    | Marine Colonial         |
+| **Armes Lourdes**              | Bonus de +2 en **Combat à Distance** et en **Machines Lourdes** pour utiliser des armes lourdes.                                                                      | Marine Colonial         |
+| **Court-Circuit**              | Bonus de +2 en **Comtech** pour pirater ou déverrouiller des systèmes.                                                                                                | Marine Colonial         |
+| **Pilote Tout-Terrain**        | Bonus de +2 en **Pilotage** pour conduire des véhicules tout-terrain.                                                                                                 | Marine Colonial         |
+| **Télécommande**               | Bonus de +2 en **Comtech** pour contrôler des systèmes automatisés à distance.                                                                                        | Marine Colonial         |
+| **Digne de Confiance**         | Bonus de +2 en **Manipulation** pour inspirer confiance.                                                                                                             | Amuseur                 |
+| **Œil de Lynx**                | Bonus de +2 en **Observation** pour repérer des détails subtils ou des objets cachés.                                                                                 | Amuseur                 |
+| **Le Bon Chemin**              | Bonus de +2 en **Pilotage** pour naviguer en terrain difficile ou encombré.                                                                                           | Prospecteur             |
+| **Mécano Miracle**             | Réparez des machines défaillantes avec un test de **Machines Lourdes** dans des conditions critiques.                                                                  | Prospecteur             |
+| **Prospection**                | Lancez deux fois sur la table des Trouvailles de prospection et gardez le meilleur résultat.                                                                           | Prospecteur             |
+| **Appétit d’Oiseau**           | Réduisez la consommation de nourriture en lançant moins de dés lors des tests de réserve alimentaire.                                                                 | Général                 |
+| **Artilleur de Vaisseau**      | Bonus de +2 aux tests de **Combat à Distance** en tant qu’artilleur dans un vaisseau spatial.                                                                         | Général                 |
+| **Bons Réflexes**              | Piochez deux cartes pour l’initiative et choisissez la meilleure.                                                                                                     | Général                 |
+| **Brutal**                     | Bonus de +2 aux tests de **Combat Rapproché** en échange de sacrifier votre défense.                                                                                  | Général                 |
+| **Cheval de Trait**            | Transportez le double de poids sans être encombré.                                                                                                                   | Général                 |
+| **Commandant de Vaisseau**     | Piochez deux cartes pour l’initiative lors des combats spatiaux et choisissez la meilleure.                                                                           | Général                 |
+| **Conseiller**                 | Réduisez le **niveau de stress** d’un allié avec un test de **Commandement** une fois par tour.                                                                       | Général                 |
+| **Deuxième Souffle**           | Récupérez 1 point de santé et réduisez le stress en cas de Bris avec un test d’**Endurance**.                                                                         | Général                 |
+| **Entraînement Gravité Zéro**  | Bonus de +2 aux tests de **Mobilité** effectués en apesanteur.                                                                                                        | Général                 |
+| **Esprit de Contradiction**    | Bonus de +2 aux tests de **Manipulation** pour résister aux ordres ou aux talents des officiers.                                                                      | Général                 |
+| **Furtif**                     | Bonus de +2 aux tests de **Mobilité** pour se déplacer sans être repéré.                                                                                              | Général                 |
+| **Garde du Corps**             | Subissez une attaque à la place d’un allié proche avec un test de **Mobilité** pour intercepter les dégâts.                                                           | Général                 |
+| **Impitoyable**                | Donnez un coup de grâce sans faire de test d’**Empathie**, réduisez votre **niveau de stress** d’un point.                                                            | Général                 |
+| **Mécano de Vaisseau**         | Bonus de +2 en **Machines Lourdes** pour réparer les avaries d’un vaisseau spatial.                                                                                   | Général                 |
+| **Menaçant**                   | Bonus de +2 en **Manipulation** pour intimider un adversaire avec votre présence physique.                                                                            | Général                 |
+| **Mitrailleur**                | Restez calme en tir automatique et réduisez votre **niveau de stress** d’un point en mode automatique.                                                                | Général                 |
+| **Nerfs d’Acier**              | Bonus de +2 aux tests de Panique pour garder votre sang-froid.                                                                                                       | Général                 |
+| **Poids Mouche**               | Utilisez **Agilité** au lieu de **Force** pour bloquer en **Combat Rapproché**.                                                                                      | Général                 |
+| **Réserve Cachée**             | Commencez chaque session avec un objet caché, choisi parmi vos possessions raisonnables.                                                                              | Général                 |
+| **Robuste**                    | Augmentez votre Santé de 2.                                                                                                                                          | Général                 |
+| **Sommeil Réparateur**         | Dormez un Quart sur deux et restez en bonne santé malgré les horaires réduits.                                                                                       | Général                 |
+| **Souffle Calme**              | Réduisez la réserve d’air consommée en lançant moins de dés pour les tests.                                                                                          | Général                 |
+| **Spécialiste des Armes**      | Bonus de +2 avec une arme spécifique choisie, utilisable plusieurs fois pour des armes différentes.                                                                   | Général                 |
+| **Spécialiste Extravehiculaire** | Bonus de +2 en **Machines Lourdes** et **Comtech** lors des interventions en extérieur dans l’espace.                                                                | Général                 |
+| **Stoïque**                    | Effectuez des tests d’**Endurance** avec **Esprit** au lieu de **Force**.                                                                                            | Général                 |
+| **Tir Rapide**                 | Tirez avec un malus de -2 en utilisant une action rapide.                                                                                                            | Général                 |
+| **Tueur**                      | Déclenchez une blessure critique avec un coup dévastateur contre un adversaire à terre.                                                                              | Général                 |
+| **Vif comme l’Éclair**         | Dégainer une arme gratuitement, sans utiliser d’action.                                                                                                              | Général                 |
+| **Vigilant**                   | Bonus de +2 en **Observation** pour détecter des embuscades ou des attaques furtives.                                                                                | Général                 |
+| **Bidouillage**                | Créez un objet temporaire utile à partir de pièces trouvées en consacrant un Tour.                                                                                   | Général                 |
+| **Calme Olympien**             | Une fois par session, réduisez de 1D6 votre **niveau de stress** grâce à votre résistance mentale.                                                                   | Général                 |
+| **Concentration Intense**      | Bonus de +2 à une tâche avec une durée de Quart, mais échouez automatiquement si interrompu.                                                                          | Général                 |
+| **Dresseur**                   | Forcez un animal à obéir avec un test de **Survie**, utilisable pour les créatures domestiquées ou extraterrestres.                                                  | Général                 |
+| **Impérieux**                  | Transformez un échec en **Commandement** en test de **Manipulation** sans coût supplémentaire.                                                                        | Général                 |
+| **On Parle la Même Langue**    | Réduisez les malus des tests de **Commandement** et **Manipulation** face à une foule hostile.                                                                        | Général                 |
+| **Précision**                  | Bonus de +2 en **Machines Lourdes** pour manipuler des objets ou reliques fragiles.                                                                                  | Général                 |
+| **Psychologie de Groupe**      | Posez des questions précises sur le comportement collectif avec un test d’**Observation** pour analyser les foules.                                                  | Général                 |
+
+**Nouveaux Talent**
+
+Talent adaptés du supplément fanmade pour Coriolis de Michel Masberg (WEB OF THE DATA SPIDER)
+
+| **TALENT**                     | **DESCRIPTION**                                                                                                                                                      | **ASSOCIÉ AU PROFIL**   |
+|--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|
+| **Spectre Numérique**          | Vous êtes un maître dans l’art de masquer vos empreintes digitales et électroniques, essentiel pour échapper à la surveillance omniprésente des corporations. Que vous infiltriez un réseau de la Weyland-Yutani ou que vous protégiez vos propres données, vous ajoutez +2 à vos tests de **Comtech** pour éviter toute détection. | Général |
+| **Profiler**                   | Vous pouvez utiliser votre compréhension des systèmes pour manipuler les individus. Avec un accès à un terminal, vous pouvez remplacer **Manipulation** par **Comtech** dans des négociations ou intimidations, si vous disposez d’au moins 1D6 minutes de préparation. | Général |
+| **Analyse prédictive**         | Dans un environnement où la survie dépend des calculs précis, vous pouvez analyser des données brutes pour prédire des événements probables. Ajoutez +2 à vos tests de **Comtech** pour tirer des conclusions stratégiques des données. Les membres de votre équipe peuvent utiliser vos prédictions pour bénéficier de dés bonus s'ils suivent vos directives. | Général |
+| **Faussaire Numérique**        | Dans un univers où les identités sont contrôlées et les données constamment surveillées, vous savez manipuler les informations. Ajoutez +2 à vos tests de **Comtech** pour altérer des archives numériques, fabriquer de fausses identités ou falsifier des documents officiels. Avec les ressources appropriées, vos créations sont presque indétectables. | Général |
+
+Ici il s'agit d'ajout personnel
+
+| **TALENT**                     | **DESCRIPTION**                                                                                                                                                            | **ASSOCIÉ AU PROFIL**   |
+|--------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|
+| **Survivant Né**               | Vous avez le don inné de trouver une échappatoire là où d'autres ne voient que la fin. Une fois par séance, vous pouvez relancer un jet raté de **Survie** en situation critique.                              | Général                 |
+| **Paranoïa Salutaire**         | Votre méfiance permanente vous protège des embuscades et des pièges. Ajoutez +2 à vos tests d’**Observation** pour détecter des dangers cachés, tels que des créatures en embuscade ou des dispositifs.       | Général                 |
+| **Instinct de Chasseur**       | Vous savez traquer votre proie et ne lâchez jamais votre cible. Ajoutez +2 aux tests de **Observation** ou de **Mobilité** pour pister une créature ou un individu.             | Général                 |
+| **Sang-Froid Absolu**          | Votre calme face au chaos est impressionnant. Lorsque vous subissez un test de Panique, vous pouvez réduire le résultat final de 1D6, minimisant le stress pour vous et vos alliés proches.                 | Général                 |
+| **Instinct de Dernière Minute**| Votre intuition vous permet de réagir juste avant que le pire ne se produise. Une fois par séance, vous pouvez éviter une catastrophe imminente (comme une explosion ou une attaque surprise) en réussissant un test de **Observation**. | Général                 |
+| **Réparations Express**        | Vous êtes capable de remettre en état des systèmes endommagés dans des situations critiques. Réduisez de moitié le temps nécessaire pour réparer une infrastructure grâce à vos tests de **Comtech** ou **Machines Lourdes**. | Général                 |
+| **Maître des Ventilations**    | Vous savez parfaitement vous déplacer dans des espaces confinés comme les conduits d’aération ou les recoins des stations spatiales. Ajoutez +2 à vos tests de **Mobilité** dans des espaces restreints.     | Général                 |
+| **Expert des Systèmes **        | Vous avez une compréhension approfondie des systèmes complexes. Ajoutez +2 à vos tests de **Comtech** lorsque vous tentez de pirater, reprogrammer ou désactiver un système.                      | Général                 |
+| **Sixième Sens**               | Vous ressentez les dangers avant même qu’ils ne se manifestent. Une fois par séance, vous pouvez demander à l’Hôte une indication subtile d’un danger à venir ou d’un choix critique à faire.               | Général                 |
+| **Récolteur Opportuniste**     | Vous êtes doué pour récupérer tout ce qui peut servir. Ajoutez +2 à vos tests de **Survie** pour trouver des ressources (munitions, outils, nourriture) dans des environnements hostiles ou abandonnés.     | Général                 |
+| **Spécialiste de la Quarantaine** | Vous savez réagir face aux menaces biologiques. Ajoutez +2 à vos tests de **Survie** ou **Soins Médicaux** pour analyser ou contenir une contamination, qu’elle soit biologique ou chimique.               | Général                 |
+
 
 ### COLONIE
 
