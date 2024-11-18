@@ -586,7 +586,7 @@ Prenez les listes générées et importez-les dans Chartopia pour créer des tab
 | ...  | ... |  
 | 20 | Le Marché Nocturne |
 
-### Se former à Chartopia
+### Pour aller plus loin avec Chartopia
 
 Chartopia Tutorial (Part 1\) [https://www.youtube.com/watch?v=QfsrqSAV3Oo](https://www.youtube.com/watch?v=QfsrqSAV3Oo)  
 Chartopia Tutorial (Part 2\) [https://www.youtube.com/watch?v=bWYNblqn1fw](https://www.youtube.com/watch?v=bWYNblqn1fw)  
@@ -2145,6 +2145,7 @@ La production d’un LLM ne doit pas vous dispenser de travailler vos personnage
 * **ChatGPT** : https://openai.com/  
 * **Claude** : https://www.anthropic.com/  
 * **Mistral** : https://mistral.ai/
+* **ML Studio** : https://lmstudio.ai/download
 
 # Annexes
 
