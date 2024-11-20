@@ -50,14 +50,3 @@ Cet article est sous licence [Creative Commons Attribution - Pas d'utilisation c
 * [Comment générer une créature/un monstre](https://github.com/ChrisLex-Freelance/JDRIAAIRPG/edit/main/Usage%20des%20LLM%20dans%20le%20JDR.md#cr%C3%A9ation-dune-cr%C3%A9aturemonstre)
 ***
 [Conclusion](https://github.com/ChrisLex-Freelance/JDRIAAIRPG/edit/main/Usage%20des%20LLM%20dans%20le%20JDR.md#conclusion)
-***
-[Annexes](https://github.com/ChrisLex-Freelance/JDRIAAIRPG/edit/main/Usage%20des%20LLM%20dans%20le%20JDR.md#annexes)
-* [Table de rôle](https://github.com/ChrisLex-Freelance/JDRIAAIRPG/edit/main/Usage%20des%20LLM%20dans%20le%20JDR.md#table-des-r%C3%B4les)
-* [Tableau des balises Markdown](https://github.com/ChrisLex-Freelance/JDRIAAIRPG/edit/main/Usage%20des%20LLM%20dans%20le%20JDR.md#tableau-des-balises-markdown)
-* [Exemple d'usage de Chartopia vers un llm](https://github.com/ChrisLex-Freelance/JDRIAAIRPG/edit/main/Usage%20des%20LLM%20dans%20le%20JDR.md#exemple-dusage-de-chartopia-vers-un-llm)
-* [Exemple de création d'historique de personnage](https://github.com/ChrisLex-Freelance/JDRIAAIRPG/edit/main/Usage%20des%20LLM%20dans%20le%20JDR.md#exemple-dhistorique-de-personnage)
-  * [Prompt adapté pour Alien]()
-  * [Prompt adapté pour Blade Runner]()
-  * [Prompt adapté pour Dune : Adventure in the Imperium]()
-  * [Prompt adapté pour The Forbidden Lands]()
-  * [Prompt adapté pour Vaesen]()
