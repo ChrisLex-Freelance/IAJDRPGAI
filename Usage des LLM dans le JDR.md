@@ -1,3 +1,7 @@
+## Licence
+
+Cet article est sous licence [Creative Commons Attribution - Pas d'utilisation commerciale - Pas de modification (CC BY-NC-ND)](https://creativecommons.org/licenses/by-nc-nd/4.0/). Vous êtes libre de partager cet article avec attribution, mais aucune utilisation commerciale ou modification n'est autorisée.
+
 # Introduction
 
 ## Présentation
