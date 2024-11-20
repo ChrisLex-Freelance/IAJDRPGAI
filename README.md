@@ -1,3 +1,8 @@
+## Licence
+
+Cet article est sous licence [Creative Commons Attribution - Pas d'utilisation commerciale - Pas de modification (CC BY-NC-ND)](https://creativecommons.org/licenses/by-nc-nd/4.0/). Vous êtes libre de partager cet article avec attribution, mais aucune utilisation commerciale ou modification n'est autorisée.
+
+
 [Introduction](https://github.com/ChrisLex-Freelance/JDRIAAIRPG/blob/main/Usage%20des%20LLM%20dans%20le%20JDR.md#introduction)
 ***
 * [Présentation](https://github.com/ChrisLex-Freelance/JDRIAAIRPG/blob/main/Usage%20des%20LLM%20dans%20le%20JDR.md#pr%C3%A9sentation)
