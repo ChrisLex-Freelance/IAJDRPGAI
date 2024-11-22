@@ -6,7 +6,7 @@ Cet article est sous licence [Creative Commons Attribution - Pas d'utilisation c
 [Introduction](https://github.com/ChrisLex-Freelance/JDRIAAIRPG/blob/main/Usage%20des%20LLM%20dans%20le%20JDR.md#introduction)
 ***
 * [Présentation](https://github.com/ChrisLex-Freelance/JDRIAAIRPG/blob/main/Usage%20des%20LLM%20dans%20le%20JDR.md#pr%C3%A9sentation)
-* [Objectifs et public cible](https://github.com/ChrisLex-Freelance/JDRIAAIRPG/edit/main/Usage%20des%20LLM%20dans%20le%20JDR.md#objectifs-et-public-cible)
+* [Objectifs et public cible](https://github.com/ChrisLex-Freelance/JDRIAAIRPG/main/Usage%20des%20LLM%20dans%20le%20JDR.md#objectifs-et-public-cible)
 * [L'IA et les LLM dans le Jeu de Rôle](https://github.com/ChrisLex-Freelance/JDRIAAIRPG/edit/main/Usage%20des%20LLM%20dans%20le%20JDR.md#lia-et-les-llm-dans-le-jdr)
 ***
 [Quelques fondamentaux](https://github.com/ChrisLex-Freelance/JDRIAAIRPG/edit/main/Usage%20des%20LLM%20dans%20le%20JDR.md#quelques-fondamentaux)
