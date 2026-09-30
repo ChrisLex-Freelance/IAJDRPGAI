@@ -16,6 +16,7 @@ Cet article est sous licence [Creative Commons Attribution - Pas d'utilisation c
 * [Qu'est-ce que le NLP ?](https://github.com/ChrisLex-Freelance/JDRIAAIRPG/blob/main/Usage%20des%20LLM%20dans%20le%20JDR.md#quest-ce-que-le-nlp-)
 * [Qu'est-ce que le NER ?](https://github.com/ChrisLex-Freelance/JDRIAAIRPG/blob/main/Usage%20des%20LLM%20dans%20le%20JDR.md#quest-ce-que-le-ner-)
 * [Qu'est-ce qu'un LLM ?](https://github.com/ChrisLex-
+
 Freelance/JDRIAAIRPG/blob/main/Usage%20des%20LLM%20dans%20le%20JDR.md#quest-ce-quun-llm-)
 * [Qu’est-ce que l’ingénierie du Prompt ?](https://github.com/ChrisLex-Freelance/JDRIAAIRPG/blob/main/Usage%20des%20LLM%20dans%20le%20JDR.md#quest-ce-que-ling%C3%A9nierie-du-prompt)
 ***
@@ -30,7 +31,8 @@ Freelance/JDRIAAIRPG/blob/main/Usage%20des%20LLM%20dans%20le%20JDR.md#quest-ce-q
 * [Comment faire usage de Chartopia vers un LLM](https://github.com/ChrisLex-Freelance/JDRIAAIRPG/blob/main/Usage%20des%20LLM%20dans%20le%20JDR.md#comment-faire-usage-de-chartopia-vers-un-llm)
 * [Comment générer l'histoire d'un personnage joueur ou non joueur](https://github.com/ChrisLex-Freelance/JDRIAAIRPG/blob/main/Usage%20des%20LLM%20dans%20le%20JDR.md#g%C3%A9n%C3%A9ration-dhistoires-de-personnage-joueur-ou-non-joueur)
 * [Comment obtenir des conseils d'interpréation d'un personnage](https://github.com/ChrisLex-Freelance/JDRIAAIRPG/blob/main/Usage%20des%20LLM%20dans%20le%20JDR.md#conseils-dinterpr%C3%A9tation)
-* [Comment générer une jonction entre des historiques de personnages](https://github.com/ChrisLex-Freelance/JDRI
+* [Comment générer une jonction entre des historiques de personnages](https://github.com/ChrisLex-Freelance/JDR
+I
 AAIRPG/blob/main/Usage%20des%20LLM%20dans%20le%20JDR.md#g%C3%A9n%C3%A9ration-dune-jonction-entre-les-historiques-de-personnages)
 * [Comment générer un contexte depuis l'historique d'un personnage](https://github.com/ChrisLex-Freelance/JDRIAAIRPG/blob/main/Usage%20des%20LLM%20dans%20le%20JDR.md#g%C3%A9n%C3%A9ration-dun-contexte-depuis-lhistorique-dun-personnage)
 * [Comment générer un scénario](https://github.com/ChrisLex-Freelance/JDRIAAIRPG/blob/main/Usage%20des%20LLM%20dans%20le%20JDR.md#g%C3%A9n%C3%A9ration-dun-sc%C3%A9nario)
@@ -41,7 +43,8 @@ AAIRPG/blob/main/Usage%20des%20LLM%20dans%20le%20JDR.md#g%C3%A9n%C3%A9ration-dun
 * [Comment générer un scéne développée](https://github.com/ChrisLex-Freelance/JDRIAAIRPG/blob/main/Usage%20des%20LLM%20dans%20le%20JDR.md#g%C3%A9n%C3%A9ration-dune-sc%C3%A8ne-d%C3%A9velopp%C3%A9)
 * [Comment générer un lieu développé](https://github.com/ChrisLex-Freelance/JDRIAAIRPG/blob/main/Usage%20des%20LLM%20dans%20le%20JDR.md#g%C3%A9n%C3%A9ration-dun-lieu-d%C3%A9velopp%C3%A9)
 * [Comment générer une boucle d'amélioration entre Chartopia et un LLM](https://github.com/ChrisLex-Freelance/JDRIAAIRPG/blob/main/Usage%20des%20LLM%20dans%20le%20JDR.md#feedback-loop-entre-le-llm-et-chartopia)
-* [Comment générer un compte rendu de partie](https://github.com/ChrisLex-Freelance/JDRIAAIRPG/blob/mai
+* [Comment générer un compte rendu de partie](https://github.com/ChrisLex-Freelance/JDRIAAIRPG/blob/m
+ai
 n/Usage%20des%20LLM%20dans%20le%20JDR.md#g%C3%A9n%C3%A9ration-de-comptes-rendus-de-partie)
 * [Comment générer un univers de Jeu de Rôle](https://github.com/ChrisLex-Freelance/JDRIAAIRPG/blob/main/Usage%20des%20LLM%20dans%20le%20JDR.md#conception-dunivers)
 * [Comment générer un système de régles](https://github.com/ChrisLex-Freelance/JDRIAAIRPG/blob/main/Usage%20des%20LLM%20dans%20le%20JDR.md#conception-dun-cadre-de-r%C3%A8gle)
@@ -55,8 +58,17 @@ n/Usage%20des%20LLM%20dans%20le%20JDR.md#g%C3%A9n%C3%A9ration-de-comptes-rendus-
 ***
 * [Qu'est-ce qu'un Skill ?](https://github.com/ChrisLex-Freelance/IAJDRPGAI/blob/feat/skills-et-mcp/Skills%20et%20MCP%20dans%20le%20JDR.md#quest-ce-quun-skill-)
 * [Qu'est-ce que le MCP ?](https://github.com/ChrisLex-Freelance/IAJDRPGAI/blob/feat/skills-et-mcp/Skills%20et%20MCP%20dans%20le%20JDR.md#quest-ce-que-le-mcp-)
-* [Skills vs MCP : quelles différences ?](https://github.com/ChrisLex-Freelance/IAJDRPGAI/blob/feat/skills-et-mcp/Skills%20et%20MCP%20dans%20le%20JDR.md#skills-vs-mcp-quelles-différences-)
+* [Skills vs MCP : quelles différences ?](https://g
+ithub.com/ChrisLex-Freelance/IAJDRPGAI/blob/feat/skills-et-mcp/Skills%20et%20MCP%20dans%20le%20JDR.md#skills-vs-mcp-quelles-différences-)
 * [Bonnes pratiques et précautions](https://github.com/ChrisLex-Freelance/IAJDRPGAI/blob/feat/skills-et-mcp/Skills%20et%20MCP%20dans%20le%20JDR.md#bonnes-pratiques-et-précautions)
 ***
+[Écosystème d'outils IA pour le JDR](https://github.com/ChrisLex-Freelance/IAJDRPGAI/blob/feat/skills-et-mcp/%C3%89cosyst%C3%A8me%20d%27outils%20IA%20pour%20le%20JDR.md#écosystème-doutils-ia-pour-le-jdr)
+***
+* [Le RAG, ou la bibliothèque du meneur de jeu](https://github.com/ChrisLex-Freelance/IAJDRPGAI/blob/feat/skills-et-mcp/%C3%89cosyst%C3%A8me%20d%27outils%20IA%20pour%20le%20JDR.md#le-rag-ou-la-bibliothèque-du-meneur-de-jeu)
+* [Les harnais d'agents](https://github.com/ChrisLex-Freelance/IAJDRPGAI/blob/feat/skills-et-mcp/%C3%89cosyst%C3%A8me%20d%27outils%20IA%20pour%20le%20JDR.md#les-harnais-dagents)
+* [IDE et environnements : VS Code et Mistral Vibe](https://github.com/ChrisLex-Freelance/IAJDRPGAI/blob/feat/skills-et-mcp/%C3%89cosyst%C3%A8me%20d%27outils%20IA%20pour%20le%20JDR.md#ide-et-environnements-vs-code-et-mistral-vibe)
+* [GitHub et GitLab : versionner sa campagne](https://github.com/ChrisLex-Freelance/IAJDRPGAI/blob/feat/skills-et-mcp/%C3%89cosyst%C3%A8me%20d%27outils%20IA%20pour%20le%20JDR.md#github-et-gitlab-versionner-sa-campagne)
+* [Mermaid : des diagrammes pour l'univers et les scénarios](https://github.com/ChrisLex-Freelance/IAJDRPGAI/blob/feat/skills-et-mcp/%C3%89cosyst%C3%A8me%20d%27outils%20IA%20pour%20le%20JDR.md#mermaid-des-diagrammes-pour-lunivers-et-les-scénarios)
+* [LM Studio : des modèles locaux à la table](https://github.com/ChrisLex-Freelance/IAJDRPGAI/blob/feat/skills-et-mcp/%C3%89cosyst%C3%A8me%20d%27outils%20IA%20pour%20le%20JDR.md#lm-studio-des-modèles-locaux-à-la-table)
 ***
 [Conclusion](https://github.com/ChrisLex-Freelance/JDRIAAIRPG/blob/main/Usage%20des%20LLM%20dans%20le%20JDR.md#conclusion)
