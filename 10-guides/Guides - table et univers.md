@@ -16,6 +16,19 @@ flowchart TD
 
 ## Génération d’une scène développé
 
+> 🗂️ **Diátaxis** : Recette pratique (how-to) · **Bloom** : Créer
+> 🎯 **Objectifs pédagogiques** : *développer* une scène brute en séquence jouable, *orchestrer* décor, PNJ et enjeux
+
+```mermaid
+flowchart LR
+    E["Ébauche de scène"] --> D["Décor sensoriel"] --> P["PNJ et enjeux"] --> S["Scène jouable"]
+    classDef primary fill:#4E6EF2,stroke:#3450C0,color:#fff
+    classDef success fill:#E6F6EC,stroke:#2E9E5B,color:#144D2A
+    class E,D,P primary
+    class S success
+```
+
+
 ### Objectif
 
 Créer une scène immersive et dynamique pour un scénario de jeu de rôle, en utilisant un modèle de langage pour générer des détails et des descriptions riches.
@@ -44,7 +57,8 @@ En tant que Game Designer avec 20 ans d’expérience
 
 Tu dois détailler une scène pour le jeu de rôle \[Nom du jeu de rôle\] en respectant le format suivant :
 
-**Scène**
+**Scè
+ne**
 
 **Système** :
 
@@ -126,11 +140,25 @@ Détails Sensoriels**
 - Point 2
 - Point 3
 
-Indiquez moi lorsque vous avez pris connaissance de ma demande pour que je vous communique la trame du scénario contenant les actes et les scènes.
+Indiquez moi lorsque v
+ous avez pris connaissance de ma demande pour que je vous communique la trame du scénario contenant les actes et les scènes.
 
 ------
 
 ## Génération d’un lieu développé
+
+> 🗂️ **Diátaxis** : Recette pratique (how-to) · **Bloom** : Créer
+> 🎯 **Objectifs pédagogiques** : *créer* des lieux explorables (plans, secrets, occupants), *rendre* l'espace signifiant pour le jeu
+
+```mermaid
+flowchart LR
+    N["Nom et fonction"] --> P["Plan et points d'intérêt"] --> O["Occupants et secrets"] --> L["Lieu exploitable en séance"]
+    classDef primary fill:#4E6EF2,stroke:#3450C0,color:#fff
+    classDef success fill:#E6F6EC,stroke:#2E9E5B,color:#144D2A
+    class N,P,O primary
+    class L success
+```
+
 
 ### Objectif
 
@@ -192,9 +220,23 @@ Tu dois détailler un lieu pour le jeu de rôle \[Nom du jeu de rôle\] en suiva
 
 ## Feedback Loop entre le LLM et Chartopia
 
+> 🗂️ **Diátaxis** : Recette pratique (how-to) · **Bloom** : Appliquer
+> 🎯 **Objectifs pédagogiques** : *automatiser* une boucle LLM ↔ Chartopia, *capitaliser* les productions de séance en tables réutilisables
+
+```mermaid
+flowchart LR
+    L["LLM génère"] --> S["Séance de jeu"] --> T["Nouveaux éléments notés"] --> C["Mise à jour Chartopia"] --> L
+    classDef primary fill:#4E6EF2,stroke:#3450C0,color:#fff
+    classDef success fill:#E6F6EC,stroke:#2E9E5B,color:#144D2A
+    class L,S,T primary
+    class C success
+```
+
+
 ### Objectif
 
-Optimiser l'intégration des résultats des tables de Chartopia pour générer des contextes dynamiques et pertinents via le LLM.
+Optimiser l'intégrat
+ion des résultats des tables de Chartopia pour générer des contextes dynamiques et pertinents via le LLM.
 
 ### Fonctionnement
 
@@ -236,11 +278,25 @@ Météo : Brouillard léger (information obtenue de Chartopia)
 - Défi ou opportunité pour les joueurs : Nature du défi/opportunité
 - Conséquences potentielles : Positives et négatives
 - Indices ou éléments de mystère liés au lieu : Un détail intrigantou une possible connexion avec l'histoire plus large
-- Options d'interaction pour les joueurs : 2-3 choix possibles pour réagir à la situation
+- Options 
+d'interaction pour les joueurs : 2-3 choix possibles pour réagir à la situation
 
 -------
 
 ## Génération de comptes rendus de partie
+
+> 🗂️ **Diátaxis** : Recette pratique (how-to) · **Bloom** : Appliquer
+> 🎯 **Objectifs pédagogiques** : *résumer* une séance en compte rendu structuré, *récupérer* les faits pour la suite de la campagne
+
+```mermaid
+flowchart LR
+    N["Notes brutes de séance"] --> R["Compte rendu LLM"] --> F["Faits, PNJ, dettes, quêtes"] --> C["Contexte de la séance suivante"]
+    classDef primary fill:#4E6EF2,stroke:#3450C0,color:#fff
+    classDef success fill:#E6F6EC,stroke:#2E9E5B,color:#144D2A
+    class N,R,F primary
+    class C success
+```
+
 
 ### Objectif
 
@@ -280,7 +336,8 @@ En tant que Maître de jeu (MJ) expérimenté (10 ans)
 
 Tu viens de terminer une session du JDR \[Nom du jeu de rôle\]
 
-Les participants ont pris des notes sur les événements, décisions et actions effectuées
+Les participants ont pris des notes sur les événements, déci
+sions et actions effectuées
 
 Utilises ces notes ainsi que le scénario de la session pour rédiger un compte rendu structuré et détaillé.
 
@@ -318,7 +375,8 @@ Utilises ces notes ainsi que le scénario de la session pour rédiger un compte 
 - Rédiger un compte rendu détaillé : Inclure les événements clés. Mettre en avant les décisions importantes et les actions des personnages.
 - Ajouter tout autre détail pertinent pour enrichir le récit.
 - Structuration : Assure toi que le compte rendu soit clair, bien structuré et agréable à lire.
-- Questions et actions en suspens : Lister les points non résolus ou en attente pour la prochaine session.
+- Questi
+ons et actions en suspens : Lister les points non résolus ou en attente pour la prochaine session.
 
 **Demande de partage**
 
@@ -335,6 +393,23 @@ Un fois en possession de l’ensemble (scénario \+ notes), réalisees le compte
 ------
 
 ## Conception d’univers
+
+> 🗂️ **Diátaxis** : Recette pratique (how-to) · **Bloom** : Créer
+> 🎯 **Objectifs pédagogiques** : *créer* un univers complet via les axes ci-dessous, *maintenir* la cohérence entre les dimensions du monde
+
+```mermaid
+flowchart TD
+    U["Univers de campagne"] --> P1["Géographie et histoire"]
+    U --> P2["Sociétés et politique"]
+    U --> P3["Magie et technologie"]
+    U --> P4["Économie et conflits"]
+    U --> P5["Quêtes et arcs narratifs"]
+    classDef primary fill:#4E6EF2,stroke:#3450C0,color:#fff
+    classDef secondary fill:#E8EEFB,stroke:#4E6EF2,color:#1A2B5F
+    class U primary
+    class P1,P2,P3,P4,P5 secondary
+```
+
 
 ### Objectif
 
@@ -366,7 +441,8 @@ Un univers de jeu de rôle détaillé et cohérent, offrant un cadre riche pour 
 
 ------
 
-En tant que concepteur de jeux de rôle expérimenté (30 ans), vous devez m'aider à créer un univers de jeu de rôle unique et immersif. Utilisez ce guide structuré pour définir avec précision chaque aspect de mon monde, en veillant à l'harmonie et au potentiel ludique de ses éléments. Répondez aux questions pour dessiner un cadre riche en possibilités narratives.
+En tant que concepteur de jeux de rôle expérimenté (30 ans), vous devez m'aider à créer un univers de jeu de rôle unique et immersif. Ut
+ilisez ce guide structuré pour définir avec précision chaque aspect de mon monde, en veillant à l'harmonie et au potentiel ludique de ses éléments. Répondez aux questions pour dessiner un cadre riche en possibilités narratives.
 
 Interrogez-moi sur les éléments manquants pour clarifier certains aspects ou proposer des alternatives.
 
@@ -393,7 +469,8 @@ Interrogez-moi sur les éléments manquants pour clarifier certains aspects ou p
 
 ## Sociétés et Cultures
 1. Quelles sont les principales sociétés et cultures ? Décrivez leurs coutumes, langues et traditions.
-2. Comment ces cultures interagissent-elles les unes avec les autres ?
+2. Comment ces cultures interagissent-elles les unes a
+vec les autres ?
 
 ## Philosophie et Valeurs du Monde
 1. Quelles valeurs sont dominantes dans ce monde (ex. : honneur, liberté, force) ?
@@ -429,7 +506,8 @@ Interrogez-moi sur les éléments manquants pour clarifier certains aspects ou p
 
 ## Vie Quotidienne et Habitudes des Habitants
 1. Quelles formes de divertissement, d’art ou de musique sont populaires ? Y a-t-il des fêtes ou carnavals ?
-2. Y a-t-il des rituels saisonniers ou des traditions associées aux étapes de la vie (naissance, mariage, mort) ?
+2. Y a-t-il des rituels saisonniers ou des traditions associées aux étapes de la
+ vie (naissance, mariage, mort) ?
 
 ## Technologie et Inventions Locales
 1. Y a-t-il des inventions marquantes (moyens de transport uniques, armes spéciales) ?

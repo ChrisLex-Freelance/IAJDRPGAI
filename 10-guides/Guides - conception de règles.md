@@ -17,6 +17,19 @@ flowchart TD
 
 ## Conception d’un cadre de règle
 
+> 🗂️ **Diátaxis** : Recette pratique (how-to) · **Bloom** : Créer
+> 🎯 **Objectifs pédagogiques** : *concevoir* une architecture de règles, *choisir* les mécaniques de résolution, *structurer* la création de personnages
+
+```mermaid
+flowchart LR
+    C["Concept central<br/>et ton"] --> R["Système de<br/>résolution"] --> A["Attributs et<br/>compétences"] --> B["Boucle<br/>playtest"] --> F["Cadre stabilisé"]
+    classDef primary fill:#4E6EF2,stroke:#3450C0,color:#fff
+    classDef success fill:#E6F6EC,stroke:#2E9E5B,color:#144D2A
+    class C,R,A primary
+    class F success
+```
+
+
 ### Objectif
 
 Créer un système de règles cohérent, équilibré et flexible qui soutient l'expérience de jeu souhaitée, en définissant les mécaniques principales qui régissent les actions des personnages et la résolution des conflits.
@@ -41,7 +54,8 @@ Créer un système de règles cohérent, équilibré et flexible qui soutient l'
 
 ### Résultat attendu
 
-Un système de règles complet et cohérent qui soutient le style de jeu visé, offrant un équilibre entre simplicité d'utilisation et profondeur tactique. Le système doit être suffisamment flexible pour s'adapter à diverses situations de jeu tout en maintenant l'ambiance et le rythme souhaités pour l'expérience de jeu.
+Un système de règles complet et cohérent qui soutient le style 
+de jeu visé, offrant un équilibre entre simplicité d'utilisation et profondeur tactique. Le système doit être suffisamment flexible pour s'adapter à diverses situations de jeu tout en maintenant l'ambiance et le rythme souhaités pour l'expérience de jeu.
 
 ### Exemple de Prompt
 
@@ -83,7 +97,8 @@ Concept et ton :
 **Magie/Technologies spéciales**
 - Système : Comment fonctionnent la magie ou les technologies ?
 - Coût : Quel est le coût d’utilisation (points, fatigue, ressources) ?
-- Apprentissage : Comment acquiert-on de nouveaux sorts ou technologies ?
+- Apprentissage : Comment acq
+uiert-on de nouveaux sorts ou technologies ?
 
 **Gestion des ressources**
 - Inventaire : Comment est géré l’équipement ?
@@ -114,6 +129,21 @@ Concept et ton :
 
 ## Création d'un attribut
 
+> 🗂️ **Diátaxis** : Recette pratique (how-to) · **Bloom** : Créer
+> 🎯 **Objectifs pédagogiques** : *créer* des attributs cohérents avec le système, *calibrer* leur impact mécanique
+
+```mermaid
+flowchart LR
+    S["Style de jeu"] --> A["Liste d'attributs"] --> T["Test en jeu"] --> B{"Équilibré ?"}
+    B -->|non| A
+    B -->|oui| V["Attribut validé"]
+    classDef primary fill:#4E6EF2,stroke:#3450C0,color:#fff
+    classDef success fill:#E6F6EC,stroke:#2E9E5B,color:#144D2A
+    class S,A,T primary
+    class V success
+```
+
+
 ### Objectif 
 
 Définir une caractéristique fondamentale d'un personnage qui reflète ses capacités innées et influence plusieurs aspects du jeu.
@@ -140,7 +170,8 @@ Un attribut clairement défini, équilibré et intégré aux mécaniques de jeu,
 
 En tant que concepteur de jeux de rôle avec 30 ans d’expérience
 
-Tu dois m'aider à créer un attribut pour un nouveau personnage de JDR.
+Tu dois m'aider à créer un 
+attribut pour un nouveau personnage de JDR.
 
 Utilise le template suivant pour structurer ton approche. N'hésites pas à me poser des questions pour clarifier certains aspects ou proposer des alternatives.
 
@@ -176,6 +207,17 @@ Utilise le template suivant pour structurer ton approche. N'hésites pas à me p
 
 ## Création d'une compétence
 
+> 🗂️ **Diátaxis** : Recette pratique (how-to) · **Bloom** : Créer
+> 🎯 **Objectifs pédagogiques** : *dériver* les compétences des attributs, *définir* spécialisations et niveaux de maîtrise
+
+```mermaid
+flowchart LR
+    A["Attributs"] --> C["Compétences associées"] --> N["Échelle de maîtrise"] --> L["Lien attribut × compétence"]
+    classDef primary fill:#4E6EF2,stroke:#3450C0,color:#fff
+    class A,C,N,L primary
+```
+
+
 ### Objectif
 
 Concevoir une aptitude spécifique que les personnages peuvent développer et utiliser dans le jeu.
@@ -188,7 +230,8 @@ La compétence représente une connaissance ou une capacité acquise, générale
 
 * Nommer la compétence  
 * Définir son domaine d'application  
-* Déterminer le(s) attribut(s) associé(s)  
+* Déterminer le(s) attri
+but(s) associé(s)  
 * Établir le système de notation (pourcentage, niveau, etc.)  
 * Créer des exemples d'utilisation dans le jeu  
 * Définir les mécaniques de progression de la compétence
@@ -231,7 +274,8 @@ Quels mécanismes permettent aux personnages d'améliorer cette compétence (ent
 Y a-t-il des événements spécifiques ou des actions répétées qui influencent la progression de la compétence ?
 
 **Exemple d'utilisation**
-- Décrit une situation de jeu où la compétence est utilisé pour illustrer son impact sur le gameplay et la narration.
+- Décrit une situation de jeu où la compétenc
+e est utilisé pour illustrer son impact sur le gameplay et la narration.
 
 **Contexte**
 *(Coller ici le contexte initial du cadre et vos notes)*
@@ -239,6 +283,22 @@ Y a-t-il des événements spécifiques ou des actions répétées qui influencen
 ------
 
 ## Création d'un avantage/défaut
+
+> 🗂️ **Diátaxis** : Recette pratique (how-to) · **Bloom** : Créer → Évaluer
+> 🎯 **Objectifs pédagogiques** : *créer* des traits asymétriques, *évaluer* leur coût en points et leur équilibre
+
+```mermaid
+flowchart LR
+    T["Trait narratif"] --> M["Effet mécanique"] --> Co["Coût en points"]
+    Co --> E{"Contrepartie<br/>équivalente ?"}
+    E -->|non| Co
+    E -->|oui| V["Avantage / défaut validé"]
+    classDef primary fill:#4E6EF2,stroke:#3450C0,color:#fff
+    classDef success fill:#E6F6EC,stroke:#2E9E5B,color:#144D2A
+    class T,M,Co primary
+    class V success
+```
+
 
 ### Objectif
 
@@ -286,7 +346,8 @@ Utilise le template suivant pour structurer votre approche. N'hésites pas à me
 
 **Définir les conditions d'activation ou d'application**
 - Dans quelles situations cette caractéristique se manifeste-t-elle ?
-- Y a-t-il des déclencheurs spécifiques ou des conditions nécessaires pour son activation ?
+- Y
+ a-t-il des déclencheurs spécifiques ou des conditions nécessaires pour son activation ?
 
 **Établir le coût ou le gain en points de création (si applicable)**
 - Combien de points de création l'avantage coûte-t-il, ou combien le défaut en rapporte-t-il ?
@@ -305,6 +366,19 @@ Utilise le template suivant pour structurer votre approche. N'hésites pas à me
 ------
 
 ## Création d'un objet
+
+> 🗂️ **Diátaxis** : Recette pratique (how-to) · **Bloom** : Créer
+> 🎯 **Objectifs pédagogiques** : *créer* des objets avec mécanique et rareté, *situer* leur place dans l'économie du jeu
+
+```mermaid
+flowchart LR
+    U["Usage narratif"] --> Me["Mécanique de jeu"] --> R["Rareté et coût"] --> O["Objet jouable"]
+    classDef primary fill:#4E6EF2,stroke:#3450C0,color:#fff
+    classDef success fill:#E6F6EC,stroke:#2E9E5B,color:#144D2A
+    class U,Me,R primary
+    class O success
+```
+
 
 ### Objectif
 
@@ -342,7 +416,8 @@ Template de création d'un Objet
 **Nommer l'objet**
 Questions : Quel nom reflète le mieux la nature et l'utilité de l'objet ?
 
-**Décrire son apparence et ses caractéristiques physiques**
+**Décrire son apparence et se
+s caractéristiques physiques**
 - À quoi ressemble l'objet (forme, couleur, matériau) ?
 - Y a-t-il des caractéristiques distinctives (inscriptions, symboles, etc.) ?
 
@@ -372,6 +447,19 @@ Questions : Quel nom reflète le mieux la nature et l'utilité de l'objet ?
 
 ## Création d'un sort
 
+> 🗂️ **Diátaxis** : Recette pratique (how-to) · **Bloom** : Créer
+> 🎯 **Objectifs pédagogiques** : *créer* des sorts avec composantes, portée et coût, *harmoniser* la magie avec le cadre
+
+```mermaid
+flowchart LR
+    M["Source de magie"] --> C["Composantes et portée"] --> K["Coût / équilibre"] --> S["Sort intégré au cadre"]
+    classDef primary fill:#4E6EF2,stroke:#3450C0,color:#fff
+    classDef success fill:#E6F6EC,stroke:#2E9E5B,color:#144D2A
+    class M,C,K primary
+    class S success
+```
+
+
 ### Objectif
 
 Concevoir une capacité magique ou surnaturelle que les personnages peuvent utiliser.
@@ -398,7 +486,8 @@ Un sort bien équilibré, avec des effets clairs et des applications intéressan
 
 ------
 
-En tant que concepteur de jeux de rôle avec 30 ans d’expérience
+En tant que concepteur de jeux de rôle avec 30 ans d’expérie
+nce
 
 Tu dois m'aider à créer un sort pour un JDR.
 
@@ -443,9 +532,25 @@ Utilise le template suivant pour structurer votre approche. N'hésites pas à me
 
 ## Création d'une créature/monstre
 
+> 🗂️ **Diátaxis** : Recette pratique (how-to) · **Bloom** : Créer → Évaluer
+> 🎯 **Objectifs pédagogiques** : *créer* une créature complète (stats, comportement), *évaluer* son niveau de défi face aux PJ
+
+```mermaid
+flowchart LR
+    R["Rôle au plateau"] --> S["Caractéristiques"] --> C["Comportement et tactics"] --> E{"Défi calibré<br/>vs groupe ?"}
+    E -->|non| S
+    E -->|oui| M["Créature jouable"]
+    classDef primary fill:#4E6EF2,stroke:#3450C0,color:#fff
+    classDef success fill:#E6F6EC,stroke:#2E9E5B,color:#144D2A
+    class R,S,C primary
+    class M success
+```
+
+
 ### Objectif
 
 Concevoir un être vivant non-joueur qui peut interagir avec les personnages, souvent comme adversaire.
+
 
 ### Fonctionnement
 
@@ -496,7 +601,8 @@ Template de création d'une Créature/Monstre \#\#\#\#\#
 - Quel est le comportement typique de la créature (agressive, territoriale, sociale, etc.) ?
 - Quel est son niveau d'intelligence et comment cela influence-t-il ses actions ?
 
-**Définir son habitat et son rôle dans l'écosystème du jeu**
+**Définir son habitat et son rôle dans l'écosystème du j
+eu**
 - Où la créature vit-elle habituellement (forêts, cavernes, montagnes, etc.) ?
 - Quel rôle joue-t-elle dans l'écosystème (prédateur, proie, symbiote, etc.) ?
 

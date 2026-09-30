@@ -16,6 +16,22 @@ flowchart TD
 
 ## Comment faire usage de Chartopia vers un LLM
 
+> 🗂️ **Diátaxis** : Recette pratique (how-to) · **Bloom** : Appliquer
+> 🎯 **Objectifs pédagogiques** : *appliquer* des tirages Chartopia comme contexte d'un prompt, *générer* des éléments narratifs en temps réel
+
+```mermaid
+sequenceDiagram
+    autonumber
+    participant M as MJ
+    participant C as Chartopia
+    participant L as LLM
+    M->>C: tirage imbriqué (lieu, PNJ, objet…)
+    C-->>M: contexte brut
+    M->>L: prompt enrichi du contexte
+    L-->>M: narration détaillée
+```
+
+
 ### Objectif
 
 Utiliser Chartopia pour créer des contextes complexes et dynamiques pendant les sessions de jeu de rôle. En combinant plusieurs tables aléatoires imbriquées, Chartopia permet de générer des éléments variés et riches que le Maître de Jeu peut intégrer en temps réel, enrichissant ainsi l'histoire.
@@ -33,13 +49,27 @@ Utiliser Chartopia pour générer des éléments :
 
 Intégrer les éléments générés dans le jeu :
 
-* Copier les éléments générés vers le LLM pour demander la génération de textes détaillés et cohérents avec ces éléments.
+* Copier les éléments générés vers le LLM pour demander la génération de textes détaillés et cohérents a
+vec ces éléments.
 
 ### Résultat attendu
 
 Une histoire enrichie en temps réel avec des éléments variés et dynamiques, créant une expérience de jeu plus immersive et imprévisible pour les joueurs.
 
 ## Génération d'histoires de personnage joueur ou non joueur
+
+> 🗂️ **Diátaxis** : Recette pratique (how-to) · **Bloom** : Créer
+> 🎯 **Objectifs pédagogiques** : *créer* des historiques exploitables, *ancrer* chaque personnage dans l'univers de jeu
+
+```mermaid
+flowchart LR
+    U["Univers du jeu"] --> H["Historique structuré"] --> F["Failles et accroches"] --> P["Personnage jouable"]
+    classDef primary fill:#4E6EF2,stroke:#3450C0,color:#fff
+    classDef success fill:#E6F6EC,stroke:#2E9E5B,color:#144D2A
+    class U,H,F primary
+    class P success
+```
+
 
 ### Objectif
 
@@ -77,7 +107,8 @@ Système :
 
 **Personnalité**
 - Traits de caractère : Principaux traits de personnalité.  
-- Forces et faiblesses : Ses compétences et points faibles.  
+- Forces et faiblesses 
+: Ses compétences et points faibles.  
 - Évolution : Comment change-t-il au fil du temps ?  
 
 **Apparence physique** 
@@ -112,6 +143,19 @@ Voir l’annexe pour découvrir un exemple de résultat.
 
 ## Conseils d’interprétation
 
+> 🗂️ **Diátaxis** : Recette pratique (how-to) · **Bloom** : Appliquer
+> 🎯 **Objectifs pédagogiques** : *appliquer* des techniques de jeu de rôle sur un historique, *incarner* le personnage de façon cohérente
+
+```mermaid
+flowchart LR
+    H["Historique"] --> T["Traits saillants"] --> V["Voix et manérismes"] --> J["Interprétation en séance"]
+    classDef primary fill:#4E6EF2,stroke:#3450C0,color:#fff
+    classDef success fill:#E6F6EC,stroke:#2E9E5B,color:#144D2A
+    class H,T,V primary
+    class J success
+```
+
+
 ### Objectif
 
 Utiliser un modèle de langage (LLM) pour fournir des conseils d’interprétation aux joueurs, afin de les aider à mieux incarner leurs personnages dans un jeu de rôle. Cela est particulièrement utile pour des débutants découvrant le cadre du jeu et ayant besoin de repères.
@@ -123,7 +167,8 @@ En tant que Character Developer avec 10 ans d'expérience, vous allez conseiller
 ### Étapes à suivre
 
 * **Analyser le contexte du personnage :** Recueillir et comprendre le contexte, l’histoire, et les descriptions morales et physiques du personnage.  
-* **Générer des conseils d’interprétation :** Utiliser un prompt détaillé pour produire des conseils spécifiques pour l’interprétation du personnage.
+* **Générer des conseils d’interprétation :** Utiliser un prompt détaillé pour produire des conseils spécifiques pour l’interprétation du personna
+ge.
 
 ### Résultat attendu
 
@@ -162,6 +207,22 @@ Voir l’annexe pour découvrir un exemple de résultat.
 
 ## Génération d’une jonction entre les historiques de personnages
 
+> 🗂️ **Diátaxis** : Recette pratique (how-to) · **Bloom** : Analyser
+> 🎯 **Objectifs pédagogiques** : *analyser* les points communs entre historiques, *construire* des liens de réciprocité entre personnages
+
+```mermaid
+flowchart LR
+    A["Historique A"] --> J["Jonction commune"]
+    B["Historique B"] --> J
+    J --> L["Liens, dettes, secrets partagés"]
+    L --> S["Dynamique de groupe"]
+    classDef primary fill:#4E6EF2,stroke:#3450C0,color:#fff
+    classDef success fill:#E6F6EC,stroke:#2E9E5B,color:#144D2A
+    class A,B,J primary
+    class S success
+```
+
+
 ### Objectif
 
 Utiliser un modèle de langage (LLM) pour relier les histoires des personnages entre elles, augmentant ainsi la dynamique de jeu par le biais d’un contexte commun. Cela permet de renforcer les liens narratifs et les interactions entre les personnages.
@@ -173,7 +234,8 @@ En tant que Character Developer avec 10 ans d'expérience, vous allez créer des
 ### Étapes à suivre
 
 * Générer un second personnage : Créer ou récupérer les informations du second personnage à partir des prompts fournis.  
-* Créer la jonction d’historique : Utiliser un prompt détaillé pour relier les histoires des personnages par le biais d’événements communs.
+* Créer la jonction d’historique : Utiliser un prompt détaillé pour relier les histoires des personnages par le biai
+s d’événements communs.
 
 ### Résultat attendu
 
@@ -212,6 +274,19 @@ Voir l’annexe pour découvrir un exemple de résultat.
 
 ## Génération d’un contexte depuis l’historique d’un personnage
 
+> 🗂️ **Diátaxis** : Recette pratique (how-to) · **Bloom** : Analyser → Créer
+> 🎯 **Objectifs pédagogiques** : *analyser* un historique pour en extraire des amorces, *créer* des scènes et accroches de scénario
+
+```mermaid
+flowchart LR
+    H["Historique du PJ/PNJ"] --> X["Extraction d'amorces"] --> Sc["Scènes et enjeux"] --> C["Contexte de campagne"]
+    classDef primary fill:#4E6EF2,stroke:#3450C0,color:#fff
+    classDef success fill:#E6F6EC,stroke:#2E9E5B,color:#144D2A
+    class H,X,Sc primary
+    class C success
+```
+
+
 ### Objectif
 
 Étoffer l'univers de votre jeu de rôle en développant des éléments de contexte à partir de l'historique des personnages. Par exemple, si un personnage appartient à une faction ou une organisation sans détails disponibles, utilisez un modèle de langage (LLM) pour créer une histoire riche et détaillée pour cette entité.
@@ -227,7 +302,8 @@ En tant que Game Designer avec 20 ans d'expérience, vous allez développer l'hi
 
 ### Résultat attendu
 
-Une histoire complète et immersive pour l'entité, enrichissant l'univers du jeu et offrant des détails contextuels solides pour les personnages issus de cette entité. Cela inclut les origines, le développement, les compétences, les arts, les rivalités, et une description détaillée de leur monde natal.
+Une histoire complète et immersive pour l'entité, enrichissant l'univers du jeu et offrant des déta
+ils contextuels solides pour les personnages issus de cette entité. Cela inclut les origines, le développement, les compétences, les arts, les rivalités, et une description détaillée de leur monde natal.
 
 Par exemple, si nous reprenons le personnage de Valeria générer plus haut ont voit qu'elle appartient à la maison Karath, sauf que nous n’avons pas d’élément sur cette maison dans le cadre de Dune : Adventures in the Imperium. Heureusement, Dune est bien pourvu en éléments utilisables dans une table aléatoire et à l’aide de Chartopia nous pouvons mettre en place un formulaire pour générer des Maisons. Nous allons donc via le formulaire générer les éléments de contexte qui vont donner naissance à la Maison Karath.
 
@@ -276,16 +352,19 @@ Type de Maison : Maison mineure
 
 **Histoire de la Maison Karath**
 
-- Origines et établissement : La Maison Karath, fondée il y a plusieurs siècles, a émergé sur un monde exploité et épuisé, habitable mais rude. Dès ses débuts, la Maison Karath s'est distinguée par son approche brutale et directe pour atteindre ses objectifs. Initialement des colons industrieux, les Karath ont rapidement compris que la force et l'intimidation étaient nécessaires pour survivre et prospérer dans un environnement aussi hostile.
+- Origines et établissement : La Maison Karath, fondée il y a plusieurs siècles, a émergé sur un monde exploité et épuisé, habitable mais rude. Dès ses débuts, la Maison Karath s'est distinguée par son approche brutale et directe pour atteindre ses objectifs. Initialement des colons industrieux, les Karath ont rapidement compris que la force et l'intimidation étaient nécessaires 
+pour survivre et prospérer dans un environnement aussi hostile.
 - Développement et loyauté : La loyauté de la Maison Karath envers leur suzeraine, une Maison majeure puissante, est devenue légendaire. Cette dévotion sans faille, bien que parfois considérée comme écœurante par leurs rivaux, a permis aux Karath de s'établir fermement comme l'une des plus importantes Maisons vassales. Leur territoire, couvrant environ un tiers de leur planète d'origine, est un témoignage de leur capacité à s'imposer et à maintenir leur position grâce à des méthodes impitoyables.
 - Domaine de compétence : Les Karath se sont spécialisés dans le domaine scientifique, particulièrement dans la recherche et le développement de nouvelles technologies. Bien que le Jihad Butlérien ait banni les machines pensantes, la Maison Karath a excellé dans l'exploration de nouvelles voies scientifiques respectant ces restrictions, créant des innovations qui leur ont permis de maintenir une longueur d'avance sur leurs concurrents. Leur expertise en conception technologique est reconnue et craint à travers l'Imperium.
 - Arts et culture : En plus de leurs prouesses scientifiques, la Maison Karath a investi dans les arts, utilisant ce domaine non seulement pour gagner du respect et de la renommée mais aussi comme un outil stratégique. Leurs artistes, musiciens et acteurs itinérants servent souvent de couverture pour des opérations d'espionnage, infiltrant des cours ennemies et recueillant des informations cruciales. Les soirées musicales et les événements artistiques organisés par les Karath sont des occasions pour les intrigues politiques et les rencontres secrètes.
-- Rivalité et ennemis : La Maison Karath a une rivalité particulièrement acerbe avec une autre Maison mineure qui cherche activement à les abattre. Cette maison ennemie, dégoûtée par la brutalité et la moralité des Karath, colporte mensonges et ragots à la cour, évitant cependant un conflit ouvert à moins d'y voir un avantage certain. Les Karath, conscients de cette haine, gardent toujours un œil vigilant sur les manœuvres de leurs rivaux.
+- Rivalité et ennemis : La Maison Karath a une rivalité particulièrement acerbe avec une autre Maison mineure qui cherche activement à les abattre. Cette maison ennemie, dégoûtée par la brutalité et la moralité des Karath, colporte mensonges et ragots à la cour, évitant cependant un conflit ouvert à moins d'y voir un avantage certain. Les Karath,
+ conscients de cette haine, gardent toujours un œil vigilant sur les manœuvres de leurs rivaux.
 
 **Monde natal de la Maison Karath**
 
 - Type de monde : Monde exploité et épuisé habitable (Classe IV : survie possible sans protection). Le monde natal de la Maison Karath est une planète autrefois riche en ressources naturelles, mais aujourd'hui épuisée par des siècles d'exploitation intensive. La surface de la planète est marquée par des paysages désolés, des mines abandonnées et des zones industrielles en ruine. Les habitants vivent dans des cités fortifiées, construites pour résister aux tempêtes de sable fréquentes et aux conditions climatiques extrêmes.
 - Écologie et environnement : L'écosystème de la planète a été gravement perturbé par l'exploitation minière, laissant peu de végétation et d'animaux sauvages. Les Karath ont dû développer des technologies avancées pour purifier l'air et l'eau, et pour cultiver des aliments dans des environnements contrôlés. Les scientifiques de la Maison ont fait de grandes avancées dans la biotechnologie et l'agriculture sous abri pour assurer la survie de la population.
 - Culture et société : La société Karath est dure et disciplinée, reflétant les conditions difficiles de leur monde natal. La brutalité est souvent nécessaire pour maintenir l'ordre et la survie. Les valeurs de la Maison sont centrées sur la force, la loyauté et l'innovation scientifique. La culture artistique, bien que florissante, sert souvent à masquer des activités d'espionnage et à manipuler les perceptions extérieures de la Maison.
-- Ressources et économie : Malgré l'épuisement des ressources naturelles, la Maison Karath a su diversifier son économie grâce à ses innovations technologiques. Les industries pharmaceutiques, les biotechnologies et les recherches scientifiques avancées sont désormais les piliers économiques de la planète. Les produits et services issus de leurs laboratoires sont prisés dans tout l'Imperium, assurant la prospérité continue de la Maison malgré les défis environnementaux.
+- Ressources et économie : Malgré l'épuisement des ressources naturelles, la Maison Karath a su diversifier son économie grâce à ses innovations technologiques. Les industries pharmaceutiques, les biotechnologies et les recherches scientifiques avancées sont désormais les piliers économiques de la planète. Les produits et services issus de leurs laboratoires sont prisés dans tout l'Imperium, assurant la prospérité continue de la M
+aison malgré les défis environnementaux.
 

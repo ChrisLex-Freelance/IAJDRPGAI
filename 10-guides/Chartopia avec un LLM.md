@@ -14,6 +14,22 @@ flowchart LR
 
 ## Comment faire usage d’un LLM vers Chartopia
 
+> 🗂️ **Diátaxis** : Recette pratique (how-to, orientée problème) · **Bloom** : Appliquer → Créer
+> 🎯 **Objectifs pédagogiques** : *appliquer* une méthode d'ingénierie de prompt, *créer* des tables aléatoires contextualisées, *intégrer* le résultat dans Chartopia
+
+```mermaid
+flowchart TD
+    P["Ingénierie du prompt<br/>rôle · domaine · format"] --> L["Génération LLM"]
+    L --> T["Table aléatoire<br/>numérotée et catégorisée"]
+    T --> C["Import dans Chartopia"]
+    C --> J["Tirages en séance"]
+    classDef primary fill:#4E6EF2,stroke:#3450C0,color:#fff
+    classDef success fill:#E6F6EC,stroke:#2E9E5B,color:#144D2A
+    class P,L primary
+    class C,J success
+```
+
+
 Parmi les choses sur lesquelles les LLM sont particulièrement efficaces figure la génération de listes contextualisées grâce à leur capacité à “comprendre” et à synthétiser des informations complexes en fonction du contexte donné. Ça tombe bien parce que c’est essentiel pour Chartopia. Les LLM peuvent via un Prompt réaliser ce type de génération, tels que la création d’une liste de rencontres de monstres, de trésors, d’avantages, de défauts, de lieu, d’objet ou la définition de caractéristiques de PNJ, et produire des listes précises et pertinentes qui répondent parfaitement aux exigences de Chartopia.
 
 ### Création de tables aléatoires avec un LLM
@@ -22,7 +38,8 @@ Pour obtenir un résultat qualitatif, il est préférable de faire un peu d'ing�
 
 #### Le rôle et l’ancienneté
 
-Pour générer au mieux des tables aléatoires, plusieurs rôles peuvent être impliqués, chacun apportant une perspective et une expertise différentes. Par exemple nous retenons pour ce point de ce guide 3 rôles et nous leur affectons une ancienneté de 30 ans dans le milieu :
+Pour générer au mieux des tables aléatoires, plusieurs rôles peuvent être impliqués, chacun apportant une perspective et une expertise différentes. Par exemple nous retenons pour ce point de ce guide 3 rôles et nous leur affectons une ancienneté de 30 ans da
+ns le milieu :
 
 * Auteur de jeu de rôle  
 * Game designer  
@@ -47,7 +64,8 @@ ez clairement le thème ou le domaine du tableau (par exemple, "jeu de rôle fan
 * **Mythologique** : Univers inspiré des mythes et légendes de diverses cultures, comme la mythologie grecque, nordique ou égyptienne.  
 * **Uchronie** : Réécriture de l'histoire avec des événements divergents, créant une réalité alternative.  
 * **Space Opera** : Aventures épiques dans l'espace avec des empires galactiques, des batailles spatiales et des héros interstellaires.  
-* **Fantastique Urbain** : Monde contemporain où la magie et les créatures mythiques existent en secret.  
+* **Fantastique Urbain** : Monde contemporain où la 
+magie et les créatures mythiques existent en secret.  
 * **Cthulhu/Mythes de Lovecraft** : Univers basé sur
  les écrits de H.P. Lovecraft, avec des horreurs cosmiques et des cultes occultes.  
 * **Mystère/Enquête** : Thème centré sur la résolution d'énigmes, de crimes ou de mystères paranormaux.  
@@ -72,7 +90,8 @@ Voici un exemple de liste des jeux de rôle classés par domaine sous forme de t
 | **Super-héros** | Mutants & Masterminds | Champions | Marvel Heroic Roleplaying | DC Heroes |
 | **Espionnage** | James Bond 007 | Top Secret | Nights Black Agents | Spycraft |
 | **Western** | Deadlands | Aces & Eights | Boot Hill | Wild West Exodus |
-| **Pirates** | 7th Sea | Capitaine Vaudoo | Skull & Bones | Pirates of the Spanish Main |
+| **Pirates** | 7th Sea | Capitaine Vaudoo | Skull & Bones | Pirates of the Span
+ish Main |
 | **Mythologique** | Mythic Greece | Scion | Glorantha (RuneQuest) | Agon |
 | **Uchronie** | Fate
  of the Norns | Space: 1889 | GURPS Alternate Earths | Castle Falkenstein |
@@ -102,7 +121,8 @@ Si vous avez plusieurs catégories ou types d'entrées (comme des objets magique
 
 Fournissez un exemple de format ou de structure pour chaque entrée de la table.
 
-| Le format de sortie sera sous la forme suivante :  | numéro | Libellé d’événement | Description de l’événement |  |
+| Le format de sortie sera sous la forme suivante :  | numéro | Libellé d’événement | Description de 
+l’événement |  |
 | :---- |
 
 ### Exemple de Prompt
@@ -131,7 +151,8 @@ Prenez les listes générées et importez-les dans Chartopia pour créer des tab
 **Exemple de table de lieux dans Chartopia** :
 
 | 1d20 | Lieu |  
-|------|---------------------------------------|  
+|------|-----------------------------
+----------|  
 | 1 | La Taverne du Dragon Vert |  
 | 2 | La Forêt des Murmures |  
 | ...  | ... |  

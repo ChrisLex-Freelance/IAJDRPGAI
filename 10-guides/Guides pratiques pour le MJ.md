@@ -29,16 +29,23 @@ mindmap
 
 ## Préparation de partie
 
+> 🗂️ **Diátaxis** : Index de recettes pratiques (how-to guides) · **Bloom** : Appliquer → Créer
+
+
 | Guide | Question | Niveau Bloom | Où le trouver |
 |---|---|---|---|
 | Générer un scénario | Comment obtenir un scénario structuré et jouable ? | Créer | [Cas d'usages — scénario](Guides%20-%20scénarios.md#génération-dun-scénario) |
 | Auditer un scénario | Comment évaluer les faiblesses avant de jouer ? | Évaluer | [Cas d'usages — audit](Guides%20-%20scénarios.md#génération-dun-audit-de-scénario) |
 | Générer un lieu | Comment détailler une auberge, un temple, un donjon ? | Créer | [Cas d'usages — lieu](Guides%20-%20table%20et%20univers.md#génération-dun-lieu-développé) |
 | Créer un PNJ | Comment générer histoire et personnalité d'un personnage ? | Créer | [Cas d'usages — historique](Guides%20-%20personnages%20et%20historiques.md#génération-dhistoires-de-personnage-joueur-ou-non-joueur) |
-| Tisser les historiques | Comment lier les passés des PJ entre eux ? | Analyser | [Cas d'usages — jonction](Guides%20-%20personnages%20et%20historiqu
+| Tisser les historiques | Comment lier les 
+passés des PJ entre eux ? | Analyser | [Cas d'usages — jonction](Guides%20-%20personnages%20et%20historiqu
 es.md#génération-dune-jonction-entre-les-historiques-de-personnages) |
 
 ## Pendant et après la séance
+
+> 🗂️ **Diátaxis** : Index de recettes pratiques (how-to guides) · **Bloom** : Appliquer → Créer
+
 
 | Guide | Question | Niveau Bloom | Où le trouver |
 |---|---|---|---|
@@ -48,6 +55,9 @@ es.md#génération-dune-jonction-entre-les-historiques-de-personnages) |
 | Boucle avec Chartopia | Comment combiner tables aléatoires et LLM ? | Analyser | [Cas d'usages — feedback loop](Guides%20-%20table%20et%20univers.md#feedback-loop-entre-le-llm-et-chartopia) |
 
 ## Conception de système et d'univers
+
+> 🗂️ **Diátaxis** : Index de recettes pratiques (how-to guides) · **Bloom** : Créer → Évaluer
+
 
 | Guide | Question | Niveau Bloom | Où le trouver |
 |---|---|---|---|

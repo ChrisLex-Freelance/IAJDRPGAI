@@ -15,6 +15,19 @@ flowchart LR
 
 ## Génération d’un scénario
 
+> 🗂️ **Diátaxis** : Recette pratique (how-to) · **Bloom** : Créer
+> 🎯 **Objectifs pédagogiques** : *créer* un scénario structuré (accroche, nœuds, climax), *calibrer* l'intensité dramatique
+
+```mermaid
+flowchart TD
+    A["Accroche"] --> N["Nœuds dramatiques"] --> P["Péripéties et choix"] --> C["Climax"] --> D["Dénouement"]
+    classDef primary fill:#4E6EF2,stroke:#3450C0,color:#fff
+    classDef success fill:#E6F6EC,stroke:#2E9E5B,color:#144D2A
+    class A,N,P primary
+    class C,D success
+```
+
+
 ### Objectif
 
 Créer un scénario de jeu de rôle détaillé et immersif, adapté à n'importe quel jeu de rôle, en utilisant une structure préétablie. Ce scénario doit inclure des descriptions riches, des personnages bien développés, et des défis variés pour maintenir l'intérêt des joueurs.
@@ -38,7 +51,8 @@ Un scénario complet et bien structuré qui guide les joueurs à travers une ave
 
 En tant que créateur/scéanriste de jeu de rôle expérimenté (30 ans)
 
-Rédige un scénario pour le JDR \[Nom du jeu de rôle\], avec des descriptions riches, des personnages développés et des défis variés pour captiver les joueurs.
+Rédige un scénario pour le JDR \[Nom du jeu de rôle\], avec des descriptions riches, des personnages développés et des défis variés pour capt
+iver les joueurs.
 
 Utilises le modèle pour structurer le scénario.
 
@@ -104,7 +118,8 @@ En d’échec 3 pitchs de scénario de suites possibles :
 - Pitch 2 (Max. 10 lignes) :
 - Pitch 3 (Max. 10 lignes) :
 
-**Résumé des principaux antagonistes** (Motivations, méthodes, ressources, et filiation/allégeance)
+**Résu
+mé des principaux antagonistes** (Motivations, méthodes, ressources, et filiation/allégeance)
 - Antagoniste 1
 - Antagoniste 2
 - Antagoniste 3 
@@ -129,6 +144,21 @@ Si par exemple vous disposez du compte rendu de votre dernière partie il pourra
 
 ## Génération d’un audit de scénario
 
+> 🗂️ **Diátaxis** : Recette pratique (how-to) · **Bloom** : Évaluer
+> 🎯 **Objectifs pédagogiques** : *évaluer* la cohérence et la jouabilité d'un scénario, *identifier* ses points faibles
+
+```mermaid
+flowchart LR
+    S["Scénario soumis"] --> G["Grille d'audit LLM"] --> R["Rapport : forces / faiblesses"] --> D["Décisions de révision"]
+    classDef primary fill:#4E6EF2,stroke:#3450C0,color:#fff
+    classDef danger fill:#FDE8E8,stroke:#D64545,color:#7A1F1F
+    classDef success fill:#E6F6EC,stroke:#2E9E5B,color:#144D2A
+    class S,G primary
+    class R danger
+    class D success
+```
+
+
 ### Objectif
 
 Utiliser un modèle de langage (LLM) pour auditer un scénario de jeu de rôle et identifier les éléments pouvant poser des difficultés aux joueurs, ainsi que les incohérences potentielles. L'objectif est de proposer des solutions et des recommandations pour améliorer la jouabilité et la cohérence du scénario.
@@ -139,7 +169,8 @@ En tant qu’auditeur de scénario de jeu de rôle avec 20 ans d’expérience, 
 
 ### Résultat attendu
 
-Deux tableaux complets, l'un répertoriant les défis potentiels avec des suggestions pour les surmonter et les rôles/métiers recommandés, et l'autre répertoriant les incohérences avec des suggestions pour les corriger et les rôles/métiers recommandés. Ces tableaux permettront d'améliorer la jouabilité et la cohérence du scénario, offrant ainsi une expérience de jeu plus fluide et immersive.
+Deux tableaux complets, l'un répertoriant les défis potentiels avec des suggestions pour les surmonter et les rôles/métiers recommandés, et l'autre répertoriant les incohérences avec des suggestions pour les corriger et les rôles/métiers recommandés. Ces tableaux permettront d'amé
+liorer la jouabilité et la cohérence du scénario, offrant ainsi une expérience de jeu plus fluide et immersive.
 
 ### Exemple de Prompt
 
@@ -171,6 +202,19 @@ Voir l’annexe pour découvrir l’exemple d’audit réalisé sur le scénario
 
 ## Amélioration des scénarios
 
+> 🗂️ **Diátaxis** : Recette pratique (how-to) · **Bloom** : Évaluer → Créer
+> 🎯 **Objectifs pédagogiques** : *évaluer* les retours d'audit, *réécrire* les sections faibles du scénario
+
+```mermaid
+flowchart LR
+    A["Rapport d'audit"] --> P["Plan de révision"] --> R["Réécriture ciblée"] --> V["Scénario v2"]
+    classDef primary fill:#4E6EF2,stroke:#3450C0,color:#fff
+    classDef success fill:#E6F6EC,stroke:#2E9E5B,color:#144D2A
+    class A,P,R primary
+    class V success
+```
+
+
 ### Objectif
 
 Utiliser les retours d’un modèle de langage (LLM) pour ajuster les éléments problématiques d'un scénario de jeu de rôle. Cela inclut la simplification des énigmes, le rééquilibrage des combats, et la proposition d'alternatives aux situations nécessitant des compétences rares, afin de rendre le jeu plus fluide et accessible.
@@ -182,7 +226,8 @@ En tant que concepteur de scénario avec 10 ans d’expérience en jeu de rôle,
 ### Étapes à suivre
 
 * Collecte des retours de l'audit : Recueillir les retours du prompt d’audit concernant les aspects du scénario jugés trop difficiles, déséquilibrés ou frustrants.  
-* Ajustements du scénario : Modifier le scénario pour simplifier les énigmes complexes, rééquilibrer les combats, et proposer des alternatives aux situations nécessitant des compétences rares, en utilisant les suggestions du LLM.
+* Ajustements du scénario : Modifier le scénario pour simplifier les énigmes complexes, rééquilibrer le
+s combats, et proposer des alternatives aux situations nécessitant des compétences rares, en utilisant les suggestions du LLM.
 
 ### Remarques
 
@@ -216,13 +261,30 @@ Voir l’annexe pour découvrir des propositions d’amélioration sur un scéna
 
 ## Génération d'issues scénaristiques
 
+> 🗂️ **Diátaxis** : Recette pratique (how-to) · **Bloom** : Créer
+> 🎯 **Objectifs pédagogiques** : *décliner* plusieurs fins possibles, *anticiper* les choix des joueurs
+
+```mermaid
+flowchart TD
+    N["Nœud clé du scénario"] --> I1["Issue A"]
+    N --> I2["Issue B"]
+    N --> I3["Issue C"]
+    I1 --> Cons["Conséquences en campagne"]
+    I2 --> Cons
+    I3 --> Cons
+    classDef primary fill:#4E6EF2,stroke:#3450C0,color:#fff
+    class N primary
+```
+
+
 ### Objectif
 
 Proposer plusieurs pitchs d'issues scénaristiques afin de poursuivre l'aventure après une quête initiale, en utilisant un modèle de langage (LLM).
 
 ### Fonctionnement
 
-Après avoir généré un scénario initial, utilisez un modèle de langage pour générer plusieurs développements possibles. Par exemple, après une aventure dans "La Forêt des Murmures", demandez au LLM de proposer des suites potentielles.
+Après avoir généré un scénario initial, utilisez un modèle de langage pour générer plusieurs développements possibles. Par exemple, après une 
+aventure dans "La Forêt des Murmures", demandez au LLM de proposer des suites potentielles.
 
 ### Étapes à suivre
 
@@ -265,13 +327,30 @@ Voir l’annexe pour découvrir des propositions de pitch sur un scénario gén�
 
 ## Génération de combinaison de scénarios
 
+> 🗂️ **Diátaxis** : Recette pratique (how-to) · **Bloom** : Créer
+> 🎯 **Objectifs pédagogiques** : *synthétiser* plusieurs scénarios en un arc de campagne cohérent
+
+```mermaid
+flowchart LR
+    S1["Scénario 1"] --> C["Combinaison en arc"]
+    S2["Scénario 2"] --> C
+    S3["Scénario 3"] --> C
+    C --> A["Arc de campagne"]
+    classDef primary fill:#4E6EF2,stroke:#3450C0,color:#fff
+    classDef success fill:#E6F6EC,stroke:#2E9E5B,color:#144D2A
+    class S1,S2,S3,C primary
+    class A success
+```
+
+
 ### Objectif
 
 Créer des arcs narratifs cohérents en fusionnant des contextes de scénarios variés générés par Chartopia.
 
 ### Fonctionnement
 
-Utiliser un Large Language Model (LLM) pour combiner plusieurs contextes de scénarios générés par Chartopia. Par exemple, si Chartopia propose un scénario de "Tempête de Magie" et un autre de "Fête de la Moisson", le LLM sera chargé de les intégrer dans une histoire fluide et cohérente.
+Utiliser un Large Language Model (LLM) pour comb
+iner plusieurs contextes de scénarios générés par Chartopia. Par exemple, si Chartopia propose un scénario de "Tempête de Magie" et un autre de "Fête de la Moisson", le LLM sera chargé de les intégrer dans une histoire fluide et cohérente.
 
 ### Étapes à suivre
 
