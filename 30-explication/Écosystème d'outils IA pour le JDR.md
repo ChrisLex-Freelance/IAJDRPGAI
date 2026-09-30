@@ -3,7 +3,7 @@
 
 # Écosystème d'outils IA pour le JDR
 
-Ce document prolonge [Usage des LLM dans le JDR](../Usage%20des%20LLM%20dans%20le%20JDR.md) et [Skills et MCP dans le JDR](../30-explication/Skills%20et%20MCP%20dans%20le%20JDR.md). Il présente six briques complémentaires qui, ensemble, constituent le poste de travail du meneur de jeu augmenté : le **RAG** (que nous nommerons ici *bibliothèque*), les **harnais** d'agents, les **IDE** (VS Code, Mistral Vibe), **GitHub / GitLab**, **Mermaid** et **LM Studio** pour les modèles locaux. Pour chaque brique, une *branche d'évolution* décrit la trajectoire recommandée pour un joueur ou un meneur de jeu.
+Ce document prolonge [Usage des LLM dans le JDR](Fondamentaux%20des%20LLM%20pour%20le%20JDR.md) et [Skills et MCP dans le JDR](../30-explication/Skills%20et%20MCP%20dans%20le%20JDR.md). Il présente six briques complémentaires qui, ensemble, constituent le poste de travail du meneur de jeu augmenté : le **RAG** (que nous nommerons ici *bibliothèque*), les **harnais** d'agents, les **IDE** (VS Code, Mistral Vibe), **GitHub / GitLab**, **Mermaid** et **LM Studio** pour les modèles locaux. Pour chaque brique, une *branche d'évolution* décrit la trajectoire recommandée pour un joueur ou un meneur de jeu.
 
 ***
 

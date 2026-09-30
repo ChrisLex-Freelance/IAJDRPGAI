@@ -3,7 +3,7 @@
 
 # Usage des Skills et du MCP dans le JDR
 
-Ce document complète l'article [Usage des LLM dans le JDR](../Usage%20des%20LLM%20dans%20le%20JDR.md) en présentant deux évolutions majeures de l'écosystème des LLM : les **Skills** (compétences agentiques) et le **MCP** (*Model Context Protocol*). Ces deux briques transforment un simple chatbot en véritable assistant de jeu capable d'agir sur vos outils : tables aléatoires, carnets de notes, VTT, générateurs de personnages, etc.
+Ce document complète l'article [Usage des LLM dans le JDR](Fondamentaux%20des%20LLM%20pour%20le%20JDR.md) en présentant deux évolutions majeures de l'écosystème des LLM : les **Skills** (compétences agentiques) et le **MCP** (*Model Context Protocol*). Ces deux briques transforment un simple chatbot en véritable assistant de jeu capable d'agir sur vos outils : tables aléatoires, carnets de notes, VTT, générateurs de personnages, etc.
 
 ***
 

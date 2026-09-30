@@ -3,17 +3,17 @@
 
 # Glossaire du JDR augmenté
 
-Consultez ce glossaire au fil de la lecture des articles. Chaque terme pointe vers le développement correspondant dans [Usage des LLM dans le JDR](../Usage%20des%20LLM%20dans%20le%20JDR.md) ou dans la section [Explication](../30-explication/Skills%20et%20MCP%20dans%20le%20JDR.md).
+Consultez ce glossaire au fil de la lecture des articles. Chaque terme pointe vers le développement correspondant dans [Usage des LLM dans le JDR](../30-explication/Fondamentaux%20des%20LLM%20pour%20le%20JDR.md) ou dans la section [Explication](../30-explication/Skills%20et%20MCP%20dans%20le%20JDR.md).
 
 | Terme | Définition courte | Approfondir |
 |---|---|---|
-| **IA Générative** | Système produisant du contenu nouveau (texte, image) à partir d'un prompt. | [Article principal](../Usage%20des%20LLM%20dans%20le%20JDR.md#quest-ce-que-la-gen-ai-ou-intelligence-artificielle-generative-) |
-| **NLP** | Traitement automatique du langage naturel : compréhension et génération de texte. | [Article principal](../Usage%20des%20LLM%20dans%20le%20JDR.md#quest-ce-que-le-nlp-) |
-| **NER** | Reconnaissance d'entités nommées : extraire personnes, lieux, organisations d'un texte. | [Article principal](../Usage%20des%20LLM%20dans%20le%20JDR.md#quest-ce-que-le-ner-) |
-| **LLM** | Grand modèle de langage : moteur statistique générant du texte mot à mot. | [Article principal](../Usage%20des%20LLM%20dans%20le%20JDR.md#quest-ce-quun-llm-) |
-| **Fenêtre contextuelle** | Quantité de texte (mémoire) que le LLM peut traiter simultanément. | [Article principal](../Usage%20des%20LLM%20dans%20le%20JDR.md#mémoire-dun-llm-ou-fenêtre-contextuelle) |
-| **Prompt engineering** | Méthode de rédaction des requêtes : rôle, contexte, objectif, format. | [Article principal](../Usage%20des%20LLM%20dans%20le%20JDR.md#quest-ce-que-lingénierie-du-prompt) |
-| **Chartopia** | Plateforme de tables aléatoires en ligne, utilisable en boucle avec un LLM. | [Article principal](../Usage%20des%20LLM%20dans%20le%20JDR.md#quest-ce-que-chartopia) |
+| **IA Générative** | Système produisant du contenu nouveau (texte, image) à partir d'un prompt. | [Article principal](../30-explication/Fondamentaux%20des%20LLM%20pour%20le%20JDR.md#quest-ce-que-la-gen-ai-ou-intelligence-artificielle-generative-) |
+| **NLP** | Traitement automatique du langage naturel : compréhension et génération de texte. | [Article principal](../30-explication/Fondamentaux%20des%20LLM%20pour%20le%20JDR.md#quest-ce-que-le-nlp-) |
+| **NER** | Reconnaissance d'entités nommées : extraire personnes, lieux, organisations d'un texte. | [Article principal](../30-explication/Fondamentaux%20des%20LLM%20pour%20le%20JDR.md#quest-ce-que-le-ner-) |
+| **LLM** | Grand modèle de langage : moteur statistique générant du texte mot à mot. | [Article principal](../30-explication/Fondamentaux%20des%20LLM%20pour%20le%20JDR.md#quest-ce-quun-llm-) |
+| **Fenêtre contextuelle** | Quantité de texte (mémoire) que le LLM peut traiter simultanément. | [Article principal](../30-explication/Fondamentaux%20des%20LLM%20pour%20le%20JDR.md#mémoire-dun-llm-ou-fenêtre-contextuelle) |
+| **Prompt engineering** | Méthode de rédaction des requêtes : rôle, contexte, objectif, format. | [Article principal](../30-explication/Fondamentaux%20des%20LLM%20pour%20le%20JDR.md#quest-ce-que-lingénierie-du-prompt) |
+| **Chartopia** | Plateforme de tables aléatoires en ligne, utilisable en boucle avec un LLM. | [Article principal](../30-explication/Chartopia.md#quest-ce-que-chartopia) |
 | **Skill** | Paquet d'instructions (SKILL.md + fichiers annexes) apprenant une méthode récurrente à un agent. | [Skills et MCP](../30-explication/Skills%20et%20MCP%20dans%20le%20JDR.md#quest-ce-quun-skill-) |
 | **MCP** | *Model Context Protocol* : standard ouvert connectant les LLM à des outils et données externes. | [Skills et MCP](../30-explication/Skills%20et%20MCP%20dans%20le%20JDR.md#quest-ce-que-le-mcp-) |
 | **Agent** | LLM embarqué dans un harnais qui l'autorise à raisonner, appeler des outils et agir. | [Écosystème](../30-explication/%C3%89cosyst%C3%A8me%20d'outils%20IA%20pour%20le%20JDR.md#les-harnais-dagents) |

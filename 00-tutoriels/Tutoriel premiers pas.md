@@ -58,5 +58,5 @@ flowchart LR
 ## Où aller ensuite ?
 
 * Un problème précis en jeu ? → [Guides pratiques](../10-guides/Guides%20pratiques%20pour%20le%20MJ.md)
-* « C'est quoi un LLM, une fenêtre contextuelle ? » → [Usage des LLM dans le JDR](../Usage%20des%20LLM%20dans%20le%20JDR.md) et le [Glossaire](../20-reference/Glossaire.md)
+* « C'est quoi un LLM, une fenêtre contextuelle ? » → [Usage des LLM dans le JDR](../30-explication/Fondamentaux%20des%20LLM%20pour%20le%20JDR.md) et le [Glossaire](../20-reference/Glossaire.md)
 * Automatiser cette méthode → [Skills et MCP](../30-explication/Skills%20et%20MCP%20dans%20le%20JDR.md)
