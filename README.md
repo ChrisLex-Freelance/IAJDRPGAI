@@ -1,10 +1,6 @@
-## Licence
-
-Cet article est sous licence [Creative Commons Attribution - Pas d'utilisation commerciale - Pas de modification (CC BY-NC-ND)](https://creativecommons.org/licenses/by-nc-nd/4.0/). Vous êtes libre de partager cet article avec attribution, mais aucune utilisation commerciale ou modification n'est autorisée.
-
 # Usage des LLM et de l'IA dans le Jeu de Rôle
 
-Ce dépôt documente l'usage des LLM et de l'écosystème d'outils IA pour le jeu de rôle sur table. Il est organisé selon le framework **[Diátaxis](https://diataxis.fr)** — quatre sections qui répondent à quatre besoins différents — et chaque document affiche ses objectifs selon la **taxonomie de Bloom** (Se souvenir → Comprendre → Appliquer → Analyser → Évaluer → Créer).
+Ce dépôt documente l'usage des LLM et de l'écosystème d'outils IA pour le jeu de rôle sur table. Il est organisé selon le framework **[Diátaxis](https://diataxis.fr)** — quatre sections qui répondent à quatre besoins différents — et chaque document affiche ses objectifs selon la **taxonomie de Bloom** (Se souvenir → Comprendre → Appliquer → Analyser → Évaluer → Créer). Les diagrammes **Mermaid** jalonnent chaque page pour soutenir la compréhension visuelle.
 
 ## Comment naviguer ?
 
@@ -43,14 +39,11 @@ flowchart LR
 ### 🛠️ Guides pratiques — résoudre un problème précis
 
 * [Guides pratiques pour le MJ](10-guides/Guides%20pratiques%20pour%20le%20MJ.md) — carte de tous les « Comment faire X ? » (scénario, PNJ, audit, compte rendu, univers…).
-
-Cas d'usages de l'article fondateur, refondus en guides :
-
-* [Chartopia avec un LLM](10-guides/Chartopia%20avec%20un%20LLM.md) — créer des tables aléatoires avec un LLM.
-* [Guides — personnages et historiques](10-guides/Guides%20-%20personnages%20et%20historiques.md) — historiques, interprétation, jonctions.
 * [Guides — scénarios](10-guides/Guides%20-%20scénarios.md) — génération, audit, amélioration, issues.
+* [Guides — personnages et historiques](10-guides/Guides%20-%20personnages%20et%20historiques.md) — historiques, interprétation, jonctions.
 * [Guides — table et univers](10-guides/Guides%20-%20table%20et%20univers.md) — scènes, lieux, comptes rendus, univers.
 * [Guides — conception de règles](10-guides/Guides%20-%20conception%20de%20r%C3%A8gles.md) — cadre de règles, attributs, sorts, créatures.
+* [Chartopia avec un LLM](10-guides/Chartopia%20avec%20un%20LLM.md) — créer des tables aléatoires avec un LLM.
 
 ### 📚 Référence — vérifier un terme ou une notion
 
@@ -59,11 +52,10 @@ Cas d'usages de l'article fondateur, refondus en guides :
 
 ### 💡 Explication — comprendre la théorie et l'architecture
 
-* [Usage des LLM dans le JDR](30-explication/Fondamentaux%20des%20LLM%20pour%20le%20JDR.md) — l'article fondateur : fondamentaux, prompt engineering, cas d'usages, Chartopia.
+* [Fondamentaux des LLM pour le JDR](30-explication/Fondamentaux%20des%20LLM%20pour%20le%20JDR.md) — l'article fondateur : fondamentaux, prompt engineering, variables de contexte.
+* [Optimiser le contexte avec Chartopia](30-explication/Chartopia.md) — ce qu'est Chartopia et pourquoi il s'accorde avec un LLM.
 * [Skills et MCP dans le JDR](30-explication/Skills%20et%20MCP%20dans%20le%20JDR.md) — compétences agentiques et protocole de connexion des outils.
 * [Écosystème d'outils IA pour le JDR](30-explication/%C3%89cosyst%C3%A8me%20d'outils%20IA%20pour%20le%20JDR.md) — RAG/bibliothèque, harnais, IDE, GitHub/GitLab, Mermaid, LM Studio : six briques avec leurs branches d'évolution.
-
-***
 
 ## Vue d'ensemble : le poste de MJ augmenté
 
@@ -80,3 +72,7 @@ flowchart LR
     B[Bibliothèque RAG] --> H
     L[LM Studio · modèles locaux] --> H
 ```
+
+## Licence
+
+Cet article est sous licence [Creative Commons Attribution - Pas d'utilisation commerciale - Pas de modification (CC BY-NC-ND)](https://creativecommons.org/licenses/by-nc-nd/4.0/). Vous êtes libre de partager cet article avec attribution, mais aucune utilisation commerciale ou modification n'est autorisée.

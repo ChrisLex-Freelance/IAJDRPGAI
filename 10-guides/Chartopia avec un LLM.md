@@ -18,11 +18,11 @@ Parmi les choses sur lesquelles les LLM sont particulièrement efficaces figure 
 
 ### Création de tables aléatoires avec un LLM
 
-Comme nous l’avons vu préalablement pour obtenir un résultat qualitatif, il est préférable de faire un peu d'ingénierie sur le Prompt en amont, c'est-à- dire de définir les éléments qui vont permettre de générer la liste qui répond le mieux à nos attentes.
+Pour obtenir un résultat qualitatif, il est préférable de faire un peu d'ingénierie sur le Prompt en amont, c'est-à-dire de définir les éléments qui vont permettre de générer la liste qui répond le mieux à nos attentes (rappel complet dans [l'ingénierie du prompt](../30-explication/Fondamentaux%20des%20LLM%20pour%20le%20JDR.md#quest-ce-que-lingénierie-du-prompt)).
 
 #### Le rôle et l’ancienneté
 
-Pour générer au mieux des tables aléatoires, plusieurs rôles peuvent être impliqués, chacun apportant une perspective et une expertise différentes. Par exemple nous retiendrons pour ce point de l’article 3 rôles et nous leur affectons une ancienneté de 30 ans dans le milieu :
+Pour générer au mieux des tables aléatoires, plusieurs rôles peuvent être impliqués, chacun apportant une perspective et une expertise différentes. Par exemple nous retenons pour ce point de ce guide 3 rôles et nous leur affectons une ancienneté de 30 ans dans le milieu :
 
 * Auteur de jeu de rôle  
 * Game designer  
@@ -30,7 +30,8 @@ Pour générer au mieux des tables aléatoires, plusieurs rôles peuvent être i
 
 #### Le domaine
 
-Spécifiez clairement le thème ou le domaine du tableau (par exemple, "jeu de rôle fantasy", "cyberpunk", etc.). Voici une liste de différents domaines ou thèmes pour les jeux de rôle que vous pouvez utiliser pour définir le thème de votre tableau aléatoire :
+Spécifi
+ez clairement le thème ou le domaine du tableau (par exemple, "jeu de rôle fantasy", "cyberpunk", etc.). Voici une liste de différents domaines ou thèmes pour les jeux de rôle que vous pouvez utiliser pour définir le thème de votre tableau aléatoire :
 
 * **Fantasy** : Monde médiéval fantastique peuplé de créatures mythiques, de magie et de chevaliers.  
 * **Science-fiction** : Futur lointain avec des technologies avancées, des voyages spatiaux et des extraterrestres.  
@@ -47,7 +48,8 @@ Spécifiez clairement le thème ou le domaine du tableau (par exemple, "jeu de r
 * **Uchronie** : Réécriture de l'histoire avec des événements divergents, créant une réalité alternative.  
 * **Space Opera** : Aventures épiques dans l'espace avec des empires galactiques, des batailles spatiales et des héros interstellaires.  
 * **Fantastique Urbain** : Monde contemporain où la magie et les créatures mythiques existent en secret.  
-* **Cthulhu/Mythes de Lovecraft** : Univers basé sur les écrits de H.P. Lovecraft, avec des horreurs cosmiques et des cultes occultes.  
+* **Cthulhu/Mythes de Lovecraft** : Univers basé sur
+ les écrits de H.P. Lovecraft, avec des horreurs cosmiques et des cultes occultes.  
 * **Mystère/Enquête** : Thème centré sur la résolution d'énigmes, de crimes ou de mystères paranormaux.  
 * **Noir** : Ambiance sombre et cynique, souvent dans un cadre urbain avec des détectives privés et des intrigues complexes.  
 * **Samouraïs/Japon Féodal** : Monde inspiré du Japon médiéval avec des samouraïs, des ninjas et des intrigues de cour.  
@@ -72,7 +74,8 @@ Voici un exemple de liste des jeux de rôle classés par domaine sous forme de t
 | **Western** | Deadlands | Aces & Eights | Boot Hill | Wild West Exodus |
 | **Pirates** | 7th Sea | Capitaine Vaudoo | Skull & Bones | Pirates of the Spanish Main |
 | **Mythologique** | Mythic Greece | Scion | Glorantha (RuneQuest) | Agon |
-| **Uchronie** | Fate of the Norns | Space: 1889 | GURPS Alternate Earths | Castle Falkenstein |
+| **Uchronie** | Fate
+ of the Norns | Space: 1889 | GURPS Alternate Earths | Castle Falkenstein |
 | **Space Opera** | Dune: Adventures in the Imperium | Star Wars: Edge of the Empire Age of rebellion Forces and Destiny | Fading Suns | Star Trek Adventures |
 | **Fantastique Urbain** | Urban Shadows | Dresden Files RPG | World of Darkness | Monster of the Week |
 | **Cthulhu/Mythes de Lovecraft** | L'Appel de Cthulhu | Trail of Cthulhu | Cthulhu Dark | Delta Green |
@@ -106,7 +109,8 @@ Fournissez un exemple de format ou de structure pour chaque entrée de la table.
 
 ------
 
-En tant que \[Rôle : Auteur\] de \[Contexte : jeu de rôle\] avec \[Ancienneté : 20 ans \] d’expérience, vous souhaitez \[Objectif : générer\] |Format : une liste\] de \[Catégorie : d’événements aléatoires\] pour un \[Contexte : cadre de jeu de rôle\] \[Domaine : cyberpunk\] nommé \[Contexte/Contrainte : Shadowrun\] dans sa \[Contexte/Contrainte : 3éme édition\] \[Contexte/Contrainte : motorisé par un système D6 à seuil de succès\]. La liste \[Contrainte : doit contenir\] \[Contrainte : 20 entrées numérotées\]. Le format de sortie sera sous la forme suivante : \| numéro \| Libellé d’événement \| Description de l’événement \|
+En tant que \[Rôle : Auteur\] de \[Contexte : jeu 
+de rôle\] avec \[Ancienneté : 20 ans \] d’expérience, vous souhaitez \[Objectif : générer\] |Format : une liste\] de \[Catégorie : d’événements aléatoires\] pour un \[Contexte : cadre de jeu de rôle\] \[Domaine : cyberpunk\] nommé \[Contexte/Contrainte : Shadowrun\] dans sa \[Contexte/Contrainte : 3éme édition\] \[Contexte/Contrainte : motorisé par un système D6 à seuil de succès\]. La liste \[Contrainte : doit contenir\] \[Contrainte : 20 entrées numérotées\]. Le format de sortie sera sous la forme suivante : \| numéro \| Libellé d’événement \| Description de l’événement \|
 
 ------
 
@@ -131,7 +135,8 @@ Prenez les listes générées et importez-les dans Chartopia pour créer des tab
 | 1 | La Taverne du Dragon Vert |  
 | 2 | La Forêt des Murmures |  
 | ...  | ... |  
-| 20 | Le Marché Nocturne |
+| 20 | Le M
+arché Nocturne |
 
 ### Pour aller plus loin avec Chartopia
 

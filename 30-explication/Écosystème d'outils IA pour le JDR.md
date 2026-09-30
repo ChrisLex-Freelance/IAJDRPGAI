@@ -21,7 +21,8 @@ Pour le JDR, c'est la solution au problème de la fenêtre contextuelle : imposs
 
 Le pipeline RAG en trois temps :
 
-```mermaid
+```m
+ermaid
 flowchart LR
     subgraph Indexation
         D[Règles · Univers · Comptes rendus] -->|découpage| P[Passages]
@@ -59,7 +60,8 @@ Les environnements agentiques modernes (Vibe de Mistral, Claude Code, etc.) sont
 ### Pourquoi c'est structurant pour le JDR
 
 * Le MJ ne « discute » plus avec le modèle : il **délègue des missions** (« prépare le compte rendu de la séance 12 et mets à jour la fiche d'Aldric »).
-* Le harnais conserve un **contexte de travail** (fichiers de campagne) au-delà de la fenêtre contextuelle.
+* Le harnais conserve un **contexte de travail** (fichiers de campagne) au-delà de la fenêtre c
+ontextuelle.
 * Les **permissions** protègent les documents : lecture seule sur les règles, écriture dans le journal de campagne.
 
 ### Branche d'évolution
@@ -91,7 +93,8 @@ Vibe (Mistral AI) est un environnement de travail agentique conçu autour des m�
 
 * Niveau 1 : dans VS Code, organiser sa campagne en dépôt de fichiers Markdown et se faire assister pour les relectures.
 * Niveau 2 : installer un serveur MCP local dans VS Code (lancers de dés, bibliothèque) et utiliser les agents en mode éditeur multi-fichiers.
-* Niveau 3 : dans Vibe, créer ses Skills métier de MJ et brancher les connecteurs documentaires ; synchroniser les deux mondes via un dépôt Git partagé.
+* Niveau 
+3 : dans Vibe, créer ses Skills métier de MJ et brancher les connecteurs documentaires ; synchroniser les deux mondes via un dépôt Git partagé.
 
 ***
 
@@ -129,7 +132,8 @@ flowchart LR
 
 ***
 
-## Mermaid : des diagrammes pour l'univers et les scénarios
+## Mermaid : des diagrammes p
+our l'univers et les scénarios
 
 **Mermaid** est un langage de diagrammes en texte : on décrit le schéma dans une syntaxe simple, il est rendu graphiquement (sur GitHub, GitLab, Obsidian, VS Code, dans Le Chat…). C'est le compagnon naturel d'une campagne écrite en Markdown.
 
@@ -167,11 +171,12 @@ Le texte étant la source, un **LLM génère et met à jour ces diagrammes** à 
 
 ## LM Studio : des modèles locaux à la table
 
-**LM Studio** est une application de bureau qui fait tourner des LLM **en local** sur sa propre machine (ou une machine de la table de jeu) : on télécharge des modèles ouverts (Mistral, Llama, Qwen…) au format GGUF, on discute dans une interface dédiée, et surtout on peut exposer un **serveur local compatible API** — y compris MCP — utilisable par d'autres outils (VS Code, Obsidian, agents).
+**LM Studio** est une application de bureau qui fait tourner des LLM **en local** sur sa propre mach
+ine (ou une machine de la table de jeu) : on télécharge des modèles ouverts (Mistral, Llama, Qwen…) au format GGUF, on discute dans une interface dédiée, et surtout on peut exposer un **serveur local compatible API** — y compris MCP — utilisable par d'autres outils (VS Code, Obsidian, agents).
 
 ### Pourquoi du local pour le JDR ?
 
-* **Confidentialité** : les univers maison et les données des joueurs ne quittent pas la table — point sensible abordé dans l'article principal.
+* **Confidentialité** : les univers maison et les données des joueurs ne quittent pas la table — point sensible abordé dans l'[article principal](Fondamentaux%20des%20LLM%20pour%20le%20JDR.md#vie-privée-et-propriété-intellectuelle).
 * **Hors ligne** : jeu en cabane, convention sans réseau, dépendance zéro.
 * **Coût** : aucune consommation d'API payante pour les tâches répétitives.
 * **Héritage** : un modèle figé en version ne « change pas d'humeur » en cours de campagne.
@@ -211,7 +216,8 @@ flowchart LR
     H -->|Skills| S[Méthodes de jeu]
     H -->|MCP| O[Dés · VTT · Drive]
     H --> IDE[VS Code / Vibe]
-    IDE --> G[Git · GitHub/GitLab]
+   
+ IDE --> G[Git · GitHub/GitLab]
     G --> M[Mermaid · site de campagne]
     B[Bibliothèque RAG] --> H
     L[LM Studio · modèles locaux] --> H

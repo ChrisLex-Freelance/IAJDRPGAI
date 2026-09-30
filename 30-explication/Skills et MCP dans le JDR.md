@@ -23,12 +23,13 @@ Un *Skill* (compétence) est un paquet d'instructions, de scripts et de ressourc
 Un Skill suit le standard ouvert *Agent Skills* (initié par Anthropic et adopté par d'autres plateformes comme Mistral AI avec Le Chat / Vibe) :
 
 * un dossier nommé d'après la compétence (par ex. `generation-scenario/`) ;
-* un fichier `SKILL.md` obligatoire : nom, description et instructions en langage naturel, avec une métadonnée YAML (frontmatter) ;
+* un fichier `SKILL.md` obligatoire : nom, description et instructions en langage nature
+l, avec une métadonnée YAML (frontmatter) ;
 * des fichiers de soutien optionnels : références détaillées, gabarits, scripts Python ou JavaScript, exemples.
 
 Le chargement est **progressif** (*progressive disclosure*) : l'agent ne lit d'abor
 
-d que le nom et la description de chaque Skill, puis charge le `SKILL.md` complet seulement si la tâche l'exige, et enfin les fichiers annexes au besoin. C'est exactement la stratégie d'optimisation de la fenêtre contextuelle décrite dans l'article principal.
+d que le nom et la description de chaque Skill, puis charge le `SKILL.md` complet seulement si la tâche l'exige, et enfin les fichiers annexes au besoin. C'est exactement la stratégie d'optimisation de la fenêtre contextuelle décrite dans l'[article principal](Fondamentaux%20des%20LLM%20pour%20le%20JDR.md#mémoire-dun-llm-ou-fenêtre-contextuelle).
 
 ```mermaid
 flowchart TD
@@ -54,7 +55,8 @@ flowchart TD
 
 ## Qu'est-ce que le MCP ?
 
-Le *Model Context Protocol* (MCP) est un protocole ouvert introduit par Anthropic fin 2024, devenu un standard de facto pour connecter les LLM à des systèmes externes. On peut le voir comme un « port USB-C de l'IA » : une interface normalisée qui permet à n'importe quel client (Claude Desktop, Le Chat, Vibe, Cursor, etc.) de dialoguer avec n'importe quel serveur d'outils ou de données.
+Le *Model Context Protocol* (MCP) est un protocole ouvert introduit par Anthropic fin 2024, devenu un standard de facto pour connecter les LLM à des systèmes externes. On peut le voir comme un « port USB-C de l'IA » : une interface normalisée qui permet à n'importe quel client (Claude D
+esktop, Le Chat, Vibe, Cursor, etc.) de dialoguer avec n'importe quel serveur d'outils ou de données.
 
 ### Architecture client / serveur
 
@@ -83,10 +85,11 @@ flowchart LR
 
 ### Serveurs MCP utiles pour le JDR
 
-* **Lancers de dés et tables aléatoires** : un serveur Dice Roller ou un connecteur vers Chartopia permet au LLM de tirer réellement les dés et de s'appuyer sur des résultats authentiques plutôt que de les simuler — en prolongeant la boucle LLM ↔ Chartopia décrite dans l'article principal.
+* **Lancers de dés et tables aléatoires** : un serveur Dice Roller ou un connecteur vers Chartopia permet au LLM de tirer réellement les dés et de s'appuyer sur des résultats authentiques plutôt que de les simuler — en prolongeant la boucle LLM ↔ Chartopia décrite dans [Optimiser le contexte avec Chartopia](Chartopia.md).
 * **VTT et plateformes de jeu** : des serveurs communautaires existent pour FoundryVTT, Roll20 ou Obsidian (gestion de notes de campagne), permettant au MJ de demander « mets à jour la fiche du personnage X » et de voir la modification appliquée dans l'outil.
 * **Stockage documentaire** : Google Drive, Notion ou SharePoint via MCP pour stocker et relire les univers, scénarios et historiques de personnages — une mémoire de campagne persistante au-delà de la fenêtre contextuelle.
 * **Automatisation** : GitHub (versionner ses scénarios), agenda (planifier les séances), messagerie (diffuser les comptes rendus au groupe).
+
 
 ### Skills vs MCP : quelles différences ?
 
@@ -127,7 +130,8 @@ sequenceDiagram
  peut agir sur vos systèmes (création, modification, suppression de fichiers).
 * **Coût et fenêtre contextuelle** : chaque outil connecté ajoute des définitions dans le contexte. N'activez que les serveurs nécessaires à la séance.
 * **Reproductibilité** : versionnez vos Skills et serveurs (Git, Docker) pour retrouver exactement la configuration d'une campagne donnée.
-* **Esprit du jeu** : les outils assistent le MJ, ils ne remplacent ni sa voix ni la négociation de table. Gardez la main finale sur les tirages et décisions sensibles.
+* **Esprit du jeu** : les outils assis
+tent le MJ, ils ne remplacent ni sa voix ni la négociation de table. Gardez la main finale sur les tirages et décisions sensibles.
 
 ***
 
@@ -144,4 +148,4 @@ sequenceDiagram
 
 ## Conclusion
 
-Skills et MCP représentent le même tournant pour le JDR assisté par IA : on passe de la *conversation ponctuelle* à l'*environnement de jeu outillé et persistant*. Le Skill capture la méthode du meneur de jeu ; le MCP branche le modèle sur les dés, les tables, les fiches et les notes de campagne. Combinés à l'ingénierie du prompt et à l'optimisation du contexte décrits dans l'article principal, ils permettent de construire un poste de MJ augmenté complet, reproductible et partageable.
+Skills et MCP représentent le même tournant pour le JDR assisté par IA : on passe de la *conversation ponctuelle* à l'*environnement de jeu outillé et persistant*. Le Skill capture la méthode du meneur de jeu ; le MCP branche le modèle sur les dés, les tables, les fiches et les notes de campagne. Combinés à l'[ingénierie du prompt](Fondamentaux%20des%20LLM%20pour%20le%20JDR.md#quest-ce-que-lingénierie-du-prompt) et à l'optimisation du contexte décrits dans l'article principal, ils permettent de construire un poste de MJ augmenté complet, reproductible et partageable.

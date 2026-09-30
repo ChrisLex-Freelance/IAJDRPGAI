@@ -9,7 +9,7 @@ Si vous cherchez une réponse à un problème précis en cours de route, allez p
 
 ## Prérequis
 
-* Un compte sur un chatbot IA (Le Chat, Claude, ChatGPT…) ou un modèle local via [LM Studio](../30-explication/%C3%89cosyst%C3%A8me%20d'outils%20IA%20pour%20le%20JDR.md#lm-studio-des-mod%C3%A8les-locaux-%C3%A0-la-table).
+* Un compte sur un chatbot IA (Le Chat, Claude, ChatGPT…) ou un modèle local via [LM Studio](../30-explication/%C3%89cosyst%C3%A8me%20d'outils%20IA%20pour%20le%20JDR.md#lm-studio--des-mod%C3%A8les-locaux-%C3%A0-la-table).
 * Une idée en une phrase du genre et de l'univers de votre partie.
 
 ## Étape 1 — Poser le décor
@@ -39,7 +39,8 @@ Relis ton scénario : identifie les incohérences, les clichés et ce qui
 manque pour tenir une soirée de jeu. Corrige puis rends la version finale.
 ```
 
-## Étape 4 — Capitaliser
+## Étape 4 — Capita
+liser
 
 Conservez le résultat dans un dossier `campagne/scenarios/`. Ce fichier est
 le premier élément de votre dépôt de campagne (voir le

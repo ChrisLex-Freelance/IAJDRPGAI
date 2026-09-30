@@ -3,7 +3,7 @@
 
 # Guides pratiques pour le MJ
 
-Chaque guide répond à une question du type « Comment faire X ? ». Les procédures détaillées et les exemples de prompts se trouvent dans l'article de référence [Usage des LLM dans le JDR](../30-explication/Fondamentaux%20des%20LLM%20pour%20le%20JDR.md) — ce document est le carrefour qui vous y conduit.
+Chaque guide répond à une question du type « Comment faire X ? » et contient la procédure complète : objectif, rôle à donner au modèle, prompt type et format de sortie. Pour comprendre *pourquoi* ces méthodes fonctionnent (fenêtre contextuelle, ingénierie du prompt, variables de contexte), reportez-vous à [Fondamentaux des LLM pour le JDR](../30-explication/Fondamentaux%20des%20LLM%20pour%20le%20JDR.md).
 
 ## Carte des guides
 
@@ -35,7 +35,8 @@ mindmap
 | Auditer un scénario | Comment évaluer les faiblesses avant de jouer ? | Évaluer | [Cas d'usages — audit](Guides%20-%20scénarios.md#génération-dun-audit-de-scénario) |
 | Générer un lieu | Comment détailler une auberge, un temple, un donjon ? | Créer | [Cas d'usages — lieu](Guides%20-%20table%20et%20univers.md#génération-dun-lieu-développé) |
 | Créer un PNJ | Comment générer histoire et personnalité d'un personnage ? | Créer | [Cas d'usages — historique](Guides%20-%20personnages%20et%20historiques.md#génération-dhistoires-de-personnage-joueur-ou-non-joueur) |
-| Tisser les historiques | Comment lier les passé des PJ entre eux ? | Analyser | [Cas d'usages — jonction](Guides%20-%20personnages%20et%20historiques.md#génération-dune-jonction-entre-les-historiques-de-personnages) |
+| Tisser les historiques | Comment lier les passés des PJ entre eux ? | Analyser | [Cas d'usages — jonction](Guides%20-%20personnages%20et%20historiqu
+es.md#génération-dune-jonction-entre-les-historiques-de-personnages) |
 
 ## Pendant et après la séance
 
@@ -43,7 +44,7 @@ mindmap
 |---|---|---|---|
 | Interpréter un PNJ | Comment obtenir des conseils de jeu d'acteur ? | Appliquer | [Cas d'usages — interprétation](Guides%20-%20personnages%20et%20historiques.md#conseils-dinterprétation) |
 | Compte rendu de partie | Comment transformer ses notes en journal de campagne ? | Analyser | [Cas d'usages — compte rendu](Guides%20-%20table%20et%20univers.md#génération-de-comptes-rendus-de-partie) |
-| Versionner sa campagne | Comment utiliser GitHub pour suivre ses documents ? | Appliquer | [GitHub et GitLab](../30-explication/%C3%89cosyst%C3%A8me%20d'outils%20IA%20pour%20le%20JDR.md#github-et-gitlab-versionner-sa-campagne) |
+| Versionner sa campagne | Comment utiliser GitHub pour suivre ses documents ? | Appliquer | [GitHub et GitLab](../30-explication/%C3%89cosyst%C3%A8me%20d'outils%20IA%20pour%20le%20JDR.md#github-et-gitlab--versionner-sa-campagne) |
 | Boucle avec Chartopia | Comment combiner tables aléatoires et LLM ? | Analyser | [Cas d'usages — feedback loop](Guides%20-%20table%20et%20univers.md#feedback-loop-entre-le-llm-et-chartopia) |
 
 ## Conception de système et d'univers
