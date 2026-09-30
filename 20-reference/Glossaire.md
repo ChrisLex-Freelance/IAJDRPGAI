@@ -30,8 +30,8 @@ Consultez ce glossaire au fil de la lecture des articles. Chaque terme pointe ve
 
 ```mermaid
 flowchart LR
-    LECT[Lecture d'un article] -->?"Terme inconnu ?"
-    -->|oui| G[Glossaire<br>Se souvenir · Comprendre]
-    -->|puis| EX[Explication<br>Comprendre · Analyser]
+    LECT[Lecture d'un article] --> Q{"Terme inconnu ?"}
+    Q -->|oui| GL[Glossaire<br>Se souvenir · Comprendre]
+    GL -->|puis| EX[Explication<br>Comprendre · Analyser]
     LECT -->|besoin concret| GU[Guides pratiques<br>Appliquer · Créer]
 ```
