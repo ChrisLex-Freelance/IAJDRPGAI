@@ -1,6 +1,9 @@
+> 🗂️ **Section Diátaxis** : Explication · **Niveau Bloom** : Comprendre → Analyser
+> **Objectifs pédagogiques** : *décrire* l'anatomie d'une Skill et du protocole MCP, *comparer* les deux approches, *expliquer* leur complémentarité
+
 # Usage des Skills et du MCP dans le JDR
 
-Ce document complète l'article [Usage des LLM dans le JDR](Usage%20des%20LLM%20dans%20le%20JDR.md) en présentant deux évolutions majeures de l'écosystème des LLM : les **Skills** (compétences agentiques) et le **MCP** (*Model Context Protocol*). Ces deux briques transforment un simple chatbot en véritable assistant de jeu capable d'agir sur vos outils : tables aléatoires, carnets de notes, VTT, générateurs de personnages, etc.
+Ce document complète l'article [Usage des LLM dans le JDR](Fondamentaux%20des%20LLM%20pour%20le%20JDR.md) en présentant deux évolutions majeures de l'écosystème des LLM : les **Skills** (compétences agentiques) et le **MCP** (*Model Context Protocol*). Ces deux briques transforment un simple chatbot en véritable assistant de jeu capable d'agir sur vos outils : tables aléatoires, carnets de notes, VTT, générateurs de personnages, etc.
 
 ***
 
@@ -24,6 +27,7 @@ Un Skill suit le standard ouvert *Agent Skills* (initié par Anthropic et adopt�
 * des fichiers de soutien optionnels : références détaillées, gabarits, scripts Python ou JavaScript, exemples.
 
 Le chargement est **progressif** (*progressive disclosure*) : l'agent ne lit d'abor
+
 d que le nom et la description de chaque Skill, puis charge le `SKILL.md` complet seulement si la tâche l'exige, et enfin les fichiers annexes au besoin. C'est exactement la stratégie d'optimisation de la fenêtre contextuelle décrite dans l'article principal.
 
 ```mermaid
@@ -55,7 +59,8 @@ Le *Model Context Protocol* (MCP) est un protocole ouvert introduit par Anthropi
 ### Architecture client / serveur
 
 * **Client MCP** : l'application hôte qui embarque le LLM (interface de chat ou agent).
-* **Serveur MCP** : un petit programme qui expose des **outils** (fonctions appelables : lancer un dé, créer une fiche), des **ressources** (documents accessibles : règles, univers de campagne) et des **prompts** (gabarits prêts à l'emploi).
+* **Serveur MCP
+** : un petit programme qui expose des **outils** (fonctions appelables : lancer un dé, créer une fiche), des **ressources** (documents accessibles : règles, univers de campagne) et des **prompts** (gabarits prêts à l'emploi).
 * **Transports** : communication locale (stdio) ou à distance (HTTP / Server-Sent Events).
 
 Le meneur de jeu peut donc brancher ses propres outils sans attendre q
@@ -88,7 +93,8 @@ flowchart LR
 | Critère | Skill | MCP |
 |---|---|---|
 | Nature | Savoir-faire (instructions, gabarits, scripts) | Connectivité (accès à des outils et données externes) |
-| Format | Dossier de fichiers Markdown + scripts | Programme serveur exposant outils/ressources/prompts |
+| Format | Dossier de fichiers Markdown +
+ scripts | Programme serveur exposant outils/ressources/prompts |
 | Réponse au besoin | « Comment faire ? » | « Avec quoi interagir ? » |
 | Exemple JDR | Méthode d'écriture d'un scénario | Lancer de dés dans FoundryVTT |
 
@@ -128,7 +134,8 @@ sequenceDiagram
 ## Références et sources
 
 * Anthropic — *Agent Skills* : https://www.anthropic.com/news/skills
-* Anthropic — *Model Context Protocol* : https://www.anthropic.com/news/model-context-protocol
+* Anthropic
+ — *Model Context Protocol* : https://www.anthropic.com/news/model-context-protocol
 * Spécification MCP : https://modelcontextprotocol.io
 * Registre de serveurs MCP : https://github.com/modelcontextprotocol/servers
 * Mistral AI — Le Chat & Vibe : https://mistral.ai
