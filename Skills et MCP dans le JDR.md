@@ -23,7 +23,20 @@ Un Skill suit le standard ouvert *Agent Skills* (initié par Anthropic et adopt�
 * un fichier `SKILL.md` obligatoire : nom, description et instructions en langage naturel, avec une métadonnée YAML (frontmatter) ;
 * des fichiers de soutien optionnels : références détaillées, gabarits, scripts Python ou JavaScript, exemples.
 
-Le chargement est **progressif** (*progressive disclosure*) : l'agent ne lit d'abord que le nom et la description de chaque Skill, puis charge le `SKILL.md` complet seulement si la tâche l'exige, et enfin les fichiers annexes au besoin. C'est exactement la stratégie d'optimisation de la fenêtre contextuelle décrite dans l'article principal.
+Le chargement est **progressif** (*progressive disclosure*) : l'agent ne lit d'abor
+d que le nom et la description de chaque Skill, puis charge le `SKILL.md` complet seulement si la tâche l'exige, et enfin les fichiers annexes au besoin. C'est exactement la stratégie d'optimisation de la fenêtre contextuelle décrite dans l'article principal.
+
+```mermaid
+flowchart TD
+    U[Requête du MJ] --> M[Moteur d'agent]
+    M --> S1{"Un Skill correspond-il\nà la demande ?"}
+    S1 -- non --> RR[Réponse directe du LLM]
+    S1 -- oui --> S2[Chargement du SKILL.md complet]
+    S2 --> S3{"Besoin de détails\nannexes ?"}
+    S3 -- non --> EX[Exécution de la méthode]
+    S3 -- oui --> S4[Chargement des fichiers de soutien]
+    S4 --> EX
+```
 
 ### Exemples de Skills pour le JDR
 
@@ -45,7 +58,23 @@ Le *Model Context Protocol* (MCP) est un protocole ouvert introduit par Anthropi
 * **Serveur MCP** : un petit programme qui expose des **outils** (fonctions appelables : lancer un dé, créer une fiche), des **ressources** (documents accessibles : règles, univers de campagne) et des **prompts** (gabarits prêts à l'emploi).
 * **Transports** : communication locale (stdio) ou à distance (HTTP / Server-Sent Events).
 
-Le meneur de jeu peut donc brancher ses propres outils sans attendre qu'une plateforme les intègre nativement.
+Le meneur de jeu peut donc brancher ses propres outils sans attendre q
+u'une plateforme les intègre nativement.
+
+Schéma d'ensemble du protocole :
+
+```mermaid
+flowchart LR
+    subgraph ClientMCP [Client MCP — Le Chat, Vibe, Claude Desktop…]
+        L[LLM + Agent]
+    end
+    subgraph ServeursMCP [Serveurs MCP]
+        T1[🎲 Outils — dés, tables]
+        T2[📄 Ressources — règles, univers]
+        T3[📝 Prompts — gabarits]
+    end
+    L -- "JSON-RPC (stdio / HTTP)" --> T1 & T2 & T3
+```
 
 ### Serveurs MCP utiles pour le JDR
 
@@ -67,10 +96,29 @@ Les deux sont **complémentaires** : un Skill « création de PNJ » peut s'appu
 
 ***
 
+En pratique, Skill et MCP coopèrent dans une même mission :
+
+```mermaid
+sequenceDiagram
+    participant MJ as Meneur de jeu
+    participant H as Harnais (agent)
+    participant SK as Skill création de PNJ
+    participant MCP as MCP base de campagne
+    MJ->>H: Crée un rival pour Aldric
+    H->>SK: chargement de la méthode
+    H->>MCP: lecture de l'historique d'Aldric
+    MCP-->>H: séances 3, 7 et 12
+    H->>SK: application de la structure de fiche
+    SK-->>H: fiche du rival cohérente
+    H->>MCP: enregistrement du nouveau PNJ
+    H-->>MJ: fiche prête + accroche narrative
+```
+
 ## Bonnes pratiques et précautions
 
 * **Vie privée** : un serveur MCP expose des données réelles (notes, fichiers, comptes). Ne branchez que des serveurs de confiance, vérifiez les permissions demandées et évitez d'exposer des données personnelles des joueurs.
-* **Sécurité** : privilégiez les serveurs open source auditables ; un outil MCP peut agir sur vos systèmes (création, modification, suppression de fichiers).
+* **Sécurité** : privilégiez les serveurs open source auditables ; un outil MCP
+ peut agir sur vos systèmes (création, modification, suppression de fichiers).
 * **Coût et fenêtre contextuelle** : chaque outil connecté ajoute des définitions dans le contexte. N'activez que les serveurs nécessaires à la séance.
 * **Reproductibilité** : versionnez vos Skills et serveurs (Git, Docker) pour retrouver exactement la configuration d'une campagne donnée.
 * **Esprit du jeu** : les outils assistent le MJ, ils ne remplacent ni sa voix ni la négociation de table. Gardez la main finale sur les tirages et décisions sensibles.

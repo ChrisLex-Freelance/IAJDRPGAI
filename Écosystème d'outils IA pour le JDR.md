@@ -16,6 +16,21 @@ Pour le JDR, c'est la solution au problème de la fenêtre contextuelle : imposs
 2. **Récupération** : à chaque question, les passages les plus similaires sont recherchés.
 3. **Génération** : le LLM rédige sa réponse en s'appuyant sur ces extraits, avec moins d'hallucinations et des sources citables.
 
+Le pipeline RAG en trois temps :
+
+```mermaid
+flowchart LR
+    subgraph Indexation
+        D[Règles · Univers · Comptes rendus] -->|découpage| P[Passages]
+        P -->|embeddings| V[(Base vectorielle)]
+    end
+    subgraph Interrogation
+        Q[Question du MJ] -->|similarité| V
+        V -->|extraits pertinents| G[LLM]
+        G -->|réponse + référence| MJ2[MJ]
+    end
+```
+
 ### Usages au jeu
 
 * Interroger les règles pendant la séance sans interrompre le rythme.
@@ -24,7 +39,8 @@ Pour le JDR, c'est la solution au problème de la fenêtre contextuelle : imposs
 
 ### Branche d'évolution
 
-Commencez par une bibliothèque simple (un dossier de fiches Markdown interrogé via un client RAG grand public ou une bibliothèque utilisateur type Le Chat), puis évoluez vers :
+Commencez par une bibliothèque simple (u
+n dossier de fiches Markdown interrogé via un client RAG grand public ou une bibliothèque utilisateur type Le Chat), puis évoluez vers :
 * une base dédiée par campagne, versionnée en Git ;
 * des métadonnées par document (système de règles, chronologie, fiabilité) pour affiner la récupération ;
 * à terme, une bibliothèque hybride combinant recherche sémantique et index classique, servie à l'agent via MCP.
@@ -53,7 +69,8 @@ Les environnements agentiques modernes (Vibe de Mistral, Claude Code, etc.) sont
 
 ## IDE et environnements : VS Code et Mistral Vibe
 
-Un **IDE** (*Integrated Development Environment*) n'est plus réservé aux développeurs : c'est devenu un poste de pilotage de l'IA. Deux familles concernent le MJ :
+Un **IDE** (*Integrated Development En
+vironment*) n'est plus réservé aux développeurs : c'est devenu un poste de pilotage de l'IA. Deux familles concernent le MJ :
 
 ### VS Code (et ses dérivés)
 
@@ -83,10 +100,23 @@ Pour le MJ, un dépôt Git transforme la campagne en projet vivant :
 
 * **historique** : retrouver l'état des fiches à la séance 3, voir ce qui a changé entre deux séances ;
 * **sauvegarde** : la campagne vit dans le cloud, indépendante du disque dur ;
+
 * **collaboration** : co-MJ et joueurs peuvent proposer des ajouts via pull requests (avec relecture avant intégration) ;
 * ** publication** : GitHub Pages peut servir le livre des règles maison ou la gazette de la campagne en site statique.
 
 GitLab offre en plus l'auto-hébergement (utile pour une assoc ou un club qui veut garder la main sur ses données) et une intégration continue qui peut, par exemple, valider automatiquement la cohérence des fiches à chaque modification.
+
+Cycle de vie type d'un compte rendu de séance :
+
+```mermaid
+flowchart LR
+    S[Séance de jeu] --> N[Notes brutes]
+    N --> BR[Branche seance-13]
+    BR -->|agent IA : mise en forme| CR[Compte rendu .md]
+    CR --> PR[Pull request]
+    PR -->|relecture et fusion| MAIN[main]
+    MAIN --> PAGES[Site de campagne GitHub Pages]
+```
 
 ### Branche d'évolution
 
@@ -109,7 +139,20 @@ GitLab offre en plus l'auto-hébergement (utile pour une assoc ou un club qui ve
 * **Carte mentale** (`mindmap`) : exploration d'un univers en préparation de séance.
 * **Gantt** (`gantt`) : calendrier de préparation du MJ entre deux parties.
 
+Exemple concret — la frise des événements d'une campagne :
+
+```mermaid
+timeline
+    title Chronologie de la campagne des Terres de Brume
+    Séance 1 : Les PJ arrivent à Bourg-le-Puits
+    Séance 4 : Aldric devient conseiller du duc
+    Séance 7 : Découverte du culte souterrain
+    Séance 12 : Trahison d'Aldric
+    Séance 13 : Chute de Bourg-le-Puits
+```
+
 Le texte étant la source, un **LLM génère et met à jour ces diagrammes** à la demande : « mets à jour le graphe des relations après la trahison d'Aldric ».
+
 
 ### Branche d'évolution
 
@@ -131,12 +174,27 @@ Le texte étant la source, un **LLM génère et met à jour ces diagrammes** à 
 * **Héritage** : un modèle figé en version ne « change pas d'humeur » en cours de campagne.
 
 La contrepartie : qualité et fenêtre contextuelle moindres que les grands modèles hébergés, et nécessité d'une machine correcte.
+La « station de table » locale :
+
+```mermaid
+flowchart LR
+    subgraph PosteLocal [Poste du MJ — 100 % local]
+        LMS[LM Studio<br>modèles GGUF] -->|API locale| H2[Harnais / VS Code]
+        RAG2[Bibliothèque RAG locale] --> H2
+        DES[Serveur MCP dés] --> H2
+        FS[(Dépôt Git de campagne)] --> H2
+    end
+    H2 --> MJ3[Meneur de jeu]
+    FS -. synchronisation .-> GH[GitHub / GitLab]
+```
+
 
 ### Branche d'évolution
 
 * Niveau 1 : tester un petit modèle ouvert dans LM Studio pour les tâches anonymes (noms, descriptions, rebuts de génération).
 * Niveau 2 : exposer le serveur local et l'exploiter dans VS Code ou via un harnais pour le travail sur les données sensibles de la campagne.
-* Niveau 3 : une **station locale de table** — LM Studio + bibliothèque RAG locale + lancers de dés MCP — offrant un assistant de jeu totalement autonome, couplée au dépôt Git de la campagne pour l'historique.
+* Niveau 3 : une **station locale de table** — LM Studio + bibliothèque RAG locale + lancers de dés MCP — offrant un assistant de jeu totalement autonome, couplée au dépôt Git de la campagne pour l'histo
+rique.
 
 ***
 
